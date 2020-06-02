@@ -7,7 +7,7 @@ Welcome to the zLog wiki!
 1. コンテストの選択
 1. ロギング
 1. コンテスト後
-    1. JARL E-LOG 2.0の作成と提出
+    1. [JARL E-LOG 2.0の作成と提出](https://github.com/jr8ppg/zLog/wiki/JARL-E-LOG-2.0%E3%81%AE%E4%BD%9C%E6%88%90%E3%81%A8%E6%8F%90%E5%87%BA)
 1. 便利な機能
     1. [Super CheckとN+1](https://github.com/jr8ppg/zLog/wiki/Super-Check-(N%EF%BC%8B1))
     1. [リグコントロール](https://github.com/jr8ppg/zLog/wiki/%E3%83%AA%E3%82%B0%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%AB)
