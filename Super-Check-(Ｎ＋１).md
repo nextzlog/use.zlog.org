@@ -6,7 +6,7 @@ Super Checkとは、予め用意したコールサインリストをコールサ
 
 通常のSuper Checkは部分一致ですが、N+1の場合は入力した内容と１文字違うコールサインをリスト表示する機能です。他のソフトウェアに実装されているものと同様のものです。コールサイン欄に３文字以上入力した場合に動作します。
 
-[N+1](https://github.com/jr8ppg/zLog/blob/images/Nplus1.png)
+[N+1](https://github.com/jr8ppg/zLog/blob/images/Nplus1.png?raw=true)
 
 ※正確には１文字では無くレーベンシュタイン距離が１のものです。
 
