@@ -1,4 +1,4 @@
-Welcome to the zLog wiki!
+Welcome to the zLog 令和 Edition wiki!
 
 目次
 1. zLogとは
