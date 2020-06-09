@@ -8,6 +8,9 @@ Super Checkとは、予め用意したコールサインリストをコールサ
 
 ![N+1](https://github.com/jr8ppg/zLog/blob/images/Nplus1.png)
 
+また、完全一致した場合は設定した色でハイライトします。  
+![full match](https://github.com/jr8ppg/zLog/blob/images/nplus1_4.png)
+
 ※正確には１文字では無くレーベンシュタイン距離が１のものです。
 
 ## 設定
