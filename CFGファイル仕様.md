@@ -139,12 +139,12 @@ sendnr	$VM; (年齢符号)	CONVCG 用
 |番号|コマンド|パラメータ|説明|初期値|
 | --- | --- | --- | --- | --- |
 |1|TIME|UTC/JST|タイムゾーンの指定|JST|
-|2|COUNTMULTIONCE|ON/OFF|バンドが替わってもマルチは１回だけ（ON or OFF）（count multi once regardless of band）|OFF|
-|3|NOCTYMULTI||マルチとしないCOUNTRY（use citylist for these countries）|なし|
+|2|COUNTMULTIONCE|ON/OFF|count multi once regardless of band|OFF|
+|3|NOCTYMULTI||use citylist for these countries|なし|
 |4|MODE|ON/OFF|同一バンドでモードが違うQSOを受け入れる（ON or OFF)|OFF|
-|5|UNDEFMULTI|ON/OFF	不明マルチを受け入れる（ON or OFF）|OFF|
+|5|UNDEFMULTI|ON/OFF|不明マルチを受け入れる（ON or OFF）|OFF|
 |6|POWER|-HHHHHHMM----|1.9 MHz ... 10.1GHz&upの順でパワーコードを指定。現在はHMLPは未使用。-のみ使用||
-|7|UNLISTEDMULTI|ON/OFF	allows unlisted multi to be logged but not counted as a multi|OFF|
+|7|UNLISTEDMULTI|ON/OFF|allows unlisted multi to be logged but not counted as a multi|OFF|
 |8|NOMULTI|ON/OFF|ONでマルチを使わない|OFF|
 |9|PXMULTI|OFF|プリフィックスマルチ|OFF|
 |10||NORMAL|/の前後で４文字以上の方より、数字が出てくるまでをプリフィックスとする||
@@ -193,4 +193,4 @@ sendnr	$VM; (年齢符号)	CONVCG 用
 ## 令和Editionで削除された物
 |番号|コマンド|パラメータ|説明|初期値|
 | --- | --- | --- | --- | --- |
-|1|CTY||COUNTRYファイル指定でしたが、CTY.DAT固定となったので廃止しました。指定しても設定値は無視されてCTY.DATを読み込みます。||
+|1|CTY||COUNTRYファイル指定。→CTY.DAT固定となったので廃止。指定しても設定値は無視されてCTY.DATを読み込みます。||
