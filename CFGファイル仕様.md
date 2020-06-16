@@ -20,8 +20,6 @@
 alphapt	A1B2C3D4E5F6G7H8I9J9M1Y5;	年代別符号から
 ;
 dat	ja8;		DAT FILE
-spc	zlog;		SPC FILE
-sub	zlog;		SUB FILE
 cut	1;		-x[n] option
 sendnr	$VM; (年齢符号)	CONVCG 用
 ~~~
