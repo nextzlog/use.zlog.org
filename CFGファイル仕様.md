@@ -1,3 +1,16 @@
+## 目次
+* [得点テーブル](#得点テーブル)
+* [ローカル得点テーブル](#ローカル得点テーブル)
+* [拡張得点テーブル](#拡張得点テーブル)
+* [拡張ローカル得点テーブル](#拡張ローカル得点テーブル)
+* [ローカル](#ローカル)
+* [データファイル指定](#データファイル指定)
+* [その他得点関係](#その他得点関係)
+* [コンテストナンバー](#コンテストナンバー)
+* [その他ルール設定](#その他ルール設定)
+* [windows版で削除された物](#windows版で削除された物)
+* [令和Editionで削除された物](#令和Editionで削除された物)
+
 ## コマンド一覧
 ### 得点テーブル
 |番号|コマンド|パラメータ|説明|初期値|
@@ -88,7 +101,7 @@
 ### データファイル指定
 |番号|コマンド|パラメータ|説明|初期値|
 | --- | --- | --- | --- | --- |
-|1|DAT||.DATファイルのファイル名 CFGと同じフォルダ||
+|1|DAT|ファイル名|.DATファイルのファイル名。CFGと同じフォルダより読み込む。||
 
 ### その他得点関係
 |番号|コマンド|パラメータ|説明|初期値|
@@ -108,14 +121,14 @@
 |3|TAIL||コンテストナンバーの右側を指定文字数使う||
 |4|JARL|ON/OFF|末尾のアルファベットをカット|OFF|
 |5|CUTTAILABT|ON/OFF|JARLと同じ|OFF|
-
+### その他ルール設定
 |番号|コマンド|パラメータ|説明|初期値|
 | --- | --- | --- | --- | --- |
 |1|TIME|UTC/JST|タイムゾーンの指定|JST|
-|2|COUNTMULTIONCE|ON/OFF|バンドが替わってもマルチは１回だけ（ON or OFF）（count multi once regardless of band）	OFF
-|3|NOCTYMULTI||マルチとしないCOUNTRY（use citylist for these countries）	なし
-|4|MODE|ON/OFF|同一バンドでモードが違うQSOを受け入れる（ON or OFF)	OFF
-|5|UNDEFMULTI|ON/OFF	不明マルチを受け入れる（ON or OFF）	OFF
+|2|COUNTMULTIONCE|ON/OFF|バンドが替わってもマルチは１回だけ（ON or OFF）（count multi once regardless of band）|OFF|
+|3|NOCTYMULTI||マルチとしないCOUNTRY（use citylist for these countries）|なし|
+|4|MODE|ON/OFF|同一バンドでモードが違うQSOを受け入れる（ON or OFF)|OFF|
+|5|UNDEFMULTI|ON/OFF	不明マルチを受け入れる（ON or OFF）|OFF|
 |6|POWER|-HHHHHHMM----|1.9 MHz ... 10.1GHz&upの順でパワーコードを指定。現在はHMLPは未使用。-のみ使用||
 |7|UNLISTEDMULTI|ON/OFF	allows unlisted multi to be logged but not counted as a multi|OFF|
 |8|NOMULTI|ON/OFF|ONでマルチを使わない|OFF|
@@ -128,6 +141,7 @@
 |15|SERIALSTART||シリアルＮＯ開始番号||
 |16|WARC|ON/OFF|ONでWARCバンドを使用する|OFF|
 ## Windows版で削除された物
+以下のコマンドはOptionsウインドウで設定できるため使われなくなりました。
 |番号|コマンド|パラメータ|説明|初期値|
 | --- | --- | --- | --- | --- |
 |1|MYCALL||自分のコール||
@@ -163,6 +177,7 @@
 |31|SPC||SuperCheck用ファイル名||
 |32|SUB||SUBファイル名||
 ## 令和Editionで削除された物
+以下のコマンドはCTY.DAT固定となったので廃止しました。
 |番号|コマンド|パラメータ|説明|初期値|
 | --- | --- | --- | --- | --- |
 |1|CTY||COUNTRYファイル指定||
