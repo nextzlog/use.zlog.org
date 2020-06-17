@@ -28,4 +28,5 @@ dxc.jg1vgx.net:7300
 ![Packet Clusterウインドウ](https://github.com/jr8ppg/zLog/blob/images/cluster05.png)
 1. 受信が始まります。  
 ![Packet Clusterウインドウ](https://github.com/jr8ppg/zLog/blob/images/cluster06.png)
-
+1. 受信したスポットはバンドスコープへ展開されます。未交信が緑、交信済みが黒で表示されます。リグコントロールしている場合、ダブルクリックすることでリグへ周波数を設定します。  
+![Band Scope表示例](https://github.com/jr8ppg/zLog/blob/images/cluster07.png)
