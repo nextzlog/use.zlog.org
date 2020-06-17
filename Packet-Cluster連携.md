@@ -21,11 +21,11 @@ dxc.jg1vgx.net:7300
 ~~~
 
 ## ホストへ接続
-1. WindowsメニューのPacket Clusterをクリックするか、zLogのメインウインドウのボタンをクリックします。
+1. WindowsメニューのPacket Clusterをクリックするか、zLogのメインウインドウのボタンをクリックします。  
 ![Packet Cluster接続ボタン](https://github.com/jr8ppg/zLog/blob/images/cluster04.png)
-1. Packet Clusterウインドウが表示されるので、[Connect]ボタンをクリックします。
+1. Packet Clusterウインドウが表示されるので、[Connect]ボタンをクリックします。  
 ![Packet Clusterウインドウ](https://github.com/jr8ppg/zLog/blob/images/cluster05.png)
 1. ホストの種類にもよりますが、コールサインの入力を求められますので、自分のコールサインを入力しEnterキーを押します。
-1. 受信が始まります。
+1. 受信が始まります。  
 ![Packet Clusterウインドウ](https://github.com/jr8ppg/zLog/blob/images/cluster06.png)
 
