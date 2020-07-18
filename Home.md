@@ -6,6 +6,8 @@ Welcome to the zLog 令和 Edition wiki!
 1. [インストール](https://github.com/jr8ppg/zLog/wiki/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)
 1. 起動と終了
 1. コンテストの選択
+    1. 定義済みのコンテスト
+    1. ユーザー定義コンテスト
 1. ロギング
     1. [QSLカード交換の約束](https://github.com/jr8ppg/zLog/wiki/QSL%E3%82%AB%E3%83%BC%E3%83%89%E4%BA%A4%E6%8F%9B%E3%81%AE%E7%B4%84%E6%9D%9F)
 1. コンテスト後
