@@ -11,6 +11,7 @@ Welcome to the zLog 令和 Edition wiki!
 1. ロギング
     1. [QSLカード交換の約束](https://github.com/jr8ppg/zLog/wiki/QSL%E3%82%AB%E3%83%BC%E3%83%89%E4%BA%A4%E6%8F%9B%E3%81%AE%E7%B4%84%E6%9D%9F)
 1. コンテスト後
+    1. 送信ＮＲの訂正
     1. [JARL E-LOG 2.0の作成と提出](https://github.com/jr8ppg/zLog/wiki/JARL-E-LOG-2.0%E3%81%AE%E4%BD%9C%E6%88%90%E3%81%A8%E6%8F%90%E5%87%BA)
     1. [分析](https://github.com/jr8ppg/zLog/wiki/%E5%88%86%E6%9E%90)
 1. 便利な機能
