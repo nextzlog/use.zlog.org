@@ -24,6 +24,6 @@ Welcome to the zLog 令和 Edition wiki!
     1. [キーボードのカスタマイズ](https://github.com/jr8ppg/zLog/wiki/%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%E3%81%AE%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA)  
     1. [QuickQSY](https://github.com/jr8ppg/zLog/wiki/QuickQSY)
     1. [Packet Cluster連携](https://github.com/jr8ppg/zLog/wiki/Packet-Cluster%E9%80%A3%E6%90%BA)
-    1. バンドスコープ
+    1. [バンドスコープ](https://github.com/jr8ppg/zLog/wiki/%E3%83%90%E3%83%B3%E3%83%89%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%97)
 1. [リソース](https://github.com/jr8ppg/zLog/wiki/%E3%83%AA%E3%82%BD%E3%83%BC%E3%82%B9)
 
