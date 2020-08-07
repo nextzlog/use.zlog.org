@@ -27,6 +27,11 @@ D-SUB 9pinコネクタの場合
 
 ４，５，７番ピンを配線します。
 
+### COMポートが無いPCの場合
+
+最近はCOMポートが存在しないPCが増えてきました。その場合は市販のUSB-Serial変換ケーブルを使用して下さい。  
+[amazon](https://www.amazon.co.jp/s?k=usb+%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%AB%E5%A4%89%E6%8F%9B%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB)に色々売っています。また、[秋月電子](http://akizukidenshi.com/catalog/c/cusb232/)でも色々取り扱っています。    
+
 ### 信号線を逆にする（V2.5～）
 
 RTSとDTRを逆にすることによりYAESUのSCU-17でKeyingできると言う[情報](https://www.kawauchi.homeip.mydns.jp/jh0cjh/blog/2014/07/24/yaesu-scu-17%E3%81%A7cw%E9%80%81%E4%BF%A1/)をgetしましたので対応しました。  
