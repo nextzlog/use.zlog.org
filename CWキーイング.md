@@ -25,6 +25,13 @@ D-SUB 9pinコネクタの場合
 
 ４，５，７番ピンを配線します。
 
+### 信号線を逆にする（V2.5～）
+
+RTSとDTRを逆にすることによりYAESUのSCU-17でKeyingできると言う[情報](https://www.kawauchi.homeip.mydns.jp/jh0cjh/blog/2014/07/24/yaesu-scu-17%E3%81%A7cw%E9%80%81%E4%BF%A1/)をgetしましたので対応しました。  
+「Options」－「Hardware」タブの「CW/PTTControl」グループにある、「Reverse the signal lines」をチェックONで逆になります。  
+
+![CW/PTT Control](https://github.com/jr8ppg/zLog/blob/images/options_cwptt.png)
+
 ## USBポート仕様
 
 [USBIF4CW](http://nksg.net/usbif4cw/product/feature_ver2-x/)を使用してキーイングできます。
