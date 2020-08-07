@@ -8,6 +8,7 @@ Welcome to the zLog 令和 Edition wiki!
 1. コンテストの選択
     1. [定義済みのコンテスト](https://github.com/jr8ppg/zLog/wiki/%E5%AE%9A%E7%BE%A9%E6%B8%88%E3%81%BF%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%86%E3%82%B9%E3%83%88)
     1. [ユーザー定義コンテスト](https://github.com/jr8ppg/zLog/wiki/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E5%AE%9A%E7%BE%A9%E3%82%B3%E3%83%B3%E3%83%86%E3%82%B9%E3%83%88)
+    1. [Sentについて](https://github.com/jr8ppg/zLog/wiki/Sent%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
 1. ロギング
     1. 交信方法（SSB)
     1. 交信方法（CW）
