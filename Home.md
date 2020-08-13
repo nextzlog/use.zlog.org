@@ -1,5 +1,7 @@
 Welcome to the zLog 令和 Edition wiki!
 
+![](https://github.com/jr8ppg/zLog/blob/images/zlog_main.png)
+
 目次
 1. zLogとは
 1992年頃にJJ1MED横林OMを中心に東京大学アマチュア無線クラブで開発されたコンテスト用ロギングソフトウェアです。最初はMS-DOS版でしたがWindows版が開発され現在に至っています。
