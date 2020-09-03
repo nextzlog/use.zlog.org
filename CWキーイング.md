@@ -40,7 +40,8 @@ D-SUB 9pinコネクタの場合
 
 ## USBポート仕様
 
-[USBIF4CW](http://nksg.net/usbif4cw/product/feature_ver2-x/)を使用してキーイングできます。
+[USBIF4CW](http://nksg.net/usbif4cw/product/feature_ver2-x/)を使用してキーイングできます。  
+YAESUのSCU-17でもキーイングできたとレポートがありました。  
 
 ## 置換マクロ
 CW送出メッセージ内の置換マクロコマンドです。
