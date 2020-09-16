@@ -47,6 +47,12 @@ USBIF4CWの制限事項
 ・zLogからの速度設定はできません。
 ~~~
 
+### USBIF4CW Ver.1(AMD-USB-KEY)の場合
+
+USBIF4CW Ver.1(又はAMD-USB-KEY)の場合は、「Options」－「Hardware」タブ内の下図のチェックボックスをONにして下さい。  
+
+![](https://github.com/jr8ppg/zLog/blob/images/usbif4cwver1.png)
+
 ## パドル接続について
 
 従来はUSBIF4CWに接続したパドル操作に対応してzLogのキーヤー（エレキー）が符号を送出することができましたが、バージョン2.5で廃止となりました。  
