@@ -41,7 +41,8 @@ D-SUB 9pinコネクタの場合
 ## USBポート仕様
 
 [USBIF4CW](http://nksg.net/usbif4cw/product/feature_ver2-x/)を使用してキーイングできます。  
-USBIF4CW内蔵のキーヤーに対して、速度設定（同期），PTT Delay設定（同期），パドルリバース設定ができます。
+USBIF4CW内蔵のキーヤーに対して、速度設定（同期），PTT Delay設定（同期），パドルリバース設定ができます。（Ver.2のみ）  
+Ver.1とVer.2は自動判別します。
 ~~~
 USBIF4CWの制限事項
 ・PTT Delayは255ms以上を設定しても、USBIF4CWに対しては254msの設定になります。（Before/After共）
