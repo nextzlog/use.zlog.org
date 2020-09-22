@@ -41,17 +41,16 @@ D-SUB 9pinコネクタの場合
 ## USBポート仕様
 
 [USBIF4CW](http://nksg.net/usbif4cw/product/feature_ver2-x/)を使用してキーイングできます。  
-YAESUのSCU-17でもキーイングできたとレポートがありました。  
+USBIF4CW内蔵のキーヤーに対して、速度設定（同期），PTT Delay設定（同期），パドルリバース設定ができます。
 ~~~
 USBIF4CWの制限事項
-・zLogからの速度設定はできません。
+・PTT Delayは255ms以上を設定しても、USBIF4CWに対しては254msの設定になります。（Before/After共）
+・下限値はBeforeが0ms、Afterが5msです。
 ~~~
 
-### USBIF4CW Ver.1(AMD-USB-KEY)の場合
+## その他のインターフェース
 
-USBIF4CW Ver.1(又はAMD-USB-KEY)の場合は、「Options」－「Hardware」タブ内の下図のチェックボックスをONにして下さい。  
-
-![](https://github.com/jr8ppg/zLog/blob/images/usbif4cwver1.png)
+YAESUのSCU-17でもキーイングできたとレポートがありました。  
 
 ## パドル接続について
 
