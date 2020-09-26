@@ -79,7 +79,7 @@ CW送出メッセージ内の置換マクロコマンドです。
 |8|$F|相手局コンテストナンバー|
 |9|$Z|CQ ZONE|
 |10|$I|IARU ZONE|
-|11|$Q|QTH(CITY又はPROV又はMY ZONE)(コンテストによる)|
+|11|$Q|QTH(CITY又はPROV又はMY ZONE)(コンテストによる)<br>PROV：ALL JA,KCJ,Pedition,JIDX,ARRL(W/DX),AADX<br>CQWWと派生Contest,IARU|
 |12|$V|QTH(PROV)|
 |13|$O|オペレーター|
 |14|$S|シリアルＮＯ|
