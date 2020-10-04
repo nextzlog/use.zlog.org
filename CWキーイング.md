@@ -47,6 +47,7 @@ Ver.1とVer.2は自動判別します。
 USBIF4CWの制限事項
 ・PTT Delayは255ms以上を設定しても、USBIF4CWに対しては254msの設定になります。（Before/After共）
 ・下限値はBeforeが0ms、Afterが5msです。
+・複数台接続には対応していません。
 ~~~
 
 ## その他のインターフェース
