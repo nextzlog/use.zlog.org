@@ -31,7 +31,7 @@ D-SUB 9pinコネクタの場合（実COMポートの場合）
 
 最近はCOMポートが存在しないPCが増えてきました。その場合は市販のUSB-Serial変換ケーブルを使用して下さい。  
 [amazon](https://www.amazon.co.jp/s?k=usb+%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%AB%E5%A4%89%E6%8F%9B%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB)に色々売っています。また、[秋月電子](http://akizukidenshi.com/catalog/c/cusb232/)でも色々取り扱っています。
-USBを使っていますが、仮想COMポートなので、zLog内のプルダウンで、COMxを選択します。    
+USBを使っていますが、仮想COMポートなので、zLog内のプルダウンで、USBでは無くCOMxを選択します。    
 
 ### 信号線を逆にする（V2.5～）(実COMポート、仮想COMポート共)
 
