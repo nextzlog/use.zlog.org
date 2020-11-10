@@ -43,7 +43,7 @@ D-SUB 9pinコネクタの場合（実COMポートの場合）
 （同じUSBでも仮想COMポートとは動作が違います）
 
 
-[USBIF4CW](http://nksg.net/usbif4cw/product/feature_ver2-x/)を使用してキーイングできます。  
+[USBIF4CW](http://nksg.net/usbif4cw/product/feature_ver2-x/)や[AMD-USB-CQ Ver.1.0](http://jn2amd.html.xdomain.jp/usbcq10.htm)を使用してキーイングできます。  
 USBIF4CW内蔵のキーヤーに対して、速度設定（同期），PTT Delay設定（同期），パドルリバース設定ができます。（Ver.2のみ）  
 Ver.1とVer.2は自動判別します。
 ~~~
