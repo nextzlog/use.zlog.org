@@ -4,11 +4,11 @@ COMポート又はUSBインターフェースを使用してCWのキーイング
 
 ## COMポート仕様
 
-PTTがRTS信号、KeyingがDTR信号を使用します。各信号をレベル変換して無線機に接続するインターフェースを用意して下さい。  
+PTTがRTS信号、KeyingがDTR信号を使用します(実COMポート、仮想COMポート共)。各信号をレベル変換して無線機に接続するインターフェースを用意して下さい。  
 接続インターフェースは制作して頒布しているOMより購入するほか、[制作例や回路図](https://www.google.com/search?q=ZLOG+CW%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9+%E5%9B%9E%E8%B7%AF%E5%9B%B3&oq=ZLOG+CW%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9+%E5%9B%9E%E8%B7%AF%E5%9B%B3)が公開されていますので自分で制作することもできます。部品代数百円で制作できます。  
 V2.5よりRTSとDTRを逆にできます（後述）  
 
-D-SUB 9pinコネクタの場合
+D-SUB 9pinコネクタの場合（実COMポートの場合）
 | ピン | 信号 | 内容 |
 | --- | --- | --- |
 |1|DCD||
@@ -27,18 +27,18 @@ D-SUB 9pinコネクタの場合
 
 ４，５，７番ピンを配線します。
 
-### COMポートが無いPCの場合
+### COMポートが無いPCの場合（USBを使った仮想COMポートの場合）
 
 最近はCOMポートが存在しないPCが増えてきました。その場合は市販のUSB-Serial変換ケーブルを使用して下さい。  
 [amazon](https://www.amazon.co.jp/s?k=usb+%E3%82%B7%E3%83%AA%E3%82%A2%E3%83%AB%E5%A4%89%E6%8F%9B%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB)に色々売っています。また、[秋月電子](http://akizukidenshi.com/catalog/c/cusb232/)でも色々取り扱っています。    
 
-### 信号線を逆にする（V2.5～）
+### 信号線を逆にする（V2.5～）(実COMポート、仮想COMポート共)
 
 「Options」－「Hardware」タブの「CW/PTTControl」グループにある、「Reverse the signal lines」をチェックONでRTSとDTRが逆になります。  
 
 ![CW/PTT Control](https://github.com/jr8ppg/zLog/blob/images/options_cwptt.png)
 
-## USBポート仕様
+## USBポート仕様（Cypress社CY7C63001A RISC CPUを使ったUSB。USBでも仮想COMポートとは動作が違います）
 
 [USBIF4CW](http://nksg.net/usbif4cw/product/feature_ver2-x/)を使用してキーイングできます。  
 USBIF4CW内蔵のキーヤーに対して、速度設定（同期），PTT Delay設定（同期），パドルリバース設定ができます。（Ver.2のみ）  
@@ -52,7 +52,7 @@ USBIF4CWの制限事項
 
 ## その他のインターフェース
 
-YAESUのSCU-17でもキーイングできたとレポートがありました。  
+YAESUのSCU-17(仮想COMポート)でもキーイングできたとレポートがありました。  
 CWとRTTY(FSK)の同時接続（配線）も可能ですが、機種によって配線方法が異なりますのでYAESUへご相談をお勧めします。  
 
 ## パドル接続について
