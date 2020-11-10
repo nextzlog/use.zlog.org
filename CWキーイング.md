@@ -39,7 +39,9 @@ D-SUB 9pinコネクタの場合（実COMポートの場合）
 ![CW/PTT Control](https://github.com/jr8ppg/zLog/blob/images/options_cwptt.png)
 
 ## USBポート仕様
-（ここでは、USBポートは、Cypress社CY7C63001A RISC CPUを使ったUSBの事を指します。同じUSBでも仮想COMポートとは動作が違います）
+ここでは、USBポートは、Cypress社CY7C63001A RISC CPUを使ったUSBの事を指します。zLog内のプルダウンで、USBを選択します。
+（同じUSBでも仮想COMポートとは動作が違います）
+
 
 [USBIF4CW](http://nksg.net/usbif4cw/product/feature_ver2-x/)を使用してキーイングできます。  
 USBIF4CW内蔵のキーヤーに対して、速度設定（同期），PTT Delay設定（同期），パドルリバース設定ができます。（Ver.2のみ）  
