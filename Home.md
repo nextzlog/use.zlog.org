@@ -29,6 +29,6 @@ Welcome to the zLog 令和 Edition wiki!
     1. [QuickQSY](https://github.com/jr8ppg/zLog/wiki/QuickQSY)
     1. [Packet Cluster連携](https://github.com/jr8ppg/zLog/wiki/Packet-Cluster%E9%80%A3%E6%90%BA)
     1. [バンドスコープ](https://github.com/jr8ppg/zLog/wiki/%E3%83%90%E3%83%B3%E3%83%89%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%97)
-    1. Magical Calling機能
+    1. [Magical Calling機能](https://github.com/jr8ppg/zLog/wiki/Magical-Calling%E6%A9%9F%E8%83%BD)
 1. [リソース](https://github.com/jr8ppg/zLog/wiki/%E3%83%AA%E3%82%BD%E3%83%BC%E3%82%B9)
 
