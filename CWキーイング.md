@@ -39,6 +39,12 @@ USBを使っていますが、仮想COMポートなので、zLog内のプルダ�
 
 ![CW/PTT Control](https://github.com/jr8ppg/zLog/blob/images/options_cwptt.png)
 
+### RIGコントロールと同時に使用する（V2.6～）
+ICOMの一部機種では一つのCOMポートでCI-V通信とCWキーイングが可能です。また[U5-Link(ICOM)](https://www.venus-itech.com/product/u5-link/)と言うCW I/Fでも可能です。  
+使用するにはRIGコントロールのCOMポートとCWキーイングのCOMポートを同じにします。
+![U5-LInk](https://github.com/jr8ppg/zLog/blob/images/u5-link.png)  
+IC-705では動作確認ができています。その他はIC-7300,IC-7851が可能と思われますが、未確認です。  
+
 ## USBポート仕様
 ここでは、USBポートは、Cypress社CY7C63001A RISC CPUを使ったUSBの事を指します。zLog内のプルダウンで、USBを選択します。
 （同じUSBでも仮想COMポートとは動作が違います）
