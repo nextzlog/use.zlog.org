@@ -62,13 +62,11 @@ USBIF4CWの制限事項
 
 ## その他のインターフェース
 
-YAESUのSCU-17(仮想COMポート)でもキーイングできたとレポートがありました。  
+1. YAESUのSCU-17(仮想COMポート)でもキーイングできたとレポートがありました。  
 - CWとRTTY(FSK)の同時接続（配線）も可能ですが、機種によって配線方法が異なりますのでYAESUへご相談をお勧めします。  
-
-[PCWI01](https://www.jh4vaj.com/pcwi01_01)でもキーイング出来ます。
-
-JN2AMD OMのインターフェースについて：<BR>
-> JN2AMD OMが作成されたIFには回路的に二種類有ります。<BR>
+2. [PCWI01](https://www.jh4vaj.com/pcwi01_01)でもキーイング出来ます。
+3. JN2AMD OMのインターフェースについて<BR>
+JN2AMD OMが作成されたIFには回路的に二種類有ります。<BR>
 一つ目は、Cypress RISC CPU with USB:CY7C63001Aを使った、「ZLOG用インターフェース」<BR>
 二つ目は、FTDI社の汎用RS232-USB変換ICを使った、「アマチュア無線のＣＷインターフェース、音声ＣＱマシーン、ＳＳＴＶ、ＲＴＴＹインターフェース関連」<BR>
 zLog令和版では、どちらも使う事が可能ですが、CW/PTT portで、一つ目は「USB」、二つ目は「COMxx」を選択します。<BR>
