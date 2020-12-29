@@ -67,26 +67,17 @@ YAESUのSCU-17(仮想COMポート)でもキーイングできたとレポート�
 
 [PCWI01](https://www.jh4vaj.com/pcwi01_01)でもキーイング出来ます。
 
-JN2AMD OMのインターフェースについて：
-
-JN2AMD OMが作成されたIFには回路的に二種類有ります。
-
-一つ目は、Cypress RISC CPU with USB:CY7C63001Aを使った、「ZLOG用インターフェース」
-
-二つ目は、FTDI社の汎用RS232-USB変換ICを使った、「アマチュア無線のＣＷインターフェース、音声ＣＱマシーン、ＳＳＴＶ、ＲＴＴＹインターフェース関連」
-
-zLog令和版では、どちらも使う事が可能ですが、CW/PTT portで、一つ目は「USB」、二つ目は「COMxx」を選択します。
-以下のインターフェースは、WEB内に「ＺＬＯＧでは、ＣＷは打てませんでした。」との記述が存在しますが、「USB」では無く、COMxx(仮想COMポート)を選択すれば、zLog令和版でCWキーイング可能です。
-
-[AMD-USB-RIG-CW-SOUND Ver4.0](http://jn2amd.html.xdomain.jp/usbrigcwsound40.htm)
-
-[AMD-USB-RS232C-CW-SOUND Ver1.6](http://jn2amd.html.xdomain.jp/usbrs232ccwsound16.htm)
-
-[AMD-USB-RIG-CW-SOUND Ver3.5<表記上はVer3.2>](http://jn2amd.html.xdomain.jp/usbrigcwsound30.htm)
-
-[AMD-USB-CW-SOUND Ver1.7](http://jn2amd.html.xdomain.jp/usbcwsound10.htm)
-
-[AMD-USB-RIG-CW Ver1.1](http://jn2amd.html.xdomain.jp/usb_rig_cw_10.htm)
+JN2AMD OMのインターフェースについて：<BR>
+JN2AMD OMが作成されたIFには回路的に二種類有ります。<BR>
+一つ目は、Cypress RISC CPU with USB:CY7C63001Aを使った、「ZLOG用インターフェース」<BR>
+二つ目は、FTDI社の汎用RS232-USB変換ICを使った、「アマチュア無線のＣＷインターフェース、音声ＣＱマシーン、ＳＳＴＶ、ＲＴＴＹインターフェース関連」<BR>
+zLog令和版では、どちらも使う事が可能ですが、CW/PTT portで、一つ目は「USB」、二つ目は「COMxx」を選択します。<BR>
+以下のインターフェースは、WEB内に「ＺＬＯＧでは、ＣＷは打てませんでした。」との記述が存在しますが、「USB」では無く、COMxx(仮想COMポート)を選択すれば、zLog令和版でCWキーイング可能です。<BR>
+* [AMD-USB-RIG-CW-SOUND Ver4.0](http://jn2amd.html.xdomain.jp/usbrigcwsound40.htm)
+* [AMD-USB-RS232C-CW-SOUND Ver1.6](http://jn2amd.html.xdomain.jp/usbrs232ccwsound16.htm)
+* [AMD-USB-RIG-CW-SOUND Ver3.5<表記上はVer3.2>](http://jn2amd.html.xdomain.jp/usbrigcwsound30.htm)
+* [AMD-USB-CW-SOUND Ver1.7](http://jn2amd.html.xdomain.jp/usbcwsound10.htm)
+* [AMD-USB-RIG-CW Ver1.1](http://jn2amd.html.xdomain.jp/usb_rig_cw_10.htm)
 
 
 ## パドル接続について
