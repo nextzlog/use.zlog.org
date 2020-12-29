@@ -68,7 +68,7 @@ YAESUのSCU-17(仮想COMポート)でもキーイングできたとレポート�
 [PCWI01](https://www.jh4vaj.com/pcwi01_01)でもキーイング出来ます。
 
 JN2AMD OMのインターフェースについて：<BR>
-JN2AMD OMが作成されたIFには回路的に二種類有ります。<BR>
+> JN2AMD OMが作成されたIFには回路的に二種類有ります。<BR>
 一つ目は、Cypress RISC CPU with USB:CY7C63001Aを使った、「ZLOG用インターフェース」<BR>
 二つ目は、FTDI社の汎用RS232-USB変換ICを使った、「アマチュア無線のＣＷインターフェース、音声ＣＱマシーン、ＳＳＴＶ、ＲＴＴＹインターフェース関連」<BR>
 zLog令和版では、どちらも使う事が可能ですが、CW/PTT portで、一つ目は「USB」、二つ目は「COMxx」を選択します。<BR>
