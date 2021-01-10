@@ -15,6 +15,12 @@ CQモード時は動作しません。
 | --- | --- |
 |F1キーでCQを行う<br>SHIFT+ZでCQを行う<br>CTRL+ZでCQを行う<br>コール欄に「,CQ」と入力する<br>最後の周波数へジャンプする(#102)<br>ショートカットキー操作を行う(#120)|BandScopeでSpotをダブルクリックしてQSYする<br>コール欄に「,SP」と入力する<br>ショートカットキー操作を行う(#120)<br>VFOを回す（周波数を変更する）|
 
+### CQモードの表示
+![CQ MODE](https://github.com/jr8ppg/zLog/blob/images/cqmode.png)
+
+### SPモードの表示
+![SP MODE](https://github.com/jr8ppg/zLog/blob/images/spmode.png)
+
 ## 対応機種
 
 * ICOM一部機種
