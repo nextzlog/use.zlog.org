@@ -60,6 +60,18 @@ USBIF4CWの制限事項
 ・複数台接続には対応していません。
 ~~~
 
+## WinKeyer USB V2.3/V3.1
+
+V2.6 Beta2 よりK1EL OMの[WinKeyer USB](https://hamcrafters2.com/WKUSBX.html) V2.3/V3.1に対応しました。  
+その他、WinKeyer IC2 および 3を使用した同等I/Fでも使用可能と思います。  
+以下の機能が使用できます。  
+* SPEED PODでのWPM変更（zLogでも変更できますがWinKeyer側のWPMが正となります）
+* SideToneのON/OFF（パドル側SideToneはOFFにできません）
+* PTT制御使用有無及びPTT Delay Timeの設定
+* CQリピート
+* CW Keyboard
+* コールサインの訂正（TABキー押下後、ナンバー欄にフォーカスが移動するまでの間）
+
 ## その他のインターフェース
 
 1. YAESUのSCU-17(仮想COMポート)でもキーイングできたとレポートがありました。  
