@@ -72,6 +72,9 @@ V2.6 Beta2 よりK1EL OMの[WinKeyer USB](https://hamcrafters2.com/WKUSBX.html) 
 * CW Keyboard
 * コールサインの訂正（TABキー押下後、ナンバー欄にフォーカスが移動するまでの間）
 
+WinKeyerを使用する場合は下図の通り、COMポートをWinKeyerのポートに合わせ、横にある「Use WinKeyer」をチェックします。  
+![WinKeyerを使用する場合の設定](https://github.com/jr8ppg/zLog/blob/images/options_winkeyer.png)
+
 ## その他のインターフェース
 
 1. YAESUのSCU-17(仮想COMポート)でもキーイングできたとレポートがありました。  
