@@ -33,3 +33,6 @@ CQモード時は動作しません。
 * KENWOOD TS-2000以降推奨
 * YAESU FT-2000以降推奨
 
+## 設定
+
+![設定画面](https://github.com/jr8ppg/zLog/blob/images/magicalcalling.png)
