@@ -14,7 +14,7 @@ Welcome to the zLog 令和 Edition wiki!
     1. [Sentについて](https://github.com/jr8ppg/zLog/wiki/Sent%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
 1. ロギング
     1. 交信方法（SSB)
-    1. 交信方法（CW）
+    1. [交信方法（CW）](https://github.com/jr8ppg/zLog/wiki/%E4%BA%A4%E4%BF%A1%E6%96%B9%E6%B3%95%EF%BC%88%EF%BC%A3%EF%BC%B7%EF%BC%89)
     1. [Quick Memo](https://github.com/jr8ppg/zLog/wiki/Quick-Memo)
 1. コンテスト後
     1. [送信NRの訂正](https://github.com/jr8ppg/zLog/wiki/%E9%80%81%E4%BF%A1%EF%BC%AE%EF%BC%B2%E3%81%AE%E8%A8%82%E6%AD%A3)
