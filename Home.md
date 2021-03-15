@@ -32,5 +32,6 @@ Welcome to the zLog 令和 Edition wiki!
     1. [バンドスコープ](https://github.com/jr8ppg/zLog/wiki/%E3%83%90%E3%83%B3%E3%83%89%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%97)
     1. [Magical Calling機能](https://github.com/jr8ppg/zLog/wiki/Magical-Calling%E6%A9%9F%E8%83%BD)
     1. [コンソールコマンド](https://github.com/jr8ppg/zLog/wiki/%E3%82%B3%E3%83%B3%E3%82%BD%E3%83%BC%E3%83%AB%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89)
+1. [設定](https://github.com/jr8ppg/zLog/wiki/%E3%83%AA%E3%82%BD%E3%83%BC%E3%82%B9)
 1. [リソース](https://github.com/jr8ppg/zLog/wiki/%E3%83%AA%E3%82%BD%E3%83%BC%E3%82%B9)
 1. [メイリングリスト](https://github.com/jr8ppg/zLog/wiki/%E3%83%A1%E3%82%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%AA%E3%82%B9%E3%83%88)
