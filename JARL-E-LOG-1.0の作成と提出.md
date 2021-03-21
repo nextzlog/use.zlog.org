@@ -9,7 +9,7 @@ E-LOG 1.0は主にJARL主催以外のいわゆるローカルコンテストで�
 ![必要事項の入力](https://github.com/jr8ppg/zLog/blob/images/elog10_2.png)
 
 ③必要に応じてスコア調整をします。  
-（参加部門以外のバンドの交信をサマリーから除きます）  
+（参加部門以外のバンドの交信をサマリーから除きます。参加部門以外でもログは提出しましょう。）  
 ![スコア調整](https://github.com/jr8ppg/zLog/blob/images/elog10_3.png)
 
 ④E-log作成ボタンをクリックしてファイルに出力します。  
