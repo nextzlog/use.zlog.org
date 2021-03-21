@@ -84,6 +84,10 @@ WinKeyerを使用する場合は下図の通り、COMポートをWinKeyerのポ�
 正常に通信ができた場合は下図の様にAboutウインドウに表示されます。（WinKeyer V2.3の場合）  
 ![WinKeyer detected](https://github.com/jr8ppg/zLog/blob/images/winkeyer_detected.png)
 
+制限事項
+* PTT Control使用時、Before Delayを設定すると相手局コールサイン送信時に１文字毎にDelayがかかります。Beforeは0で使用して下さい。
+* リニアアンプ利用時の検証は行われていません（2021/3現在）
+
 ## その他のインターフェース
 
 1. YAESUのSCU-17(仮想COMポート)でもキーイングできたとレポートがありました。  
