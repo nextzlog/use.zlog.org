@@ -23,7 +23,7 @@ Welcome to the zLog 令和 Edition wiki!
     1. [JARL E-LOG 2.0の作成と提出](https://github.com/jr8ppg/zLog/wiki/JARL-E-LOG-2.0%E3%81%AE%E4%BD%9C%E6%88%90%E3%81%A8%E6%8F%90%E5%87%BA)
         1. [フィールドデイコンテストの場合](https://github.com/jr8ppg/zLog/wiki/%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%E3%83%89%E3%83%87%E3%82%A4%E3%82%B3%E3%83%B3%E3%83%86%E3%82%B9%E3%83%88%E3%81%AE%E5%A0%B4%E5%90%88)
     1. [分析](https://github.com/jr8ppg/zLog/wiki/%E5%88%86%E6%9E%90)
-    1. [エクスポート](https://github.com/jr8ppg/zLog/wiki/%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%88)
+    1. [エクスポート](https://github.com/jr8ppg/zLog/wiki/%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%88)（ADIF,Cabrilloはこちら）
 1. 便利な機能
     1. [Super CheckとN+1](https://github.com/jr8ppg/zLog/wiki/Super-Check-(N%EF%BC%8B1))
     1. [リグコントロール](https://github.com/jr8ppg/zLog/wiki/%E3%83%AA%E3%82%B0%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%AB)
