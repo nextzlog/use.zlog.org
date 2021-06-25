@@ -55,7 +55,7 @@ Date       Time  Callsign    RSTs ExSent RSTr ExRcvd  Mult  Mult2 MHz  Mode Pt M
 ~~~
 
 ## 提出方法
-### JARL主催コンテスト以外
+### JARL主催コンテスト
 E-LOG 2.0形式で提出します。
 
 ### JARL主催コンテスト以外
