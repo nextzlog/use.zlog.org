@@ -26,6 +26,11 @@ dxc.jg1vgx.net:7300
 1. Packet Clusterウインドウが表示されるので、[Connect]ボタンをクリックします。
 1. ホストの種類にもよりますが、コールサインの入力を求められますので、自分のコールサインを入力しEnterキーを押します。  
 ![Packet Clusterウインドウ](https://github.com/jr8ppg/zLog/blob/images/cluster05.png)
+1. バージョン2.7.0.5からの追加オプション  
+Auto Login・・・自分のコールサインで自動的にログインします。  
+Auto Reconnect・・・何らかの理由で接続が切れた場合、自動で再接続します。  
+Record logs・・・Cluster/SKIMMERからの受信データをファイルに記録します。ファイル名はzlog_telnet_log_yyyymmdd.txtでzlog.exeと同じフォルダに作成されます。  
+![Packet Clusterウインドウ](https://github.com/jr8ppg/zLog/blob/images/cluster08.png)
 1. 受信が始まります。  
 ![Packet Clusterウインドウ](https://github.com/jr8ppg/zLog/blob/images/cluster06.png)
 1. 受信したスポットはバンドスコープへ展開されます。未交信が緑、交信済みが黒で表示されます。リグコントロールしている場合、ダブルクリックすることでリグへ周波数を設定します。  
