@@ -1,6 +1,5 @@
 ## 目次
 
-***
 | [送信できる文字](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#%E9%80%81%E4%BF%A1%E3%81%A7%E3%81%8D%E3%82%8B%E6%96%87%E5%AD%97) 
 | [COMポート仕様](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#com%E3%83%9D%E3%83%BC%E3%83%88%E4%BB%95%E6%A7%98)
 | [USBポート仕様](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#usb%E3%83%9D%E3%83%BC%E3%83%88%E4%BB%95%E6%A7%98)
@@ -10,6 +9,8 @@
 | [CW Keyboard](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#cw-keyboard)
 | [CW Message Pad](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#cw-message-pad)
 |
+
+***
 
 ## 概要
 
