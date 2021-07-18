@@ -1,3 +1,16 @@
+## 目次
+
+***
+| [送信できる文字](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#%E9%80%81%E4%BF%A1%E3%81%A7%E3%81%8D%E3%82%8B%E6%96%87%E5%AD%97) 
+| [COMポート仕様](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#com%E3%83%9D%E3%83%BC%E3%83%88%E4%BB%95%E6%A7%98)
+| [USBポート仕様](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#usb%E3%83%9D%E3%83%BC%E3%83%88%E4%BB%95%E6%A7%98)
+| [その他のインターフェース](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9)
+| [パドル接続について](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#%E3%83%91%E3%83%89%E3%83%AB%E6%8E%A5%E7%B6%9A%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6) 
+| [置換マクロ](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#%E7%BD%AE%E6%8F%9B%E3%83%9E%E3%82%AF%E3%83%AD)
+| [CW Keyboard](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#cw-keyboard)
+| [CW Message Pad](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#cw-message-pad)
+|
+
 ## 概要
 
 COMポート又はUSBインターフェースを使用してCWのキーイング動作が可能です。キーボードからCWを送信できるCW Keyboardと定型文用のCW Message Padを備えています。
