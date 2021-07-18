@@ -7,4 +7,7 @@
 
 zLog 令和Edition 2.7.0.0（64ビット版）
 
+## 利用ガイド
+
+[zLog+ ZyLO 利用ガイド](https://github.com/nextzlog/zylo/wiki)
 
