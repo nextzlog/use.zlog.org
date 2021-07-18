@@ -8,6 +8,7 @@
 | [置換マクロ](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#%E7%BD%AE%E6%8F%9B%E3%83%9E%E3%82%AF%E3%83%AD)
 | [CW Keyboard](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#cw-keyboard)
 | [CW Message Pad](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#cw-message-pad)
+| [サイドトーンについて](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#%E3%82%B5%E3%82%A4%E3%83%89%E3%83%88%E3%83%BC%E3%83%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
 |
 
 ***
