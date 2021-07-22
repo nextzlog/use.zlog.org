@@ -1,6 +1,7 @@
 ## 概要
 
 予め目標交信数を入力しておくことで、コンテストの進行状況（進捗）をチェックできる機能です。  
+これは試作版（プロトタイプ）ですので、ご意見やアイデア募集中です。  
 
 ## Target Editorウインドウ
 
@@ -9,7 +10,7 @@ Taget Editorウインドウで目標交信数を入力します。
 1.メインメニューの「Settings」－「Target Editor」より入力画面を表示します。  
 ![](https://github.com/jr8ppg/zLog/blob/images/target_editor1.png)
 
-1.Target Editorウインドウが表示されるので、バンド毎時間ごとの目標交信数を入力します。  
+2.Target Editorウインドウが表示されるので、バンド毎時間ごとの目標交信数を入力します。  
 ![](https://github.com/jr8ppg/zLog/blob/images/target_editor2.png)
 
 |ボタン|説明|
@@ -24,3 +25,21 @@ Taget Editorウインドウで目標交信数を入力します。
 
 
 ## QSO Rate Exウインドウ
+
+1.メインメニューの「Windows」－「QSo Rate Ex」より画面を表示します。  
+![](https://github.com/jr8ppg/zLog/blob/images/rateex1.png)
+
+### Graphタブ
+
+グラフは１ｈあたり２本の棒グラフで表され、右側がTarget交信数、左側がActual交信数です。  
+
+![](https://github.com/jr8ppg/zLog/blob/images/rateex2.png)
+
+### ZAQタブ
+
+ZAQタブでは表形式で表示します。上段がTarget交信数、下段がActual交信数です。  
+合計のTarget交信数に対して80%を超えると、合計欄が青表示に変わります。  
+現在のバンドは背景が水色で表示されます。  
+
+![](https://github.com/jr8ppg/zLog/blob/images/rateex3.png)
+
