@@ -37,6 +37,7 @@ Welcome to the zLog 令和 Edition wiki!
     1. [バンドプラン](https://github.com/jr8ppg/zLog/wiki/%E3%83%90%E3%83%B3%E3%83%89%E3%83%97%E3%83%A9%E3%83%B3)
     1. [QSO Rate](https://github.com/jr8ppg/zLog/wiki/QSO-Rate)
     1. [ファンクションキーパネル](https://github.com/jr8ppg/zLog/wiki/%E3%83%95%E3%82%A1%E3%83%B3%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AD%E3%83%BC%E3%83%91%E3%83%8D%E3%83%AB)
+    1. [目標設定機能(TARGET機能)]
     1. [ZyLO拡張機能](https://github.com/jr8ppg/zLog/wiki/ZyLO%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD)
 1. [設定](https://github.com/jr8ppg/zLog/wiki/%E8%A8%AD%E5%AE%9A)
 1. [リソース](https://github.com/jr8ppg/zLog/wiki/%E3%83%AA%E3%82%BD%E3%83%BC%E3%82%B9)
