@@ -14,8 +14,14 @@ Count downタイプとは設定した時間（分）が経過するまでをカ�
 設定時間（分）からカウントダウンを行い、０分になると「QSY OK」の表示に変わります。  
 QSY OK表示になる前でもQSYはできますが、Memo欄に「*QSY Violation*」の表示が記録されます。
 
+![QSY OK](https://github.com/jr8ppg/zLog/blob/images/qsyindicator_1.png)  
+![QSY NG](https://github.com/jr8ppg/zLog/blob/images/qsyindicator_2.png)
+
 ## QSY Countタイプ
 
 QSY Countタイプとは１時間あたりのQSY回数を数える機能です。  
 QSY回数が設定回数を超えると、QSY Indicatorウインドウが赤表示に変わります。  
 赤表示でもQSYはできますが、Memo欄に「*QSY Violation*」の表示が記録されます。
+
+![QSY OK](https://github.com/jr8ppg/zLog/blob/images/qsyindicator_3.png)  
+![QSY NG](https://github.com/jr8ppg/zLog/blob/images/qsyindicator_4.png)
