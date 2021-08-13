@@ -4,6 +4,9 @@ QSYアシスト機能とは、Multi OP運用時のQSY制限（１０分 or ８�
 バージョン2.7.0.9以降からの対応です。
 
 ## 設定
+メインメニューの「Settings」－「Options」メニューより設定画面を表示し、Preferences タブで設定します。  
+
+![QSY Assist](https://github.com/jr8ppg/zLog/blob/images/options_1.png)
 
 ## Count downタイプ
 
