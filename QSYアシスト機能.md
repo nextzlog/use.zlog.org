@@ -1,7 +1,9 @@
 ## 概要
 
 QSYアシスト機能とは、Multi OP運用時のQSY制限（１０分 or ８回/Hourなど）を支援する機能です。  
-バージョン2.7.0.9以降からの対応です。
+バージョン2.7.0.9以降からの対応です。  
+
+以前は![QSY OK](https://github.com/jr8ppg/zLog/blob/images/qsy_old_0.png)や![Count down](https://github.com/jr8ppg/zLog/blob/images/qsy_old_1.png)と表示されていましたが、全然目立たないので改良した物です。
 
 ## 設定
 メインメニューの「Settings」－「Options」メニューより設定画面を表示し、Preferences タブで設定します。  
