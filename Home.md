@@ -7,7 +7,7 @@ Welcome to the zLog 令和 Edition wiki!
 1992年頃に横林OMを中心に東京大学アマチュア無線クラブで開発されたコンテスト用ロギングソフトウェアです。最初はMS-DOS版でしたがWindows版が開発され現在に至っています。（横林OMのコールサインは再割り当てで他の方に割りあたったとのことですので表示しません　2020/12現在）
 
 1. [インストール](https://github.com/jr8ppg/zLog/wiki/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)
-1. 起動と終了
+1. [起動と終了](https://github.com/jr8ppg/zLog/wiki/%E8%B5%B7%E5%8B%95%E3%81%A8%E7%B5%82%E4%BA%86)
 1. コンテストの選択
     1. [定義済みのコンテスト](https://github.com/jr8ppg/zLog/wiki/%E5%AE%9A%E7%BE%A9%E6%B8%88%E3%81%BF%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%86%E3%82%B9%E3%83%88)
     1. [ユーザー定義コンテスト](https://github.com/jr8ppg/zLog/wiki/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E5%AE%9A%E7%BE%A9%E3%82%B3%E3%83%B3%E3%83%86%E3%82%B9%E3%83%88)
