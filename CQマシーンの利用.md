@@ -10,7 +10,6 @@ CWと同様に#1がCQ用です。CTRL+ZやSHIFT+Zでのリピート再生も可�
 ## シングルオペの場合
 
 1. 「Settings」メニュー－「Options」よりOptionsウインドウを開き、「Voice」タブで音声ファイルを設定します。  
-
 ![VOICE](https://github.com/jr8ppg/zLog/blob/images/voicemem1.png)
 
 ## マルチオペの場合
