@@ -29,7 +29,7 @@ Welcome to the zLog 令和 Edition wiki!
     1. [マルチオペ(M/S)での利用](https://github.com/jr8ppg/zLog/wiki/%E3%83%9E%E3%83%AB%E3%83%81%E3%82%AA%E3%83%9A%EF%BC%88%EF%BC%AD%EF%BC%8F%EF%BC%B3%EF%BC%89%E3%81%A7%E3%81%AE%E5%88%A9%E7%94%A8)
     1. [マルチオペ(M/M)での利用](https://github.com/jr8ppg/zLog/wiki/%E3%83%9E%E3%83%AB%E3%83%81%E3%82%AA%E3%83%9A%EF%BC%88%EF%BC%AD%EF%BC%8F%EF%BC%AD%EF%BC%89%E3%81%A7%E3%81%AE%E5%88%A9%E7%94%A8)
     1. [マルチオペ(M/2)での利用](https://github.com/jr8ppg/zLog/wiki/%E3%83%9E%E3%83%AB%E3%83%81%E3%82%AA%E3%83%9A%EF%BC%88%EF%BC%AD%EF%BC%8F%EF%BC%92%EF%BC%89%E3%81%A7%E3%81%AE%E5%88%A9%E7%94%A8)
-    1. シングルオペ2Radio(SO2R)での利用
+    1. [シングルオペ2Radio(SO2R)での利用](https://github.com/jr8ppg/zLog/wiki/%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%82%AA%E3%83%9A2Radio(SO2R)%E3%81%A7%E3%81%AE%E5%88%A9%E7%94%A8)
 1. [Plugin Manager](https://github.com/jr8ppg/zLog/wiki/Plugin-Manager) 
 1. 便利な機能
     1. [Super CheckとN+1](https://github.com/jr8ppg/zLog/wiki/Super-Check-(N%EF%BC%8B1))
