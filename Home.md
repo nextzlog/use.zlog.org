@@ -28,7 +28,7 @@ Welcome to the zLog 令和 Edition wiki!
 1. 様々な運用形態
     1. マルチオペ(M/S)での利用
     1. マルチオペ(M/M)での利用
-1. [Plugin Manager](https://github.com/jr8ppg/zLog/wiki/Plugin-Manager) ～～開発中～～
+1. [Plugin Manager](https://github.com/jr8ppg/zLog/wiki/Plugin-Manager) 
 1. 便利な機能
     1. [Super CheckとN+1](https://github.com/jr8ppg/zLog/wiki/Super-Check-(N%EF%BC%8B1))
     1. [リグコントロール](https://github.com/jr8ppg/zLog/wiki/%E3%83%AA%E3%82%B0%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%AB)
