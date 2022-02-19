@@ -42,9 +42,9 @@ CQ Invert機能とは、CQの際に受信RIGの逆側RIGでCQを送信する機�
 ## システム構成例
 
 zLogでのシステム構成例です。  
-RIGが２セット、PC(zLog)が１セット用意します。  
+RIGが２セット、PC(zLog)が１セット必要です。    
 
-↓以下に図を入れる
+![](https://github.com/jr8ppg/zLog/blob/images/so2r_sample1.png)
 
 ## SO2R運用をサポートする機器
 
