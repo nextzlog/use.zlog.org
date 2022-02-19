@@ -4,6 +4,8 @@
 基本はシングルオペですから２波同時送信以外の制限はありません。バンドが違っていても同時送信はできません。  
 JARL主催の国内コンテストでは”電信(電話)シングルオペ・オールバンド”と言う部門が該当します。　　
 
+zLogではバージョン2.8より、SO2Rでの運用サポートを行います。  
+
 ## zLogでのSO2Rサポート(2.8.0.0～)
 
 ### メインウインドウ
@@ -42,9 +44,19 @@ CQ Invert機能とは、CQの際に受信RIGの逆側RIGでCQを送信する機�
 ## システム構成例
 
 zLogでのシステム構成例です。  
-RIGが２セット、PC(zLog)が１セット必要です。    
+いずれもRIGが２セット、PC(zLog)が１セット必要です。    
+
+### 自作の切り替え器を使うケース
+
+図ではCWのみですが、実際はPhone(MIC/Headphone)の切り替えも必要です。  
 
 ![](https://github.com/jr8ppg/zLog/blob/images/so2r_sample1.png)
+
+### WinKeyerやSO2R Neo等の2RIGに対応した機器を使うケース
+
+CWのみの場合は、WinKeyerでも可能ですが、Phoneも含めたSO2Rの場合はSO2R Neo等の専用の機器をします。  
+
+![](https://github.com/jr8ppg/zLog/blob/images/so2r_sample2.png)
 
 ## SO2R運用をサポートする機器
 
