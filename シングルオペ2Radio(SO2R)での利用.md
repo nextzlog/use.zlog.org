@@ -25,6 +25,8 @@ RIG1/RIG2はリグコントロール対応で、RIG3はリグコントロール�
 
 Auto RIG switch機能とは、連続CQ時にRIG1/RIG2交互にCQを送信する機能です。深夜帯などに２つのバンドを交互に送信することでオペレーションの軽減を行うものです。  
 
+![](https://github.com/jr8ppg/zLog/blob/images/so2r_arsw_cqinv.png)
+
 ### CQ Invert機能
 
 CQ Invert機能とは、CQの際に受信RIGの逆側RIGでCQを送信する機能です。Auto RIG switchと併用できます。  
