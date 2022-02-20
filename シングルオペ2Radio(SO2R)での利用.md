@@ -48,13 +48,14 @@ zLogでのシステム構成例です。
 
 ### 自作の切り替え器を使うケース
 
-図ではCWのみですが、実際はPhone(MIC/Headphone)の切り替えも必要です。  
+図ではCWのみですが、実際はAudio系(MIC/Headphone)の切り替え機能も必要です。  
 
 ![](https://github.com/jr8ppg/zLog/blob/images/so2r_sample1.png)
 
 ### WinKeyerやSO2R Neo等の2RIGに対応した機器を使うケース
 
 CWのみの場合は、WinKeyerでも可能ですが、Phoneも含めたSO2Rの場合はSO2R Neo等の専用の機器をします。  
+（WinKeyerはAudio系(MIC/Headphone)の機能はありません）  
 
 ![](https://github.com/jr8ppg/zLog/blob/images/so2r_sample2.png)
 
