@@ -40,6 +40,20 @@ CQ Invert機能とは、CQの際に受信RIGの逆側RIGでCQを送信する機�
 1. RIG1でピックアップできれば交信
 1. RIG1でピックアップできない場合、RIG2でコール待ち、RIG1でCQへ
 
+### RIG3とペアになるRIGの選択
+
+Auto RIG switch機能とCQ Invert機能でペアとなるRIGを選択できます。  
+
+1. RIG3がOFFの場合、RIG1とRIG2がペアとなります。
+1. RIG3がONの場合、"RIG3とペアとなるRIGの選択"チェックボックスでRIG1/RIG2ｗ選択できます。
+1. 機能#150(SHIFT+D)のショートカットキーで順にトグルします。  
+
+| RIG1 | RIG2 | 動き |
+| --- | --- | --- |
+| OFF | OFF | RIG3のみ |
+| ON  | OFF | RIG1とペア |
+| OFF | ON  | RIG2とペア |
+| ON  | ON  | RIG1/RIG2両方とペア（RIG1～RIG3を順に回る）|
 
 ## システム構成例
 
