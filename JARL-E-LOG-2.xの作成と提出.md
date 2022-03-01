@@ -1,5 +1,5 @@
-## JARL E-LOG 2.0の作成
-①コンテスト後はFileメニューより、Create E-Log (JARL 2.0)メニューをクリックします。  
+## JARL E-LOG 2.xの作成
+①コンテスト後はFileメニューより、Create E-Log (JARL 2.x)メニューをクリックします。  
 ![E-LOG 2.0の作成](https://github.com/jr8ppg/zLog/blob/images/after01.png)
 
 ②入力ダイアログに必要事項を入力します。  
@@ -8,6 +8,8 @@
 ③E-log作成ボタンをクリックしてファイルに出力します。  
 
 ④作成されたログは下記の様になります。ログ部分はタブ区切り形式です。
+
+※バージョン2.8.0.6よりE-LOG 2.1に対応します。
 ~~~
 <SUMMARYSHEET VERSION=R2.0>
 <CONTESTNAME>ALL JA コンテスト</CONTESTNAME>
