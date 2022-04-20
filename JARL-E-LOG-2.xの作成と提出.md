@@ -49,4 +49,5 @@ DATE(JST)	TIME	BAND	MODE	CALLSIGN	SENTNo	RCVNo
 ### JARL主催コンテスト以外
 コンテストの規約に従って提出して下さい。（メールに添付してはいけないケースが多いです）また、JARL E-LOG 1.0形式を要求するコンテストもありますので、注意して下さい。
 
-
+## 関連ページ
+[電子ログ提出要領解説(JARL Webサイト)](https://www.jarl.org/Japanese/1_Tanoshimo/1-1_Contest/e-log.htm)
