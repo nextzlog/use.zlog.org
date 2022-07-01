@@ -105,7 +105,9 @@ WinKeyerを使用する場合は下図の通り、COMポートをWinKeyerのポ�
 
 ## その他のインターフェース
 
-1. YAESUのSCU-17(仮想COMポート)でもキーイングできたとレポートがありました。  
+1. YAESUのSCU-17(仮想COMポート)でもキーイングできます。
+SCU-17のPTT(ミニプラグの先端)をCW Keyingとして使用することが出来ます。この時、zLog側はCW/PTT controlで、Reverse the Signal Linesをチェックします。
+なお、変換ケーブルを作れば、SCU-17のFSK端子もキーイングに使う事が可能です。  
 CWとRTTY(FSK)の同時接続（配線）も可能ですが、機種によって配線方法が異なりますのでYAESUへご相談をお勧めします。  
 2. [PCWI01](https://www.jh4vaj.com/pcwi01_01)でもキーイング出来ます。（現在頒布中止）
 3. JN2AMD OMのインターフェースについて<BR>
@@ -119,7 +121,7 @@ zLog令和版では、どちらも使う事が可能ですが、CW/PTT portで�
 * [AMD-USB-RIG-CW-SOUND Ver3.5<表記上はVer3.2>](http://jn2amd.html.xdomain.jp/usbrigcwsound30.htm)
 * [AMD-USB-CW-SOUND Ver1.7](http://jn2amd.html.xdomain.jp/usbcwsound10.htm)
 * [AMD-USB-RIG-CW Ver1.1](http://jn2amd.html.xdomain.jp/usb_rig_cw_10.htm)
-
+4. JH4VAJ OMのインターフェース[DCPA03](https://www.jh4vaj.com/dcpa03-01)でもキーイング出来ます。（現在頒布中）
 
 ## パドル接続について
 
