@@ -122,6 +122,7 @@ zLog令和版では、どちらも使う事が可能ですが、CW/PTT portで�
 * [AMD-USB-CW-SOUND Ver1.7](http://jn2amd.html.xdomain.jp/usbcwsound10.htm)
 * [AMD-USB-RIG-CW Ver1.1](http://jn2amd.html.xdomain.jp/usb_rig_cw_10.htm)
 4. JH4VAJ OMのインターフェース[DCPA03](https://www.jh4vaj.com/dcpa03-01)でもキーイング出来ます。（現在頒布中）
+5. 中国製のU5 LINKでもキーイング可能です。AmazonやAliExpressで入手可能な様です。
 
 ## パドル接続について
 
