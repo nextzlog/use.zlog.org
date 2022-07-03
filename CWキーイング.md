@@ -105,9 +105,9 @@ WinKeyerを使用する場合は下図の通り、COMポートをWinKeyerのポ�
 
 ## その他のインターフェース
 
-1. YAESUのSCU-17(仮想COMポート)でもキーイングできます。
+1. YAESUのSCU-17(仮想COMポート)でもキーイングできます。<BR>
 SCU-17のPTT(ミニプラグの先端)をCW Keyingとして使用することが出来ます。この時、zLog側はCW/PTT controlで、Reverse the Signal Linesをチェックします。
-なお、変換ケーブルを作れば、SCU-17のFSK端子もキーイングに使う事が可能です。  
+なお、変換ケーブルを作れば、SCU-17のFSK端子もキーイングに使う事が可能です。<BR> 
 CWとRTTY(FSK)の同時接続（配線）も可能ですが、機種によって配線方法が異なりますのでYAESUへご相談をお勧めします。  
 2. [PCWI01](https://www.jh4vaj.com/pcwi01_01)でもキーイング出来ます。（現在頒布中止）
 3. JN2AMD OMのインターフェースについて<BR>
