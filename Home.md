@@ -2,6 +2,15 @@ Welcome to the zLog 令和 Edition wiki!
 
 ![](https://github.com/jr8ppg/zLog/blob/images/zlog_main.png)
 
+<table border>
+<tr>
+<td>(2022/7/18)<br>
+zlistwでZLOファイルの編集・更新を行うと日時がUTCになってしまうなど意図しない結果になるケースが報告されています。大体の事はzLogのみで行えるようになっていますので今後はzlistwは使用しないようお願いします。また今後はZLOXファイルとなりますが、zlistwはZLOXには対応していませんのでご注意願います。</td>
+</tr>
+</table>
+
+
+
 目次
 1. zLogとは
 1992年頃に横林OMを中心に東京大学アマチュア無線クラブで開発されたコンテスト用ロギングソフトウェアです。最初はMS-DOS版でしたがWindows版が開発され現在に至っています。（横林OMのコールサインは再割り当てで他の方に割りあたったとのことですので表示しません　2020/12現在）
