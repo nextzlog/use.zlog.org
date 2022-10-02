@@ -1,6 +1,6 @@
 remote_theme: nextzlog/pafe
 url: https://nextzlog.github.io/use.zlog.org
-name: zLog令和版ユーザーガイド
+name: zLog令和版
 icon: /images/zlog.png
 lead: &desc Windowsで動作するコンテスト用ロギングソフトzLog令和版の機能を紹介しています。
 desc: *desc
