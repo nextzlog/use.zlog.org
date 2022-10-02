@@ -24,6 +24,9 @@ links:
 - name: 無線部開発班
   href: https://pafelog.net
 jumps:
+- name: マニュアル
+  href: /manual
+  icon: fas fa-book
 - name: ダウンロード
   href: /downloads
   icon: fas fa-download
