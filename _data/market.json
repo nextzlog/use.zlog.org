@@ -1,0 +1,214 @@
+{
+  "dll": {
+    "format": {
+      "sum": "https://github.com/nextzlog/zylo/releases/download/nightly/format.dll.md5",
+      "url": "https://github.com/nextzlog/zylo/releases/download/nightly/format.dll"
+    },
+    "latest": {
+      "sum": "https://github.com/nextzlog/zylo/releases/download/nightly/latest.dll.md5",
+      "url": "https://github.com/nextzlog/zylo/releases/download/nightly/latest.dll"
+    },
+    "maplot": {
+      "sum": "https://github.com/nextzlog/zylo/releases/download/nightly/maplot.dll.md5",
+      "url": "https://github.com/nextzlog/zylo/releases/download/nightly/maplot.dll"
+    },
+    "aktest": {
+      "sum": "https://github.com/nextzlog/zylo/releases/download/nightly/aktest.dll.md5",
+      "url": "https://github.com/nextzlog/zylo/releases/download/nightly/aktest.dll"
+    },
+    "hstest": {
+      "sum": "https://github.com/nextzlog/zylo/releases/download/nightly/hstest.dll.md5",
+      "url": "https://github.com/nextzlog/zylo/releases/download/nightly/hstest.dll"
+    },
+    "rttest": {
+      "sum": "https://github.com/nextzlog/zylo/releases/download/nightly/rttest.dll.md5",
+      "url": "https://github.com/nextzlog/zylo/releases/download/nightly/rttest.dll"
+    },
+    "tmtest": {
+      "sum": "https://github.com/nextzlog/zylo/releases/download/nightly/tmtest.dll.md5",
+      "url": "https://github.com/nextzlog/zylo/releases/download/nightly/tmtest.dll"
+    },
+    "yltest": {
+      "sum": "https://github.com/nextzlog/zylo/releases/download/nightly/yltest.dll.md5",
+      "url": "https://github.com/nextzlog/zylo/releases/download/nightly/yltest.dll"
+    },
+    "cwListener": {
+      "sum": "https://github.com/jucky154/cwListener/releases/download/nightly/cwListener.dll.md5",
+      "url": "https://github.com/jucky154/cwListener/releases/download/nightly/cwListener.dll"
+    },
+    "cwtrain": {
+      "sum": "https://github.com/jucky154/cwtrainer/releases/download/nightly/cwtrainer.dll.md5",
+      "url": "https://github.com/jucky154/cwtrainer/releases/download/nightly/cwtrainer.dll"
+    },
+    "infoEs": {
+      "sum": "https://github.com/jucky154/infoEs/releases/download/nightly/infoEs.dll.md5",
+      "url": "https://github.com/jucky154/infoEs/releases/download/nightly/infoEs.dll"
+    },
+    "soumu": {
+      "sum": "https://github.com/jucky154/soumuAPI/releases/download/nightly/soumuAPI.dll.md5",
+      "url": "https://github.com/jucky154/soumuAPI/releases/download/nightly/soumuAPI.dll"
+    }
+  },
+  "exe": {
+    "qxsl": {
+      "sum": "b90a6b0702fc0fefea971cbbbea9c8d4",
+      "url": "https://github.com/nextzlog/qxsl/releases/download/nightly/qxsl.exe"
+    }
+  },
+  "pkg": {
+    "format": {
+      "exp": "stable",
+      "msg": "CTESTWINのLG8やHAMLOGのHDBを始め, 様々なファイルへの対応をzLogのインポート・エクスポート機能に追加します.",
+      "tag": "zLog additional I/O",
+      "use": [
+        "dll.format",
+        "exe.qxsl"
+      ],
+      "web": "https://github.com/nextzlog/zylo"
+    },
+    "latest": {
+      "exp": "stable",
+      "msg": "zLogの最新のリリースを自動的に検出し, デスクトップの通知欄に表示します.",
+      "tag": "zLog update checker",
+      "use": [
+        "dll.latest"
+      ],
+      "web": "https://github.com/nextzlog/zylo"
+    },
+    "maplot": {
+      "exp": "stable",
+      "msg": "zLogで記録したQSOから, 交信済みのJCC/Gコードを検出し, 地図に描画します.",
+      "tag": "Maplot",
+      "use": [
+        "dll.maplot"
+      ],
+      "web": "https://github.com/nextzlog/zylo"
+    },
+    "aktest": {
+      "exp": "stable",
+      "msg": "旭川コンテストのCFGファイルと, 正確な得点計算を行うプラグインです.",
+      "tag": "旭川コンテスト",
+      "use": [
+        "dll.aktest",
+        "cfg.aktest"
+      ],
+      "web": "https://github.com/nextzlog/zylo"
+    },
+    "hstest": {
+      "exp": "stable",
+      "msg": "高校コンテストのCFGファイルと, 正確な得点計算を行うプラグインです.",
+      "tag": "高校コンテスト",
+      "use": [
+        "dll.hstest",
+        "cfg.hstest"
+      ],
+      "web": "https://github.com/nextzlog/zylo"
+    },
+    "rttest": {
+      "exp": "stable",
+      "msg": "リアルタイムコンテストのCFGファイルと, クラウド送受信を行うプラグインです.",
+      "tag": "リアルタイムコンテスト",
+      "use": [
+        "dll.rttest",
+        "cfg.rttest"
+      ],
+      "web": "https://github.com/nextzlog/zylo"
+    },
+    "tmtest": {
+      "exp": "stable",
+      "msg": "東海マラソンコンテストのCFGファイルと, 正確な得点計算を行うプラグインです.",
+      "tag": "東海マラソンコンテスト",
+      "use": [
+        "dll.tmtest",
+        "cfg.tmtest"
+      ],
+      "web": "https://github.com/nextzlog/zylo"
+    },
+    "yltest": {
+      "exp": "stable",
+      "msg": "JLRS主催のYLコンテストのCFGファイルと, 正確な得点計算を行うプラグインです.",
+      "tag": "YLコンテスト",
+      "use": [
+        "dll.yltest",
+        "cfg.yltest"
+      ],
+      "web": "https://github.com/nextzlog/zylo"
+    },
+    "cwListener": {
+      "msg": "CWの音声を自動的にデコードする拡張機能です。（アルファ版）",
+      "tag": "CW解析DLL",
+      "use": [
+        "dll.cwListener"
+      ],
+      "web": "https://github.com/jucky154/cwListener"
+    },
+    "cwtrain": {
+      "exp": "stable",
+      "msg": "zLogと同じ場所に置いたcallsigns.txtに書いたコールサインを自動的に流し、入力したコールサインと合致するかを判断するCW練習拡張機能です",
+      "tag": "CW練習DLL",
+      "use": [
+        "dll.cwtrain",
+        "cfg.cwtrain",
+        "dat.cwtrain",
+        "txt.cwtrain"
+      ],
+      "web": "https://github.com/jucky154/cwtrainer"
+    },
+    "infoEs": {
+      "exp": "stable",
+      "msg": "スポラディックE層の発生の有無を表示する拡張機能です",
+      "tag": "Es通知プラグイン",
+      "use": [
+        "dll.infoEs"
+      ],
+      "web": "https://github.com/jucky154/infoEs"
+    },
+    "soumu": {
+      "exp": "stable",
+      "msg": "入力中のコールサインを総務省APIで検索する拡張機能です",
+      "tag": "総務省API",
+      "use": [
+        "dll.soumu"
+      ],
+      "web": "https://github.com/jucky154/soumuAPI"
+    }
+  },
+  "cfg": {
+    "aktest": {
+      "sum": "78cb0d83c16d0c5682d701ead49d9008",
+      "url": "https://raw.githubusercontent.com/nextzlog/zylo/master/plugins/rules/aktest/aktest.cfg"
+    },
+    "hstest": {
+      "sum": "13df957189ac33b4743d831580d0e8ff",
+      "url": "https://raw.githubusercontent.com/nextzlog/zylo/master/plugins/rules/hstest/hstest.cfg"
+    },
+    "rttest": {
+      "sum": "b20fade19a7fc8df53d80f54f2af2cea",
+      "url": "https://raw.githubusercontent.com/nextzlog/zylo/master/plugins/rules/rttest/rttest.cfg"
+    },
+    "tmtest": {
+      "sum": "97164e00fdefc3207fea43e3cf8c2e2e",
+      "url": "https://raw.githubusercontent.com/nextzlog/zylo/master/plugins/rules/tmtest/tmtest.cfg"
+    },
+    "yltest": {
+      "sum": "c7ecc267051b4a9f481a0b7cf9a13d7c",
+      "url": "https://raw.githubusercontent.com/nextzlog/zylo/master/plugins/rules/yltest/yltest.cfg"
+    },
+    "cwtrain": {
+      "sum": "dcce7c15be2c731a0b58f34c857d8671",
+      "url": "https://raw.githubusercontent.com/jucky154/cwtrainer/main/cwtrainer.cfg"
+    }
+  },
+  "dat": {
+    "cwtrain": {
+      "sum": "c5d757a4d47104fb4c5b233821cf31c4",
+      "url": "https://raw.githubusercontent.com/jucky154/cwtrainer/main/cwtrainer.dat"
+    }
+  },
+  "txt": {
+    "cwtrain": {
+      "sum": "318e2fa1a177e9b6ac2a79fffe0cb6e7",
+      "url": "https://raw.githubusercontent.com/jucky154/cwtrainer/main/callsigns.txt"
+    }
+  }
+}
