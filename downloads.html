@@ -22,7 +22,7 @@ layout: default
 				</h3>
 				<h5 class='card-subtitle'>{{rel.published_at}}</h5>
 				<p class='card-text'>
-					<details {% if counter == 0 %} open {% endif %}>
+					<details {% if counter <= 3 %} open {% endif %}>
 						<summary>Details</summary>
 						{{rel.body | markdownify}}
 					</details>
