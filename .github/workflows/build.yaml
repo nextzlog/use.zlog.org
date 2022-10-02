@@ -1,0 +1,31 @@
+name: 'build'
+on:
+  push:
+    branches:
+    - 'master'
+  schedule:
+  - cron: '0 0 * * *'
+env:
+  RELEASES: repos/jr8ppg/zlog/releases
+  GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        path: public
+    - uses: nextzlog/zylo@master
+      with:
+        nobuild: true
+        token: ${{secrets.GITHUB_TOKEN}}
+    - run: |
+        mkdir -p _data
+        gh api $RELEASES --paginate > _data/releases.json
+        zbuild market > _data/market.json
+      working-directory: public
+    - uses: peaceiris/actions-gh-pages@v3
+      with:
+        enable_jekyll: true
+        cname: use.zlog.org
+        github_token: ${{secrets.GITHUB_TOKEN}}
