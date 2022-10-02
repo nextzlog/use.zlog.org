@@ -4,9 +4,10 @@ subtitle: リリース履歴
 layout: default
 ---
 
+{% assign counter = 0 %}
 {% for rel in site.data.releases %}
 	{% unless rel.draft or rel.prerelease %}
-		{% increment counter %}
+		{% assign counter = counter | plus: 1 %}
 		<div class='card my-1 my-md-3'>
 			<div class='card-body'>
 				<span class='badge bg-success'>{{rel.tag_name}}</span>
