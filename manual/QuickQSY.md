@@ -7,4 +7,4 @@ QuickQSYとは予め設定したバンド・モードに１キー操作でQSYす
 
 OptionsのQuick QSYタブより設定します。  
 下図の場合、Ctrl+F1,Ctrl+F2,Ctrl+F3キーで7M,21M,50MへQSYします。7M,21MではRIG1へ、50MはRIG2へ切り替えます。  
-![設定画面](https://github.com/jr8ppg/zLog/blob/images/quickqsy.png)
+![設定画面](https://raw.githubusercontent.com/jr8ppg/zLog/images/quickqsy.png)

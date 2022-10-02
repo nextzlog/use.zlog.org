@@ -9,10 +9,10 @@ CQモードとはCQをかけRunning時の動作モードです。SPモードと�
 ウインドウ右上にどちらで動作しているかの表示が追加されています。  
 
 ### CQモードの表示
-![CQ MODE](https://github.com/jr8ppg/zLog/blob/images/cqmode.png)
+![CQ MODE](https://raw.githubusercontent.com/jr8ppg/zLog/images/cqmode.png)
 
 ### SPモードの表示
-![SP MODE](https://github.com/jr8ppg/zLog/blob/images/spmode.png)
+![SP MODE](https://raw.githubusercontent.com/jr8ppg/zLog/images/spmode.png)
 
 ### 動作モードの遷移
 下記の操作でCQ/SPモードの遷移が行われます。  
@@ -35,4 +35,4 @@ CQモード時は動作しません。
 
 ## 設定
 
-![設定画面](https://github.com/jr8ppg/zLog/blob/images/magicalcalling.png)
+![設定画面](https://raw.githubusercontent.com/jr8ppg/zLog/images/magicalcalling.png)

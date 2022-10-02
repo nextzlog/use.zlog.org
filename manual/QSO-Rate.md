@@ -6,10 +6,10 @@ QSO Rateウインドウは１時間ごとの交信局数をグラフで表示し
 
 ## 画面表示例
 
-![QSO Rate](https://github.com/jr8ppg/zLog/blob/images/qsorate.png)  
+![QSO Rate](https://raw.githubusercontent.com/jr8ppg/zLog/images/qsorate.png)  
 
 ## 設定
 
-![QSO Rate](https://github.com/jr8ppg/zLog/blob/images/qsorate_opt1.png)  
+![QSO Rate](https://raw.githubusercontent.com/jr8ppg/zLog/images/qsorate_opt1.png)  
 
-![QSO Rate](https://github.com/jr8ppg/zLog/blob/images/qsorate_opt2.png)  
+![QSO Rate](https://raw.githubusercontent.com/jr8ppg/zLog/images/qsorate_opt2.png)  

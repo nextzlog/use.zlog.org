@@ -9,10 +9,10 @@
 Taget Editorウインドウで目標交信数を入力します。  
 
 1.メインメニューの「Settings」－「Target Editor」より入力画面を表示します。  
-![](https://github.com/jr8ppg/zLog/blob/images/target_editor1.png)
+![](https://raw.githubusercontent.com/jr8ppg/zLog/images/target_editor1.png)
 
 2.Target Editorウインドウが表示されるので、バンド毎時間ごとの目標交信数を入力します。  
-![](https://github.com/jr8ppg/zLog/blob/images/target_editor2.png)
+![](https://raw.githubusercontent.com/jr8ppg/zLog/images/target_editor2.png)
 
 |ボタン|説明|
 | --- | --- |
@@ -33,13 +33,13 @@ CTRL+CでTSV形式(タブ区切り)でクリップボードにコピーできま
 ## QSO Rate Exウインドウ
 
 1.メインメニューの「Windows」－「QSo Rate Ex」より画面を表示します。  
-![](https://github.com/jr8ppg/zLog/blob/images/rateex1.png)
+![](https://raw.githubusercontent.com/jr8ppg/zLog/images/rateex1.png)
 
 ### Graphタブ
 
 グラフは１ｈあたり２本の棒グラフで表され、右側がTarget交信数、左側がActual交信数です。  
 
-![](https://github.com/jr8ppg/zLog/blob/images/rateex2.png)
+![](https://raw.githubusercontent.com/jr8ppg/zLog/images/rateex2.png)
 
 ### ZAQタブ
 
@@ -47,7 +47,7 @@ ZAQタブでは表形式で表示します。上段がTarget交信数、下段�
 合計のTarget交信数に対して80%を超えると、合計欄が青表示に変わります。  
 現在のバンドは背景が水色で表示されます。  
 
-![](https://github.com/jr8ppg/zLog/blob/images/rateex3.png)
+![](https://raw.githubusercontent.com/jr8ppg/zLog/images/rateex3.png)
 
 #### 達成率(Rate)表示／勝ち負け(Win/Loss)表示(2.8.0.0～)
 

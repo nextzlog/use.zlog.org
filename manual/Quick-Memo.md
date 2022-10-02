@@ -25,4 +25,4 @@ V2.5よりさらに３種類追加されました。機能番号#106,#107,#108�
 
 「Options」－「Quick Memo」タブで設定します。#101と#102は固定です。#106,#107,#108は変更できます。  
 
-![](https://github.com/jr8ppg/zLog/blob/images/quick_memo.png)
+![](https://raw.githubusercontent.com/jr8ppg/zLog/images/quick_memo.png)

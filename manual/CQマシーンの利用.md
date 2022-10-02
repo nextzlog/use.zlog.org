@@ -12,7 +12,7 @@ CWと同様に#1がCQ用です。CTRL+ZやSHIFT+Zでのリピート再生も可�
 ## シングルオペの場合
 
 1. 「Settings」メニュー－「Options」よりOptionsウインドウを開き、「Voice」タブで音声ファイルを設定します。  
-![VOICE](https://github.com/jr8ppg/zLog/blob/images/voicemem1.png)
+![VOICE](https://raw.githubusercontent.com/jr8ppg/zLog/images/voicemem1.png)
 
 ## マルチオペの場合
 
@@ -23,8 +23,8 @@ CWと同様に#1がCQ用です。CTRL+ZやSHIFT+Zでのリピート再生も可�
 
 1. 「Settings」メニュー「Options」よりOptionsウインドウを開き、「Categories」タブを開きます。  
 1. 「Operator」グループの「Add」ボタンをクリックします。  
-![VOICE](https://github.com/jr8ppg/zLog/blob/images/voicemem2.png)
+![VOICE](https://raw.githubusercontent.com/jr8ppg/zLog/images/voicemem2.png)
 
 1. Operatorウインドウで各オペレーターの音声ファイルを設定します。  
-![VOICE](https://github.com/jr8ppg/zLog/blob/images/voicemem3.png)
+![VOICE](https://raw.githubusercontent.com/jr8ppg/zLog/images/voicemem3.png)
 
