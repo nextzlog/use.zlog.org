@@ -6,6 +6,7 @@ layout: default
 
 {% for rel in site.data.releases %}
 	{% unless rel.draft or rel.prerelease %}
+		{% increment counter %}
 		<div class='card my-1 my-md-3'>
 			<div class='card-body'>
 				<span class='badge bg-success'>{{rel.tag_name}}</span>
@@ -20,7 +21,7 @@ layout: default
 				</h3>
 				<h5 class='card-subtitle'>{{rel.published_at}}</h5>
 				<p class='card-text'>
-					<details>
+					<details {% if counter == 0 %} open {% endif %}>
 						<summary>Details</summary>
 						{{rel.body | markdownify}}
 					</details>
