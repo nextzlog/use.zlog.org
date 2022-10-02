@@ -1,6 +1,5 @@
 ---
 title: マニュアル
-subtitle: zLogの使い方
 ---
 
 <table border>
