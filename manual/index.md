@@ -1,5 +1,5 @@
 ---
-title: チュートリアル
+title: マニュアル
 subtitle: zLogの使い方
 ---
 
