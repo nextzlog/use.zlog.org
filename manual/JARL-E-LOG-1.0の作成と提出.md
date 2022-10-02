@@ -3,14 +3,14 @@ E-LOG 1.0は主にJARL主催以外のいわゆるローカルコンテストで�
 ## JARL E-LOG 1.0の作成
 
 ①コンテスト後はFileメニューより、Create E-Log (JARL 1.0)メニューをクリックします。  
-![E-LOG 1.0の作成](https://github.com/jr8ppg/zLog/blob/images/elog10_1.png)
+![E-LOG 1.0の作成](https://raw.githubusercontent.com/jr8ppg/zLog/images/elog10_1.png)
 
 ②入力ダイアログに必要事項を入力します。  
-![必要事項の入力](https://github.com/jr8ppg/zLog/blob/images/elog10_2.png)
+![必要事項の入力](https://raw.githubusercontent.com/jr8ppg/zLog/images/elog10_2.png)
 
 ③必要に応じてスコア調整をします。  
 （参加部門以外のバンドの交信をサマリーから除きます。参加部門以外でもログは提出しましょう。）  
-![スコア調整](https://github.com/jr8ppg/zLog/blob/images/elog10_3.png)
+![スコア調整](https://raw.githubusercontent.com/jr8ppg/zLog/images/elog10_3.png)
 
 ④E-log作成ボタンをクリックしてファイルに出力します。  
 ⑤作成されたログは下記の様になります。ログ部分は固定長形式です。

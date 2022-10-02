@@ -1,14 +1,14 @@
 ## 目次
 
-| [送信できる文字](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#%E9%80%81%E4%BF%A1%E3%81%A7%E3%81%8D%E3%82%8B%E6%96%87%E5%AD%97) 
-| [COMポート仕様](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#com%E3%83%9D%E3%83%BC%E3%83%88%E4%BB%95%E6%A7%98)
-| [USBポート仕様](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#usb%E3%83%9D%E3%83%BC%E3%83%88%E4%BB%95%E6%A7%98)
-| [その他のインターフェース](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9)
-| [パドル接続について](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#%E3%83%91%E3%83%89%E3%83%AB%E6%8E%A5%E7%B6%9A%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6) 
-| [置換マクロ](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#%E7%BD%AE%E6%8F%9B%E3%83%9E%E3%82%AF%E3%83%AD)
-| [CW Keyboard](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#cw-keyboard)
-| [CW Message Pad](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#cw-message-pad)
-| [サイドトーンについて](https://github.com/jr8ppg/zLog/wiki/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#%E3%82%B5%E3%82%A4%E3%83%89%E3%83%88%E3%83%BC%E3%83%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
+| [送信できる文字](CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#%E9%80%81%E4%BF%A1%E3%81%A7%E3%81%8D%E3%82%8B%E6%96%87%E5%AD%97) 
+| [COMポート仕様](CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#com%E3%83%9D%E3%83%BC%E3%83%88%E4%BB%95%E6%A7%98)
+| [USBポート仕様](CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#usb%E3%83%9D%E3%83%BC%E3%83%88%E4%BB%95%E6%A7%98)
+| [その他のインターフェース](CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9)
+| [パドル接続について](CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#%E3%83%91%E3%83%89%E3%83%AB%E6%8E%A5%E7%B6%9A%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6) 
+| [置換マクロ](CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#%E7%BD%AE%E6%8F%9B%E3%83%9E%E3%82%AF%E3%83%AD)
+| [CW Keyboard](CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#cw-keyboard)
+| [CW Message Pad](CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#cw-message-pad)
+| [サイドトーンについて](CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0#%E3%82%B5%E3%82%A4%E3%83%89%E3%83%88%E3%83%BC%E3%83%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
 |
 
 ***
@@ -58,12 +58,12 @@ USBを使っていますが、仮想COMポートなので、zLog内のプルダ�
 
 「Options」－「Hardware」タブの「CW/PTTControl」グループにある、「Reverse the signal lines」をチェックONでRTSとDTRが逆になります。  
 
-![CW/PTT Control](https://github.com/jr8ppg/zLog/blob/images/options_cwptt.png)
+![CW/PTT Control](https://raw.githubusercontent.com/jr8ppg/zLog/images/options_cwptt.png)
 
 ### RIGコントロールと同時に使用する（V2.6～）
 ICOMの一部機種では一つのCOMポートでCI-V通信とCWキーイングが可能です。また[U5-Link(ICOM)](https://www.venus-itech.com/product/u5-link/)と言うCW I/Fでも可能です。  
 使用するにはRIGコントロールのCOMポートとCWキーイングのCOMポートを同じにします。
-![U5-LInk](https://github.com/jr8ppg/zLog/blob/images/u5-link.png)  
+![U5-LInk](https://raw.githubusercontent.com/jr8ppg/zLog/images/u5-link.png)  
 IC-705,IC-7300では動作確認ができています。その他はIC-7851が可能と思われますが、未確認です。  
 
 ## USBポート仕様
@@ -94,10 +94,10 @@ V2.6 Beta2 よりK1EL OMの[WinKeyer USB](https://hamcrafters2.com/WKUSBX.html) 
 * コールサインの訂正（TABキー押下後、ナンバー欄にフォーカスが移動するまでの間）
 
 WinKeyerを使用する場合は下図の通り、COMポートをWinKeyerのポートに合わせ、横にある「Use WinKeyer」をチェックします。  
-![WinKeyerを使用する場合の設定](https://github.com/jr8ppg/zLog/blob/images/options_winkeyer.png)
+![WinKeyerを使用する場合の設定](https://raw.githubusercontent.com/jr8ppg/zLog/images/options_winkeyer.png)
 
 正常に通信ができた場合は下図の様にAboutウインドウに表示されます。（WinKeyer V2.3の場合）  
-![WinKeyer detected](https://github.com/jr8ppg/zLog/blob/images/winkeyer_detected.png)
+![WinKeyer detected](https://raw.githubusercontent.com/jr8ppg/zLog/images/winkeyer_detected.png)
 
 制限事項
 * PTT Control使用時、Before Delayを設定すると相手局コールサイン送信時に１文字毎にDelayがかかります。Beforeは0で使用して下さい。
@@ -138,6 +138,7 @@ USBIF4CW自体にキーヤー機能が存在するためzLogで行う必要が�
 ## 置換マクロ
 CW送出メッセージ内の置換マクロコマンドです。  
 $Xを$xと小文字で記述することでAbbreviationなしで送信します。(V2.8.1.1～)  
+
 |番号|置換マクロ|置換後|備考|
 | --- | --- | --- | --- |
 |1|[AR]|AR||
@@ -168,7 +169,7 @@ $Xを$xと小文字で記述することでAbbreviationなしで送信します�
 ## CW Keyboard
 「Windows」メニューの「CW Keyboard」より開きます。  
 入力した文字をそのままキーイングします。  使用できる文字は、A-Z,0-9の他、/と?です。  
-![CW Keyboard](https://github.com/jr8ppg/zLog/blob/images/cwkbd.png)
+![CW Keyboard](https://raw.githubusercontent.com/jr8ppg/zLog/images/cwkbd.png)
 
 特殊文字として下記の４種類が使用できます。
 |キー|送信符号|備考|
@@ -185,15 +186,15 @@ $Xを$xと小文字で記述することでAbbreviationなしで送信します�
 「Windows」メニューの「CW Message Pad」より開きます。各定型文のボタンをクリックするとCWが送信されます。
 定型文には$C等の置換マクロを含めることができます。定型文のボタンはドラッグアンドドロップで移動可能です。  
 CTRLキーを押しながらドラッグアンドドロップすることでコピーできます。  
-![CW Message Pad](https://github.com/jr8ppg/zLog/blob/images/cwmsgpad1.png)  
+![CW Message Pad](https://raw.githubusercontent.com/jr8ppg/zLog/images/cwmsgpad1.png)  
 
 定型文を編集するには、右クリックメニューで「編集」をクリックします。  
-![CW Message Pad](https://github.com/jr8ppg/zLog/blob/images/cwmsgpad2.png)
+![CW Message Pad](https://raw.githubusercontent.com/jr8ppg/zLog/images/cwmsgpad2.png)
 
 簡易エディターが表示されるので、下図を見習って入力して下さい。  
 一桁目からは分類名を入力します。定型文は次の行よりTABで区切って入力します。定型文は１００文字まで入力可能です。  
 入力した内容はcwmessage.txtと言うファイルに保存されます。    
-![CW Message Pad](https://github.com/jr8ppg/zLog/blob/images/cwmsgpad3.png)
+![CW Message Pad](https://raw.githubusercontent.com/jr8ppg/zLog/images/cwmsgpad3.png)
 
 特殊な定型文として下記の４種類が使用できます。
 |定型文|送信符号|備考|

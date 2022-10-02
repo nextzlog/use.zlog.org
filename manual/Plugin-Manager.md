@@ -16,12 +16,8 @@ Plugin ManagerとはzLogに追加して機能の拡張を行うPluginソフト�
 * リアルタイムコンテスト
 * などなど
 
-最新の情報は下記のサイトです。  
-[https://zylo.pafelog.net/market.html](https://zylo.pafelog.net/market.html)  
+最新の情報は[こちら](https://dev.zlog.org/plugins.html)。
 
 ## 開発者向けマニュアル
 
-Pluginを開発するためのマニュアルは[こちら](https://zylo.pafelog.net/manual) です。
-
-
-
+Pluginを開発するためのマニュアルは[こちら](https://zylo.pafelog.net) です。

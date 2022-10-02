@@ -15,19 +15,19 @@ RIG1/RIG2はリグコントロール対応で、RIG3はリグコントロール�
 
 受信用に選択しているRIGは青枠表示、送信用に選択しているRIGは緑色のランプが点灯します。送信／受信共に独立してRIG1/RIG2を切り替えることができます。  
 
-![SO2Rメインウインドウ](https://github.com/jr8ppg/zLog/blob/images/so2r_main_window.png)
+![SO2Rメインウインドウ](https://raw.githubusercontent.com/jr8ppg/zLog/images/so2r_main_window.png)
 
 ### 設定
 1. SettingsメニューのOptionsをクリックして、Optionsダイアログを表示しHardware2タブを開きます。
 1. SO2R Supportグループで、「COM Port」又は「SO2R Neo」を選択します。
 
-![設定画面](https://github.com/jr8ppg/zLog/blob/images/options_hardware2.png)
+![設定画面](https://raw.githubusercontent.com/jr8ppg/zLog/images/options_hardware2.png)
 
 ### Auto RIG switch機能
 
 Auto RIG switch機能とは、連続CQ時にRIG1/RIG2交互にCQを送信する機能です。深夜帯などに２つのバンドを交互に送信することでオペレーションの軽減を行うものです。  
 
-![](https://github.com/jr8ppg/zLog/blob/images/so2r_arsw_cqinv.png)
+![](https://raw.githubusercontent.com/jr8ppg/zLog/images/so2r_arsw_cqinv.png)
 
 ### CQ Invert機能
 
@@ -64,14 +64,14 @@ zLogでのシステム構成例です。
 
 図ではCWのみですが、実際はAudio系(MIC/Headphone)の切り替え機能も必要です。  
 
-![](https://github.com/jr8ppg/zLog/blob/images/so2r_sample1.png)
+![](https://raw.githubusercontent.com/jr8ppg/zLog/images/so2r_sample1.png)
 
 ### WinKeyerやSO2R Neo等の2RIGに対応した機器を使うケース
 
 CWのみの場合は、WinKeyerでも可能ですが、Phoneも含めたSO2Rの場合はSO2R Neo等の専用の機器をします。  
 （WinKeyerはAudio系(MIC/Headphone)の機能はありません）  
 
-![](https://github.com/jr8ppg/zLog/blob/images/so2r_sample2.png)
+![](https://raw.githubusercontent.com/jr8ppg/zLog/images/so2r_sample2.png)
 
 ## SO2R運用をサポートする機器
 
