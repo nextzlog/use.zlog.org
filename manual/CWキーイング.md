@@ -32,15 +32,15 @@ V2.5よりRTSとDTRを逆にできます（後述）
 D-SUB 9pinコネクタの場合（実COMポートの場合）  
 | ピン | 信号 | 内容 |
 | --- | --- | --- |
-|1|DCD||
-|2|RXD||
-|3|TXD||
-|4|DTR|Keying|
-|5|GND||
-|6|DSR||
-|7|RTS|PTT|
-|8|CTS||
-|9|RI||
+| 1 | DCD ||
+| 2 | RXD ||
+| 3 | TXD ||
+| 4 | DTR | Keying |
+| 5 | GND ||
+| 6 | DSR ||
+| 7 | RTS | PTT |
+| 8 | CTS ||
+| 9 | RI ||
 
 | メス側のピン配列 |
 | :---: |
