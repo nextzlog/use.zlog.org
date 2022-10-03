@@ -40,7 +40,6 @@ zlistwでZLOファイルの編集・更新を行うと日時がUTCになって�
     1. [マルチオペ(M/M)での利用](%E3%83%9E%E3%83%AB%E3%83%81%E3%82%AA%E3%83%9A%EF%BC%88%EF%BC%AD%EF%BC%8F%EF%BC%AD%EF%BC%89%E3%81%A7%E3%81%AE%E5%88%A9%E7%94%A8)
     1. [マルチオペ(M/2)での利用](%E3%83%9E%E3%83%AB%E3%83%81%E3%82%AA%E3%83%9A%EF%BC%88%EF%BC%AD%EF%BC%8F%EF%BC%92%EF%BC%89%E3%81%A7%E3%81%AE%E5%88%A9%E7%94%A8)
     1. [シングルオペ2Radio(SO2R)での利用](%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%82%AA%E3%83%9A2Radio(SO2R)%E3%81%A7%E3%81%AE%E5%88%A9%E7%94%A8)
-1. [Plugin Manager](Plugin-Manager) 
 1. 便利な機能
     1. [Super CheckとN+1](Super-Check-(N%EF%BC%8B1))
     1. [リグコントロール](%E3%83%AA%E3%82%B0%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%AB)
@@ -57,8 +56,8 @@ zlistwでZLOファイルの編集・更新を行うと日時がUTCになって�
     1. [ファンクションキーパネル](%E3%83%95%E3%82%A1%E3%83%B3%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%AD%E3%83%BC%E3%83%91%E3%83%8D%E3%83%AB)
     1. [目標設定機能(TARGET機能)](TARGET%E6%A9%9F%E8%83%BD)
     1. [QSYアシスト機能](QSY%E3%82%A2%E3%82%B7%E3%82%B9%E3%83%88%E6%A9%9F%E8%83%BD)
-    1. [ZyLO拡張機能](ZyLO%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD)
-    1. [ユーザー補助](%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E8%A3%9C%E5%8A%A9)
+    1. [ZyLO拡張機能(Plugin Manager)](ZyLO%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD)
+    3. [ユーザー補助](%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E8%A3%9C%E5%8A%A9)
 1. [設定](%E8%A8%AD%E5%AE%9A)
 1. [リソース](%E3%83%AA%E3%82%BD%E3%83%BC%E3%82%B9)
 1. [メイリングリスト](%E3%83%A1%E3%82%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%AA%E3%82%B9%E3%83%88)
