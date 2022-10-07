@@ -1,3 +1,7 @@
+---
+title: PacketCluster連携
+---
+
 ## 概要
 Packet ClusterサーバーにTELNET接続して、スポット情報を取り込む機能です。バンドスコープと連携しRIGへ周波数をセットすることができます。  
 ※COMポートを使用した接続（パケット通信）機能は残っていますが動作未確認です。
@@ -47,3 +51,6 @@ SET/FILTER DXCTY/PASS JA
 ~~~
 SET/FILTER DXCTY/OFF
 ~~~
+
+詳しくは下記のサイトを参考にして下さい。  
+[telnetクラスタコマンド早見表](https://www.jg1vgx.net/radio/telnet-cluster-users-guide-telnet%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/telnet%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E6%97%A9%E8%A6%8B%E8%A1%A8)
