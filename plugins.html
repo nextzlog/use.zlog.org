@@ -5,7 +5,6 @@ layout: default
 
 {% for item in site.data.market.pkg %}
 	{% assign pkg = item[1] %}
-	{% assign fmt = pkg.web | split: '.' | last %}
 	<div class='card my-1 my-md-3'>
 		<div class='card-body'>
 			<span class='badge bg-success'>{{pkg.exp}}</span>
@@ -15,11 +14,7 @@ layout: default
 				{{pkg.msg}}
 				<details>
 					<summary>Details</summary>
-					{% if fmt == 'md' %}
-						{{pkg.doc | markdownify}}
-					{% else %}
-						{{pkg.doc | strip_html}}
-					{% endif %}
+					{{pkg.doc | markdownify}}
 				</details>
 			</p>
 			<a class='card-link' href='{{pkg.web}}'>{{pkg.web}}</a>
