@@ -10,7 +10,13 @@ layout: default
 			<span class='badge bg-success'>{{pkg.exp}}</span>
 			<span class='badge bg-primary'>{{item[0]}}</span>
 			<h3 class='card-title'>{{pkg.tag}}</h3>
-			<p class='card-text'>{{pkg.msg}}</p>
+			<p class='card-text'>
+				{{pkg.msg}}
+				<details>
+					<summary>Details</summary>
+					{{pkg.doc | markdownify}}
+				</details>
+			</p>
 			<a class='card-link' href='{{pkg.web}}'>{{pkg.web}}</a>
 		</div>
 	</div>
