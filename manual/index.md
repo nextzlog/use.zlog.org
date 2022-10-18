@@ -6,7 +6,8 @@ title: マニュアル
 <tr>
 <td>(2022/10/18)<br>
 Windows11 22H2をお使いの方へ<br>
-新しいMicrosoft IME によって発生する障害が報告されています。https://docwiki.embarcadero.com/Support/ja/Windows_11_22H2_%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84Microsoft_IME_%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6%E6%97%A2%E5%AD%98%E3%81%AEVCL_%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%8C%E3%82%AF%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5%E3%81%99%E3%82%8B
+新しいMicrosoft IME によって発生する障害が報告されています。<br>
+[Windows 11 22H2 の新しいMicrosoft IME によって既存のVCL アプリケーションがクラッシュする](https://docwiki.embarcadero.com/Support/ja/Windows_11_22H2_%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84Microsoft_IME_%E3%81%AB%E3%82%88%E3%81%A3%E3%81%A6%E6%97%A2%E5%AD%98%E3%81%AEVCL_%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%8C%E3%82%AF%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5%E3%81%99%E3%82%8B)
     </td>
 </tr>
 </table>
