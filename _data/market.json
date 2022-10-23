@@ -32,6 +32,10 @@
       "sum": "https://github.com/nextzlog/zylo/releases/download/nightly/yltest.dll.md5",
       "url": "https://github.com/nextzlog/zylo/releases/download/nightly/yltest.dll"
     },
+    "comportlist": {
+      "sum": "https://github.com/jucky154/comportlist/releases/download/nightly/comportlist.dll.md5",
+      "url": "https://github.com/jucky154/comportlist/releases/download/nightly/comportlist.dll"
+    },
     "cwListener": {
       "sum": "https://github.com/jucky154/cwListener/releases/download/nightly/cwListener.dll.md5",
       "url": "https://github.com/jucky154/cwListener/releases/download/nightly/cwListener.dll"
@@ -142,6 +146,15 @@
       ],
       "web": "https://github.com/nextzlog/zylo"
     },
+    "comportlist": {
+      "exp": "stable",
+      "msg": "シリアルCOMポートに接続されているものの一覧を表示します",
+      "tag": "COMポート一覧",
+      "use": [
+        "dll.comportlist"
+      ],
+      "web": "https://github.com/jucky154/comportlist"
+    },
     "cwListener": {
       "msg": "CWの音声を自動的にデコードする拡張機能です。（アルファ版）",
       "tag": "CW解析DLL",
@@ -164,7 +177,7 @@
     },
     "infoEs": {
       "exp": "stable",
-      "msg": "スポラディックE層の発生の有無を表示する拡張機能です",
+      "msg": "スポラディックE層の発生の有無を表示する拡張機能です(現在、接続に時間がかかり表示に時間がかかるようです）",
       "tag": "Es通知プラグイン",
       "use": [
         "dll.infoEs"
