@@ -12,6 +12,14 @@
       "sum": "https://github.com/nextzlog/zylo/releases/download/nightly/maplot.dll.md5",
       "url": "https://github.com/nextzlog/zylo/releases/download/nightly/maplot.dll"
     },
+    "prefix": {
+      "sum": "https://github.com/nextzlog/zylo/releases/download/nightly/prefix.dll.md5",
+      "url": "https://github.com/nextzlog/zylo/releases/download/nightly/prefix.dll"
+    },
+    "typhon": {
+      "sum": "https://github.com/nextzlog/zylo/releases/download/nightly/typhon.dll.md5",
+      "url": "https://github.com/nextzlog/zylo/releases/download/nightly/typhon.dll"
+    },
     "aktest": {
       "sum": "https://github.com/nextzlog/zylo/releases/download/nightly/aktest.dll.md5",
       "url": "https://github.com/nextzlog/zylo/releases/download/nightly/aktest.dll"
@@ -88,6 +96,26 @@
       "tag": "Maplot",
       "use": [
         "dll.maplot"
+      ],
+      "web": "https://github.com/nextzlog/zylo"
+    },
+    "prefix": {
+      "doc": "#### インストールする\n\n1. 設定メニューからプラグインマネージャを起動します。\n2. このプラグインを選びインストールボタンを押します。\n\n#### 地域名を記録する\n\n1. このプラグインを起動する操作は特に必要ありません。\n2. 交信を記録する度に備考欄に国や地域が記録されます。\n",
+      "exp": "stable",
+      "msg": "zLogで記録したQSOから, 交信相手局の国や地域を特定し, 通知欄に表示します.",
+      "tag": "Prefix",
+      "use": [
+        "dll.prefix"
+      ],
+      "web": "https://github.com/nextzlog/zylo"
+    },
+    "typhon": {
+      "doc": "#### インストールする\n\n1. 設定メニューからプラグインマネージャを起動します。\n2. このプラグインを選びインストールボタンを押します。\n\n#### マイク音声の解析\n\n1. プラグインメニューからこのプラグインを起動します。\n2. モールス信号を復号した文字列が画面に表示されます。\n",
+      "exp": "stable",
+      "msg": "Windowsの音声入力から, モールス信号を解析し, その内容を画面に表示します.",
+      "tag": "Typhon",
+      "use": [
+        "dll.typhon"
       ],
       "web": "https://github.com/nextzlog/zylo"
     },
