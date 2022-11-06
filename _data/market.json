@@ -1,5 +1,9 @@
 {
   "dll": {
+    "chotto": {
+      "sum": "https://github.com/nextzlog/zylo/releases/download/nightly/chotto.dll.md5",
+      "url": "https://github.com/nextzlog/zylo/releases/download/nightly/chotto.dll"
+    },
     "format": {
       "sum": "https://github.com/nextzlog/zylo/releases/download/nightly/format.dll.md5",
       "url": "https://github.com/nextzlog/zylo/releases/download/nightly/format.dll"
@@ -15,10 +19,6 @@
     "prefix": {
       "sum": "https://github.com/nextzlog/zylo/releases/download/nightly/prefix.dll.md5",
       "url": "https://github.com/nextzlog/zylo/releases/download/nightly/prefix.dll"
-    },
-    "typhon": {
-      "sum": "https://github.com/nextzlog/zylo/releases/download/nightly/typhon.dll.md5",
-      "url": "https://github.com/nextzlog/zylo/releases/download/nightly/typhon.dll"
     },
     "aktest": {
       "sum": "https://github.com/nextzlog/zylo/releases/download/nightly/aktest.dll.md5",
@@ -62,12 +62,22 @@
     }
   },
   "exe": {
-    "qxsl": {
+    "format": {
       "sum": "b90a6b0702fc0fefea971cbbbea9c8d4",
       "url": "https://github.com/nextzlog/qxsl/releases/download/nightly/qxsl.exe"
     }
   },
   "pkg": {
+    "chotto": {
+      "doc": "#### インストールする\n\n1. 設定メニューからプラグインマネージャを起動します。\n2. このプラグインを選びインストールボタンを押します。\n\n#### マイク音声の解析\n\n1. プラグインメニューからこのプラグインを起動します。\n2. モールス信号を復号した文字列が画面に表示されます。\n",
+      "exp": "stable",
+      "msg": "Windowsの音声入力から, モールス信号を解析し, その内容を画面に表示します.",
+      "tag": "Chotto Wakaru CW",
+      "use": [
+        "dll.chotto"
+      ],
+      "web": "https://github.com/nextzlog/zylo"
+    },
     "format": {
       "doc": "#### インストールする\n\n1. 設定メニューからプラグインマネージャを起動します。\n2. このプラグインを選びインストールボタンを押します。\n3. ファイルメニューからインポートメニューを選びましょう。\n4. インポート・エクスポート可能なファイルが増えています。\n",
       "exp": "stable",
@@ -75,7 +85,7 @@
       "tag": "zLog additional I/O",
       "use": [
         "dll.format",
-        "exe.qxsl"
+        "exe.format"
       ],
       "web": "https://github.com/nextzlog/zylo"
     },
@@ -106,16 +116,6 @@
       "tag": "Prefix",
       "use": [
         "dll.prefix"
-      ],
-      "web": "https://github.com/nextzlog/zylo"
-    },
-    "typhon": {
-      "doc": "#### インストールする\n\n1. 設定メニューからプラグインマネージャを起動します。\n2. このプラグインを選びインストールボタンを押します。\n\n#### マイク音声の解析\n\n1. プラグインメニューからこのプラグインを起動します。\n2. モールス信号を復号した文字列が画面に表示されます。\n",
-      "exp": "stable",
-      "msg": "Windowsの音声入力から, モールス信号を解析し, その内容を画面に表示します.",
-      "tag": "Typhon",
-      "use": [
-        "dll.typhon"
       ],
       "web": "https://github.com/nextzlog/zylo"
     },
