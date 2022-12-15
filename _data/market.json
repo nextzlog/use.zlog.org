@@ -220,6 +220,17 @@
         "dll.soumu"
       ],
       "web": "https://github.com/jucky154/soumuAPI"
+    },
+    "arrl160": {
+      "doc": "#### インストールする\n\n1. 設定メニューからプラグインマネージャを起動します。\n2. このプラグインを選びインストールボタンを押します。\n\n#### コンテストを開く\n\n1. コンテストの選択画面でユーザ定義コンテストのボタンを押します。\n2. プラグインと同時にインストールされた定義ファイルを選択します。\n3. 見つからない場合はプラグインのインストールをやり直しましょう。\n\n",
+      "exp": "stable",
+      "msg": "ARRLの160mコンテストです.",
+      "tag": "ARRL 160m contest",
+      "use": [
+        "dat.arrlsec",
+        "cfg.arrl160dx"
+      ],
+      "web": "https://github.com/jr8ppg/zLog_cfgdat"
     }
   },
   "cfg": {
@@ -246,12 +257,20 @@
     "cwtrain": {
       "sum": "dcce7c15be2c731a0b58f34c857d8671",
       "url": "https://raw.githubusercontent.com/jucky154/cwtrainer/main/cwtrainer.cfg"
+    },
+    "arrl160dx": {
+      "sum": "61bc8b4797f6d2cef7f09cb8b4b62e3a",
+      "url": "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/arrl160/arrl160dx.cfg"
     }
   },
   "dat": {
     "cwtrain": {
       "sum": "c5d757a4d47104fb4c5b233821cf31c4",
       "url": "https://raw.githubusercontent.com/jucky154/cwtrainer/main/cwtrainer.dat"
+    },
+    "arrlsec": {
+      "sum": "de139aea20193dc5375ddb48ce004030",
+      "url": "https://raw.githubusercontent.com/jr8ppg/zLog_cfgdat/main/plugins/rules/arrl160/arrlsec.dat"
     }
   },
   "txt": {
