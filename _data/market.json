@@ -63,8 +63,8 @@
   },
   "exe": {
     "format": {
-      "sum": "332a44ca00a3768d8a3f658faa61cf9e",
-      "url": "https://github.com/nextzlog/qxsl/releases/download/nightly/qxsl.exe"
+      "sum": "a51e8e71a4cc23716d9167d37530da29",
+      "url": "https://github.com/autodyne/qxsl/releases/download/nightly/qxsl.exe"
     }
   },
   "pkg": {
