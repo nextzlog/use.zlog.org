@@ -15,6 +15,9 @@ items:
   href: /downloads
   icon: fas fa-download
 links:
+- name: Edit
+  href: https://github.com/nextzlog/use.zlog.org
+  icon: fas fa-edit
 - name: CFG/DAT
   href: http://ja6ycu.in.coocan.jp/ZLOG
 - name: zLog.org
