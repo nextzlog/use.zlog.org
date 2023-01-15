@@ -20,4 +20,4 @@ Plugin ManagerとはzLogに追加して機能の拡張を行うPluginソフト�
 
 ## 開発者向けマニュアル
 
-Pluginを開発するためのマニュアルは[こちら](https://zylo.pafelog.net) です。
+Pluginを開発するためのマニュアルは[こちら](https://nextzlog.github.io/zylo) です。
