@@ -15,6 +15,9 @@ items:
   href: /downloads
   icon: fas fa-download
 links:
+- name: Edit
+  href: https://github.com/nextzlog/use.zlog.org
+  icon: fas fa-edit
 - name: CFG/DAT
   href: http://ja6ycu.in.coocan.jp/ZLOG
 - name: zLog.org
@@ -22,7 +25,7 @@ links:
 - name: JR8PPG
   href: http://599010103.blog84.fc2.com
 - name: 無線部開発班
-  href: https://pafelog.net
+  href: https://nextzlog.dev
 jumps:
 - name: マニュアル
   href: /manual
