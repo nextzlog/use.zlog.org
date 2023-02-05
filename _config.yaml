@@ -33,3 +33,5 @@ jumps:
 - name: ダウンロード
   href: /downloads
   icon: fas fa-download
+plugins:
+- jekyll-sitemap
