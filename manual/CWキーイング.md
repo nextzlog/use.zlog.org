@@ -181,7 +181,8 @@ $Xを$xと小文字で記述することでAbbreviationなしで送信します�
 入力した文字をそのままキーイングします。  使用できる文字は、A-Z,0-9の他、/と?です。  
 ![CW Keyboard](https://raw.githubusercontent.com/jr8ppg/zLog/images/cwkbd.png)
 
-特殊文字として下記の４種類が使用できます。
+特殊文字として下記の４種類が使用できます。  
+  
 |キー|送信符号|備考|
 | --- | --- | --- |
 |SHIFT+A|AR||
@@ -206,7 +207,8 @@ CTRLキーを押しながらドラッグアンドドロップすることでコ�
 入力した内容はcwmessage.txtと言うファイルに保存されます。    
 ![CW Message Pad](https://raw.githubusercontent.com/jr8ppg/zLog/images/cwmsgpad3.png)
 
-特殊な定型文として下記の４種類が使用できます。
+特殊な定型文として下記の４種類が使用できます。  
+  
 |定型文|送信符号|備考|
 | --- | --- | --- |
 |[AR]|AR||
