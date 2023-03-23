@@ -128,15 +128,16 @@ sendnr	$VM; (年齢符号)	CONVCG 用
 
 ### その他得点関係
 
-|番号|コマンド|パラメータ|説明|初期値|
-| --- | --- | --- | --- | --- |
-|1|SAMECTYPT||同一COUNTRYの得点||
-|2|SAMECONTPT||同一CONTINENTの得点||
-|3|DEFAULTPT||デフォルト得点||
-|4|SPECIALCALLPT||スペシャルコールの得点||
-|5|SPECIALCALLS||スペシャルコールをカンマ区切りで||
-|6|ALPHAPT||アルファベット別得点 A1B2C3の様に||
-|7|COUNTHIGH|ON/OFF|同一バンドで違うモードの場合高い得点を採用する|OFF|
+|番号|コマンド|パラメータ|説明|初期値|実装Ver.|
+| --- | --- | --- | --- | --- | --- |
+|1|SAMECTYPT||同一COUNTRYの得点|||
+|2|SAMECONTPT||同一CONTINENTの得点|||
+|3|DEFAULTPT||デフォルト得点|||
+|4|SPECIALCALLPT||スペシャルコールの得点|||
+|5|SPECIALCALLS||スペシャルコールをカンマ区切りで|||
+|6|ALPHAPT||アルファベット別得点 A1B2C3の様に|||
+|7|ALPHAPT2||アルファベット別得点 A10B02C03の様に||2.8.4.5|
+|8|COUNTHIGH|ON/OFF|同一バンドで違うモードの場合高い得点を採用する|OFF||
 
 ## コンテストナンバー
 |番号|コマンド|パラメータ|説明|初期値|
