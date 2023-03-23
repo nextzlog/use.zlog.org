@@ -1,5 +1,5 @@
 ---
-title: K3NG Keyer を使う場合のHow to
+title: K3NG Arduino CW Keyerを利用する場合のHow to
 ---
 
 ## 概要
