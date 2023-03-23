@@ -113,6 +113,10 @@ WinKeyerを使用する場合は下図の通り、COMポートをWinKeyerのポ�
 * PTT Control使用時、Before Delayを設定すると相手局コールサイン送信時に１文字毎にDelayがかかります。Beforeは0で使用して下さい。
 * リニアアンプ利用時の検証は行われていません（2021/3現在）
 
+## K3NG Arduino CW Keyer
+
+K3NG Arduino CW Keyerを利用する場合のポイントを[別ページ](K3NG_keyer.md)に記載しました。  
+
 ## その他のインターフェース
 
 1. YAESUのSCU-17(仮想COMポート)でもキーイングできます。<BR>
