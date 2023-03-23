@@ -1,3 +1,7 @@
+---
+title: Super CheckとN+1
+---
+
 ## 概要
 
 Super Checkとは、予め用意したコールサインリストをコールサイン欄に入力した内容で部分一致検索を行い。マッチする物をリスト表示する機能です。コールサインリストは従来のZLOG.SPC形式の他、コンテスト毎の.ZLOファイル、[MASTER.SCP](http://www.supercheckpartial.com/MASTER.SCP)ファイルが使用できます。
