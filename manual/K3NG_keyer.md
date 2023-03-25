@@ -35,9 +35,7 @@ K3NG Arduino CW Keyerのビルド設定や派生製品によっては、終了�
 ```
 //          case 0x12: // set low baud rate (18)      <--元
            case 0x11: // set low baud rate (17)     <--修正後
-```
-
-結果としては12088行と12096行を入れ替えることになります。  
+```  
 
 ### keyer_features_and_options.h
 
@@ -61,18 +59,13 @@ K3NG Arduino CW Keyerのビルド設定や派生製品によっては、終了�
 1. K3NG KeyerのWinkey2 Emulationでは、Set High BaudコマンドとSet Low Baudコマンドが、K1EL Winkeyer2とは逆に実装されている。  
 従って、zLogのWK 9600bpsにチェックする場合は、スケッチ(k3ng_keyer.ino)を修正してSet High BaudコマンドとSet Low Baudコマンドを入れ替える必要がある。  
 ※実は、K1ELのWinkeyer2データシートの記載が間違っているのが元々の原因と思われる。  
-
-(誤)
-```
-17: Set High Baud Change Baud Rate to 9600 baud
-18: Set Low Baud Change Baud Rate to 1200 (default)
-```
-(正)
-```
-17: Set Low Baud Change serial comm. Baud Rate to 1200 (default)
-18: Set High Baud Change serial comm. Baud Rate to 9600
-```
-
+(誤)  
+17: Set High Baud Change Baud Rate to 9600 baud  
+18: Set Low Baud Change Baud Rate to 1200 (default)  
+(正)  
+17: Set Low Baud Change serial comm. Baud Rate to 1200 (default)  
+18: Set High Baud Change serial comm. Baud Rate to 9600  
+  
 2. さらに9600bpsの場合、keyer_features_and_options.hのデフォルト設定では#define OPTION_WINKEY_2_HOST_CLOSE_NO_SERIAL_PORT_RESETが有効のため、zLog終了時にK3NG Keyerが1200bpsに戻らず、zLogを終了して再度立ち上げるとK3NG Keyerを制御できなくなる。
 
 3. また、keyer_features_and_options.hの#define OPTION_WINKEY_UCXLOG_9600_BAUDまたは#define FEATURE_SO2R_BASEをコメントアウトしている場合は、最初から9600bps固定となり、zLogからK3NG Keyerを全く制御できない。  
