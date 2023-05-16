@@ -14,7 +14,8 @@ title: ユーザー定義コンテストの仕様（CFGファイル仕様）
 	* [データファイル指定](#データファイル指定)
 	* [その他得点関係](#その他得点関係)
 	* [コンテストナンバー](#コンテストナンバー)
-	* [その他ルール設定](#その他ルール設定)
+	* [その他ルール設定](#その他ルール設定)  
+	* [Windows版で読み込み専用となった物](#Windows版で読み込み専用となった物)
 	* [Windows版で削除された物](#Windows版で削除された物)
 
 ## 記述方法
@@ -160,25 +161,27 @@ sendnr	$VM; (年齢符号)	CONVCG 用
 
 ### その他ルール設定
 
-|番号|コマンド|パラメータ|説明|初期値|
-| --- | --- | --- | --- | --- |
-|1|TIME|UTC/JST|タイムゾーンの指定|JST|
-|2|COUNTMULTIONCE|ON/OFF|count multi once regardless of band|OFF|
-|3|NOCTYMULTI||use citylist for these countries|なし|
-|4|MODE|ON/OFF|同一バンドでモードが違うQSOを受け入れる（ON or OFF)|OFF|
-|5|UNDEFMULTI|ON/OFF|不明マルチを受け入れる（ON or OFF）|OFF|
-|6|POWER|-HHHHHHMM----|1.9 MHz ... 10.1GHz&upの順でパワーコードを指定。現在はHMLPは未使用。-のみ使用||
-|7|UNLISTEDMULTI|ON/OFF|allows unlisted multi to be logged but not counted as a multi|OFF|
-|8|NOMULTI|ON/OFF|ONでマルチを使わない|OFF|
-|9|PXMULTI|OFF|プリフィックスマルチ|OFF|
-|10||NORMAL|/の前後で４文字以上の方より、数字が出てくるまでをプリフィックスとする||
-|11||WPX|WPX方式||
-|12|SERIAL|OFF|OFFでシリアルＮＯ使用しない|OFF|
-|13||ALL|全バンド共通シリアルＮＯ||
-|14||BAND|バンド別シリアルＮＯ||
-|15|SERIALSTART||シリアルＮＯ開始番号||
-|16|WARC|ON/OFF|ONでWARCバンドを使用する|OFF|
-|17|COEFF|ON/OFF|ONで係数欄を使用可能とする|ON|
+|番号|コマンド|パラメータ|説明|初期値|実装Ver.|
+| --- | --- | --- | --- | --- | --- |
+|1|TIME|UTC/JST|タイムゾーンの指定|JST||
+|2|COUNTMULTIONCE|ON/OFF|count multi once regardless of band|OFF||
+|3|NOCTYMULTI||use citylist for these countries|なし||
+|4|MODE|ON/OFF|同一バンドでモードが違うQSOを受け入れる（ON or OFF)|OFF||
+|5|UNDEFMULTI|ON/OFF|不明マルチを受け入れる（ON or OFF）|OFF||
+|6|POWER|-HHHHHHMM----|1.9 MHz ... 10.1GHz&upの順でパワーコードを指定。現在はHMLPは未使用。-のみ使用|||
+|7|UNLISTEDMULTI|ON/OFF|allows unlisted multi to be logged but not counted as a multi|OFF||
+|8|NOMULTI|ON/OFF|ONでマルチを使わない|OFF||
+|9|PXMULTI|OFF|プリフィックスマルチ|OFF||
+|10||NORMAL|/の前後で４文字以上の方より、数字が出てくるまでをプリフィックスとする|||
+|11||WPX|WPX方式|||
+|12|SERIAL|OFF|OFFでシリアルＮＯ使用しない|OFF||
+|13||ALL|全バンド共通シリアルＮＯ|||
+|14||BAND|バンド別シリアルＮＯ|||
+|15|SERIALSTART||シリアルＮＯ開始番号|||
+|16|WARC|ON/OFF|ONでWARCバンドを使用する|OFF||
+|17|COEFF|ON/OFF|ONで係数欄を使用可能とする|ON||
+|18|STARTTIME|0-23,-1|コンテスト開始時,-1で設定無し|21|2.8.5.0|
+|19|PERIOD|24,48|開催時間(H)|24|2.8.5.0|
 
 ## Windows版で読み込み専用となった物
 
