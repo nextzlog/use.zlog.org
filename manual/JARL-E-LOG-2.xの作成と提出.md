@@ -1,4 +1,18 @@
-## JARL E-LOG 2.xの作成
+---
+title: JARL E-LOG 2.1の作成
+---
+## 概要
+
+JARL E-LOG 2.1を作成します。  
+
+ログシート部分は<strong>タブ区切り</strong>です。  
+タブで区切るのでメモ帳などのテキストエディタで見た場合、カラムが揃っていないように見えることがありますが問題ありません。  
+（タブ区切りにしているのは、人が見ることを前提としていないこととExcelへの貼り付け親和性が良いためです。）
+
+※バージョン2.8.0.6よりE-LOG 2.1に対応します。  
+※バージョン2.8.5.3よりTOTALSCOREタグに正しく対応しました。  
+
+## 作成方法
 ①コンテスト後はFileメニューより、Create E-Log (JARL 2.x)メニューをクリックします。  
 ![E-LOG 2.0の作成](https://raw.githubusercontent.com/jr8ppg/zLog/images/after01.png)
 
@@ -9,7 +23,6 @@
 
 ④作成されたログは下記の様になります。ログ部分はタブ区切り形式です。
 
-※バージョン2.8.0.6よりE-LOG 2.1に対応します。
 ~~~
 <SUMMARYSHEET VERSION=R2.0>
 <CONTESTNAME>ALL JA コンテスト</CONTESTNAME>
