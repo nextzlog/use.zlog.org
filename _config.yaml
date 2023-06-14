@@ -10,10 +10,10 @@ items:
   href: /manual
   icon: fas fa-book
 - name: プラグイン
-  href: /plugins
+  href: /plugins.html
   icon: fas fa-shopping-cart
 - name: ダウンロード
-  href: /downloads
+  href: /downloads.html
   icon: fas fa-download
 links:
 - name:
