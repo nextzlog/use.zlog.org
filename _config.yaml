@@ -2,6 +2,7 @@ remote_theme: nextzlog/pafe
 url: https://use.zlog.org
 name: zLog令和版
 icon: /images/zlog.png
+head: /images/zlog.png
 lead: &desc Windowsで動作するコンテスト用ロギングソフトzLog令和版の機能を紹介しています。
 desc: *desc
 items:
@@ -15,7 +16,7 @@ items:
   href: /downloads
   icon: fas fa-download
 links:
-- name: Edit
+- name:
   href: https://github.com/nextzlog/use.zlog.org
   icon: fas fa-edit
 - name: CFG/DAT
