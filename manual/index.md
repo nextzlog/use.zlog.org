@@ -42,7 +42,7 @@ zlistwでZLOファイルの編集・更新を行うと日時がUTCになって�
 4. ロギング
     1. 交信方法（SSB)
         1. [CQマシーンの利用](CQ%E3%83%9E%E3%82%B7%E3%83%BC%E3%83%B3%E3%81%AE%E5%88%A9%E7%94%A8)
-    1. [交信方法（CW）](%E4%BA%A4%E4%BF%A1%E6%96%B9%E6%B3%95%EF%BC%88%EF%BC%A3%EF%BC%B7%EF%BC%89)
+    1. [交信方法（CW）](%E4%BA%A4%E4%BF%A1%E6%96%B9%E6%B3%95%EF%BC%88%EF%BC%A3%EF%BC%B7%EF%BC%89) (2023/6/28)
     1. [Quick Memo](Quick-Memo)
 5. コンテスト後
     1. [送信NRの訂正](%E9%80%81%E4%BF%A1%EF%BC%AE%EF%BC%B2%E3%81%AE%E8%A8%82%E6%AD%A3)
