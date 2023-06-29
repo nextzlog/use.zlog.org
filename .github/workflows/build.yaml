@@ -3,7 +3,7 @@ on:
     branches:
     - 'master'
   schedule:
-  - cron: '0 0 * * *'
+  - cron: '5 0 * * *'
 permissions:
   contents: read
   id-token: write
@@ -16,14 +16,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - uses: nextzlog/zylo@master
-      with:
-        nobuild: true
-        token: ${{secrets.GITHUB_TOKEN}}
     - run: |
         mkdir -p _data
         gh api $RELEASES --paginate > _data/releases.json
-        zbuild market > _data/market.json
+        curl -o _data/market.json https://pkg.zlog.org/market.json
     - uses: actions/configure-pages@v2
     - uses: actions/jekyll-build-pages@v1
     - uses: actions/upload-pages-artifact@v1
