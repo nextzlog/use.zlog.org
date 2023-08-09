@@ -6,7 +6,7 @@ zLog では、自局が送出するコンテストナンバーを「Options」�
 
 ## Sentについて仕様変更（V2.5～）
 
-過去の zLog のバージョンでは、「Options」－「Categories」タブの「Sent」は変更しても保存されない仕様でした。Ver.2.5より仕様を変更して同項目はグレー表示とし、入力変更はできなくなりました。入力できませんから保存も行われません。Sent NR はビルトインコンテストの場合は上記で入力したデータを使うようになっています。CWキーイングでは、 $\text{\textdollar}$V / $\text{\textdollar}$Q / $\text{\textdollar}$P (電力記号) 等を反映した適切なナンバーとして \$X を使うことができますが、ログデータには、CWキーイングの設定とは関係無くこの $\text{\textdollar}$X の内容が Sent NR (送出したナンバー) として保存されます。
+過去の zLog のバージョンでは、「Options」－「Categories」タブの「Sent」は変更しても保存されない仕様でした。Ver.2.5より仕様を変更して同項目はグレー表示とし、入力変更はできなくなりました。入力できませんから保存も行われません。Sent NR はビルトインコンテストの場合は上記で入力したデータを使うようになっています。CWキーイングでは、 $\text{\textdollar}$V / $\text{\textdollar}$Q / $\text{\textdollar}$P (電力記号) 等を反映した適切なナンバーとして $\text{\textdollar}$X を使うことができますが、ログデータには、CWキーイングの設定とは関係無くこの $\text{\textdollar}$X の内容が Sent NR (送出したナンバー) として保存されます。
 
 User Defined Contest時は常に.CFGファイル内のSENDNRを使用します。変更の必要がある場合はCFG編集を行います。 
 
