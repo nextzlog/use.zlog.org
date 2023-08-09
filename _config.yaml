@@ -38,3 +38,5 @@ jumps:
   icon: fas fa-download
 plugins:
 - jekyll-sitemap
+kramdown:
+  math_engine: null
