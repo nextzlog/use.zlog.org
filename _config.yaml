@@ -36,7 +36,6 @@ jumps:
 - name: ダウンロード
   href: /downloads
   icon: fas fa-download
+nomath: true
 plugins:
 - jekyll-sitemap
-kramdown:
-  math_engine: null
