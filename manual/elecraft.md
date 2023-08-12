@@ -10,6 +10,8 @@ title: Elecraft K3の設定
 
 ## K3の設定
 
+K3はCOMポートのRTS/DTR端子でPTT制御並びにCWキーイングが行えますので、特別なI/Fは必要ありません。PCとRS232Cで接続するだけです。  
+
 ### PCとの接続
 
 PCとの接続はRS232Cケーブルで接続します。何故かK3側はメスの９ピンコネクターなので、オスのケーブルが必要です。市販されているケーブルはメス－メスがほとんどなのでその場合はジェンダーチェンジャーが必要です。  
@@ -30,5 +32,9 @@ PCとの接続はRS232Cケーブルで接続します。何故かK3側はメス�
 ![設定例](https://github.com/nextzlog/use.zlog.org/blob/master/images/k3_config_ptt-key_rts-dtr.png?raw=true)
 
 ## zLogの設定
+
+Optionsウインドウの「ハードウェア」タブで下図のように設定します。  
+![設定例](https://github.com/nextzlog/use.zlog.org/blob/master/images/k3_zlog.png?raw=true)
+
 
 
