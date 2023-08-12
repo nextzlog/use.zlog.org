@@ -2,8 +2,6 @@
 title: Elecraft K3の設定
 ---
 
-# Elecraft K3の設定
-
 ## 概要
 
 ここではElecraft社のK3での接続について説明します。zLogのバージョンは2.8.6.0以降で対応します。  
