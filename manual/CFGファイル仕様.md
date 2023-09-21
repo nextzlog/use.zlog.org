@@ -133,7 +133,7 @@ sendnr	$VM; (年齢符号)	CONVCG 用
 
 |番号|コマンド|パラメータ|説明|初期値|
 | --- | --- | --- | --- | --- |
-|1|DAT|ファイル名|.DATファイルのファイル名。CFGと同じフォルダより読み込む。||
+|1|DAT|ファイル名|.DATファイルのファイル名。CFGと同じフォルダより読み込む。<br>下記の5ファイルはzLogに内蔵されていますので、実際のファイルが無くても指定可能です。<br>[ACAG.DAT](https://github.com/jr8ppg/zLog/blob/master/zlog/resource/ACAG.DAT), [XPO.DAT](https://github.com/jr8ppg/zLog/blob/master/zlog/resource/XPO.DAT), [IOTA.DAT](https://github.com/jr8ppg/zLog/blob/master/zlog/resource/IOTA.DAT), [ARDX.DAT](https://github.com/jr8ppg/zLog/blob/master/zlog/resource/ARDX.DAT), [ARRL10.DAT](https://github.com/jr8ppg/zLog/blob/master/zlog/resource/ARRL10.DAT)||
 |2|CTY|なし|zLog.exeと同じフォルダより、CTY.DATを読み込む。||
 
 ### その他得点関係
