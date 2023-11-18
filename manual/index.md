@@ -51,7 +51,7 @@ zlistwでZLOファイルの編集・更新を行うと日時がUTCになって�
     1. [JARL E-LOG 2.xの作成と提出](JARL-E-LOG-2.x%E3%81%AE%E4%BD%9C%E6%88%90%E3%81%A8%E6%8F%90%E5%87%BA)
     2. [Cabrilloの作成と提出](Cabrillo)
     1. [分析](%E5%88%86%E6%9E%90)
-    1. [エクスポート](%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%88)（ADIF,Cabrillo,TurboHAMLOGはこちら）
+    1. [エクスポート](%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%88)（ADIF,TurboHAMLOGなどはこちら）
         1. [HAMLOG用CSV出力](HAMLOG%E7%94%A8CSV%E5%87%BA%E5%8A%9B)
 1. 様々な運用形態
     1. [マルチオペ(M/S)での利用](%E3%83%9E%E3%83%AB%E3%83%81%E3%82%AA%E3%83%9A%EF%BC%88%EF%BC%AD%EF%BC%8F%EF%BC%B3%EF%BC%89%E3%81%A7%E3%81%AE%E5%88%A9%E7%94%A8)
