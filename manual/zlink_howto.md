@@ -1,12 +1,13 @@
 ---
-title: Zlink(Z-Serverに接続したzLog)の機能
+title: Z-Link(Z-Serverに接続したzLog)の機能
 ---
 
-# Zlink(Z-Serverに接続したzLog)の機能
+# Z-Link(Z-Serverに接続したzLog)の機能
 
-Zlink(Z-Serverに接続したzLog)はマルチオペ・マルチTXのコンテストの際に、ログの共有・コンテストナンバーの共有・チャット・PacketClusterの情報共有などができ、社団局の大きな支えとなります
+Z-Link(Z-Serverに接続したzLog)はマルチオペ・マルチTXのコンテストの際に、ログの共有・コンテストナンバーの共有・チャット・PacketClusterの情報共有などができ、社団局等における運用の大きな支えとなります。
+
 ## Z-Serverなどの設定
-別のページにて紹介しております。そちらをご確認ください
+別のページにて紹介しております。そちらをご確認ください。
 - [Z-Serverの設定方法, Z-Server使用時のzLogの設定方法](server_setup.md)
 
 ## ログの共有
