@@ -17,6 +17,8 @@ JARL E-LOG 2.1を作成します。
 ![E-LOG 2.1の作成](https://raw.githubusercontent.com/nextzlog/use.zlog.org/master/images/jarl-elog-2.1-menu.png?raw=true)
 
 ②入力ダイアログに必要事項を入力します。  
+　参加部門以外のバンドでのQSOがある場合は、右側の「スコア調整」欄で参加部門以外のバンドをチェックOFFとして下さい。  
+　参加部門以外のバンドのQSOのログはログチェックに使用すると思われますので削除する必要はありません。  
 ![必要事項の入力](https://raw.githubusercontent.com/nextzlog/use.zlog.org/master/images/jarl-elog-2.1.png?raw=true)
 
 ③E-log作成ボタンをクリックしてファイルに出力します。  
