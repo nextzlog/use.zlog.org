@@ -13,8 +13,8 @@ JARL E-LOG 2.1を作成します。
 ※バージョン2.8.5.3よりTOTALSCOREタグに正しく対応しました。  
 
 ## 作成方法
-①コンテスト後はFileメニューより、Create E-Log (JARL 2.x)メニューをクリックします。  
-![E-LOG 2.0の作成](https://raw.githubusercontent.com/jr8ppg/zLog/images/after01.png)
+①コンテスト後は「ファイル」－「JARL E-LOG 2.1の作成]メニューをクリックします。  
+![E-LOG 2.1の作成](https://raw.githubusercontent.com/nextzlog/use.zlog.org/master/images/jarl-elog-2.1-menu.png?raw=true)
 
 ②入力ダイアログに必要事項を入力します。  
 ![必要事項の入力](https://raw.githubusercontent.com/nextzlog/use.zlog.org/master/images/jarl-elog-2.1.png?raw=true)
