@@ -17,7 +17,7 @@ JARL E-LOG 2.1を作成します。
 ![E-LOG 2.0の作成](https://raw.githubusercontent.com/jr8ppg/zLog/images/after01.png)
 
 ②入力ダイアログに必要事項を入力します。  
-![必要事項の入力](https://raw.githubusercontent.com/jr8ppg/zLog/images/after02.png)
+![必要事項の入力](https://raw.githubusercontent.com/nextzlog/use.zlog.org/master/images/jarl-elog-2.1.png?raw=true)
 
 ③E-log作成ボタンをクリックしてファイルに出力します。  
 
