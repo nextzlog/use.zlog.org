@@ -102,6 +102,7 @@ CWのみの場合は、WinKeyerでも可能ですが、Phoneも含めたSO2Rの�
 現在選択中の送信RIG／受信RIGを表す信号をCOMポートに出力できます。  
 
 #### TX
+
 |選択RIG|DTR|RTS|
 | --- | --- | --- |
 |RIG-A|OFF|OFF|
@@ -109,6 +110,7 @@ CWのみの場合は、WinKeyerでも可能ですが、Phoneも含めたSO2Rの�
 |RIG-C|OFF|ON|
 
 #### RX
+
 |選択RIG|RIG番号|DTR|RTS|
 | --- | --- | --- | --- |
 |RIG-A|1,3|OFF|-|
