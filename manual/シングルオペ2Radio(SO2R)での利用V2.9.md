@@ -2,7 +2,9 @@
 title: SO2Rでの運用(V2.9)
 ---
 
-## SO2Rについて
+※このページはzLogバージョン2.9の説明です。  
+
+## SO2Rとは何か？
 
 SO2R(Single Op 2 Radio)とは、1人で2台のRIGを同時に使い、効率よくQSOを行う運用スタイルです。  
 シングルオペですので、送信はいずれかの無線機だけの1波という制限を守りながら、2つの周波数を聞いたり、交互に送信したりします。  
@@ -14,7 +16,7 @@ SO2R(Single Op 2 Radio)とは、1人で2台のRIGを同時に使い、効率よ�
 SO2Rにはいくつかの運用パターンがあります。  
 
 1. CQ+S&P
-1台のRIGでCQを出しながら、もう1台のRIGで未交信の局を探してQSOします(S&P=Serch&Pounce)。これがSO2Rの基本になります。  
+1台のRIGでCQを出しながら、もう1台のRIGで未交信の局を探してQSOします(S&P=Search&Pounce)。これがSO2Rの基本になります。  
 
 1. CQ+CQ(交互CQ)
 2台のRIGで交互にCQを出し、呼ばれた方でQSOします。
@@ -41,7 +43,7 @@ zLogの設定で切替用の信号が出せますので、その信号でリレ�
 
 ### CQ+S&P（RIG-AでCQを出して、RIG-BでS&Pをする場合）
 
-1. Informationウィンドウの2BSIQをOFFにします。
+1. Informationウィンドウの2BSIQをOFFにします。  
    ![CQ+S&P](../images/so2r_cq+sp.png)  
 1. RIG-AでShift+ZでCQを出して、Shift+Cで受信RIGをRIG-Bに移します。
 1. 未交信局を見つけたら、RIG-AがCQを送信していても、Fキー(自分のコール)を押すとRIG-Aの送信が止まり、RIG-BでFキー内容が送信されます。
@@ -51,7 +53,7 @@ zLogの設定で切替用の信号が出せますので、その信号でリレ�
 ### CQ+CQ（交互CQ）
 
 1. 交互CQ用のメッセージを作成し、ハードウェア設定の自動リグ切替オプションで指定しておきます。
-2. Informationウィンドウの2BSIQをON、WAITはOFFにします。
+2. Informationウィンドウの2BSIQをON、WAITはOFFにします。  
    ![CQ+CQ](../images/so2r_cq+cq.png)  
 3. Shift+ZでRIG-A、RIG-B交互にCQが始まります。
 4. どちらかで呼ばれたら、ESCを押してCQを止めてQSOします。
@@ -60,7 +62,7 @@ zLogの設定で切替用の信号が出せますので、その信号でリレ�
 ### CQ+CQ(2BSIQ)
 
 1. 交互CQ用のメッセージを作成し、ハードウェア設定の自動リグ切替オプションで指定しておきます。
-2. Informationウィンドウの2BSIQをON、WAITはONにします。
+2. Informationウィンドウの2BSIQをON、WAITはONにします。  
    ![CQ+CQ(2BSIQ)](../images/so2r_2bsiq.png)  
 3. Shift+ZでRIG-A、RIG-B交互にCQが始まります。
 4. 呼ばれたら普通にQSOを行います。こちらの送信は、反対側の送信が終わっていないと始まりませんので、タイミングが微妙にワンテンポ遅れる感じになる時がありますが、気にしないことです。hi
@@ -70,12 +72,9 @@ zLogの設定で切替用の信号が出せますので、その信号でリレ�
 
 2BSIQ運用中に、BAND MAPをクリックすると、受信中のRIG側にSPOT情報が取り込まれ、反対側のRIGのみのCQに自動的に切り替わります。  
 S&P QSO後、Shift+JでCQを出していた周波数に戻ると、自動的に2BSIQに切替わり交互CQが再開されます。  
- 
-※このページはzLogバージョン2.9の説明です。  
 
-## zLogでのSO2Rサポート(2.9.0.0～)
-
-この機能はPHONE,CW両方で動作します。  
+---
+## zLogの説明
 
 ### メインウインドウ
 下図のように、コール入力欄を左右に配置したレイアウトです。左はRIG-A、右はRIG-Bです。下段がRIG-Cです。  
@@ -93,7 +92,7 @@ V2.9からの新機能でRIG-A/RIG-Bは仮想のRIGとなり、複数のRIGを�
 
 SO2Rの設定については、配布している「ZLOG 令和EDITION V2.9 リグコントロール設定.pdf」を参照して下さい。  
 
-### RIG3とペアになるRIGの選択
+### RIG-CとペアになるRIGの選択
 
 2BSIQモードでペアとなるRIGを選択できます。  
 
