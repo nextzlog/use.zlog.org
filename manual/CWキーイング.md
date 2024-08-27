@@ -138,6 +138,7 @@ zLog令和版では、どちらも使う事が可能ですが、CW/PTT portで�
 * [AMD-USB-KEY V4](http://jn2amd.html.xdomain.jp/amdusbkey4_manual.pdf)
 4. JH4VAJ OMのインターフェース[DCPA03](https://www.jh4vaj.com/dcpa03-01)でもキーイング出来ます。（現在頒布中）
 5. 中国製のU5 LINKでもキーイング可能です。AmazonやAliExpressで入手可能な様です。
+6. [USB2CW By AkihabaraGiken](https://2jp.org/radio7/doku.php?id=usb2cw)も使用できます。（現在頒布中）
 
 ## パドル接続について
 
