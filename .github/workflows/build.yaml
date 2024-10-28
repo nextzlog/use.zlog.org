@@ -8,6 +8,7 @@ on:
 permissions:
   contents: read
   id-token: write
+  actions: write
   pages: write
 env:
   RELEASES: repos/jr8ppg/zlog/releases
@@ -32,3 +33,9 @@ jobs:
       url: ${{steps.deployment.outputs.page_url}}
     steps:
     - uses: actions/deploy-pages@v1
+  Sustain:
+    runs-on: ubuntu-latest
+    steps:
+    - run: gh workflow enable build.yaml
+      env:
+        GH_REPO: ${{github.repository}}
