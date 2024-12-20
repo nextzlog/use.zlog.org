@@ -36,6 +36,9 @@ jumps:
 - name: ダウンロード
   href: /downloads
   icon: fas fa-download
+- name: アンケート
+  href: /survey
+  icon: fas fa-bar-chart
 nomath: true
 plugins:
 - jekyll-sitemap
