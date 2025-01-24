@@ -169,6 +169,16 @@ CWのみの場合は、WinKeyerでも可能ですが、Phoneも含めたSO2Rの�
 ||RIG-Aが2,4|ON|ON|
 
 ### SO2R Neo
+
 JH5GHM OMが頒布するSO2R用インターフェースBOXです。  
 リグ／MIC,Headphone／CWの切り替えの他、送信時にどのRIGの受信音をHeadphoneに流すかなどを制御できます。  
+
+### OTRSP対応機器
+
+OTRSPはOpen Two Radio Switching Protocolの略で、SO2R切替BOXの標準インターフェース仕様です。  
+TX,RX,AUXの３コマンドをサポートします。  
+
+
+
+
 
