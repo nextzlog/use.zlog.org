@@ -5,56 +5,38 @@ title: zLogのインストール（zLogSetup）
 ## 概要
 zLogでは V2.9.2.4 よりインストーラーを用意しました。zLogSetup.exeを起動し、インストール先のフォルダやJCCコードなどを入力することで直ぐにzLogを利用可能な状態でインストールすることができます。  
 上書きインストールにも対応していますので、バージョンアップも容易に行うことができます。  
+32bit/64bitはインストーラーが判別し、Windowsに応じたzLogがインストールされます。但しWindowsXPではzLogSetup.exeが起動しません。  
 
 ## インストール方法
-初めてインストールするときは、下記の手順で行って下さい。
-1. zlog portal サイトの [download](https://zlog.org/download.html) ページより最新の簡易パッケージファイル（zipファイル, 64ビット用/32ビット用いずれか）をダウンロードする。
-1. ダウンロードしたzipファイルをダブルクリックして開く。
-1. zlogwin という名前のフォルダを、任意のフォルダ(たとえば C:\\) にドラッグしてコピーする。
-1. コピーした zlogwin フォルダを開く。
-1. "zlog.exe" にカーソルを持ってきて、右ボタンをクリックし、「ショートカットの作成」をクリックする。
-1. フォルダ内に "zlog.exe - ショートカット" が生成される。ショートカットの名前は好きな名前に変更可能。
-1. 生成されたショートカットをデスクトップにコピーする、もしくは右ボタンをクリックし、「スタートメニューにピン留めする」をクリックして、スタートメニューにショートカットを表示させる。
-1. 生成したショートカットをダブルクリックすると、 zLog が起動する。
 
------------------
-※以下は2022年以前の手順ですが、必要なファイルのリストについては現在も同じです。インストール済みのフォルダに新しいバージョンの zlog.exe 等をコピーする場合は、つぎの2番,3番の手順により行ってください。
-1. 任意のフォルダを作成する（例：d:\zlog）。
-1. [Release](https://github.com/jr8ppg/zLog/releases)ページより最新のファイル（zipファイル）をダウンロードする。
-1. ダウンロードしたzipファイルを展開し、zlog.exeやほかのファイルをすべて、最初に作成したフォルダにコピーする。
-1. その他の必要ファイルが手元に無い場合は、[zLog portal](https://zlog.org/)より、[zlogw_pack.zip](https://zlog.org/zlogw_pack.zip)をダウンロードする。
-1. zlogw_pack.zipファイルを展開し、必要ファイル（後述）を最初に作成したフォルダへコピーする。
-1. ここまでできれば国内コンテストはＯＫです。
-1. DXコンテスト向けにはCTY.DATを入手して、最初に作成したフォルダへコピーする。
+インストールするときは、下記の手順で行って下さい。  
 
-## 必要ファイル(V2.8.6.0～)
+1. zlog portal サイトの [download](https://zlog.org/download.html) ページより最新のインストーラー版(exe)をダウンロードします。
+2. ダウンロードしたzLogSetup.exeファイルをダブルクリックして起動します。
+3. インストーラーが起動します。
+1. 最初にインストール先フォルダを指定します。初期値として"D:\zlogwin"が表示されます。入力後、「次へ」クリックします。  
+![image](https://github.com/user-attachments/assets/834d05fc-90d6-4de7-8204-b8029f2e0411)
+1. 既に指定したフォルダが存在する場合は下図のウインドウが表示されます。[はい]か[いいえ]をクリックします。  
+![image](https://github.com/user-attachments/assets/3b69a032-6307-4800-b597-14bf6ee434e6)
+1. 次に自局のステーション情報を入力して、「次へ」をクリックします。  
+![image](https://github.com/user-attachments/assets/0a8e8b56-c989-495a-93b8-769002a4b59a)
+1. 次にCQゾーン,ITUゾーンを入力します。JA局なので25,45が初期値として表示されます。入力後、「次へ」をクリックします。  
+![image](https://github.com/user-attachments/assets/b98aa0db-4219-4cca-8bec-7b48aa7d82b9)
+1. 次に操作方法を選択して「次へ」をクリックします。(V2.9.3.0以降)  
+![image](https://github.com/user-attachments/assets/ac379297-1c9f-490b-82d6-330450780912)
+1. 次にインストールするコンポーネントを選択します。多くの方は初期値のままで良いでしょう。  
+![image](https://github.com/user-attachments/assets/b613d86a-7030-4431-a8ce-cebfed521743)
+1. 次に追加タスクを選択して「次へ」をクリックします。現在はデスクトップアイコンの作成有無のみです。  
+![image](https://github.com/user-attachments/assets/6a384245-3299-453d-a759-3ed7211ac5de)
+1. インストールの準備ができました。「インストール」をクリックするとインストールを開始します。  
+![image](https://github.com/user-attachments/assets/fe8eb083-8aea-440b-8d8c-21993f46e42f)
+1. インストール中です。  
+![image](https://github.com/user-attachments/assets/d716e123-3a27-4e2d-a31d-465c335389b5)
+1. インストールが完了すると、readme.txtを表示します。  
+![image](https://github.com/user-attachments/assets/ab35b0c5-37c6-407c-9bcf-fdb03d5f4b7e)
+1. インストールが完了しました。  
+![image](https://github.com/user-attachments/assets/924a4814-737a-446e-aa79-39076fa164c9)
 
-|番号|ファイル名|入手先|JA|DX|備考|
-| --- | --- | --- | --- | --- | --- |
-|1|zlog.exe|[Release](https://github.com/jr8ppg/zLog/releases)|○|○||
-|2|zlog_keyedit.exe|[Release](https://github.com/jr8ppg/zLog/releases)|○|○||
-|3|ZLOGHELP.TXT|[zlogw_pack.zip](https://zlog.org/zlogw_pack.zip)|○|○|自分で用意しても良い|
-|4|CTY.DAT|[Amateur Radio Country Files](https://www.country-files.com/contest/ct/)||○|CTWIN用|
-|5|ZLOG.SPC|自分で作成|○|○|無くても良い|
-|6|MASTER.SCP|[Super Check Partial](http://www.supercheckpartial.com/)||○|無くても良い|
-
-※ACAG.DAT,XPO.DAT,IOTA.DAT,ARDX.DAT,ARRL10.DATの5ファイルはzlog.exeにビルトインされました。  
-
-## 必要ファイル(～V2.8.6.0)
-
-|番号|ファイル名|入手先|JA|DX|備考|
-| --- | --- | --- | --- | --- | --- |
-|1|zlog.exe|[Release](https://github.com/jr8ppg/zLog/releases)|○|○||
-|2|zlog_keyedit.exe|[Release](https://github.com/jr8ppg/zLog/releases)|○|○||
-|3|ZLOGHELP.TXT|[zlogw_pack.zip](https://zlog.org/zlogw_pack.zip)|○|○|自分で用意しても良い|
-|4|ACAG.DAT|[zlogw_pack.zip](https://zlog.org/zlogw_pack.zip)|○||2021/4/15現在で最新|
-|5|XPO.DAT|[zlogw_pack.zip](https://zlog.org/zlogw_pack.zip)|○|||
-|6|IOTA.DAT|[zlogw_pack.zip](https://zlog.org/zlogw_pack.zip)||○||
-|7|ARDX.DAT|[zlogw_pack.zip](https://zlog.org/zlogw_pack.zip)||○||
-|8|ARRL10.DAT|[zlogw_pack.zip](https://zlog.org/zlogw_pack.zip)||○||
-|9|CTY.DAT|[Amateur Radio Country Files](https://www.country-files.com/contest/ct/)||○|CTWIN用|
-|10|ZLOG.SPC|自分で作成|○|○|無くても良い|
-|11|MASTER.SCP|[Super Check Partial](http://www.supercheckpartial.com/)||○|無くても良い|
 
 ## 推奨動作環境
 * OS:Windows10, CPU:Core i3以上程度, Memory:8G以上（4Gでも良いけど他のことができなくなる）, モニター:FHD(1920×1080）以上推奨
