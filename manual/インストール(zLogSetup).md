@@ -1,0 +1,58 @@
+## インストール方法
+初めてインストールするときは、下記の手順で行って下さい。
+1. zlog portal サイトの [download](https://zlog.org/download.html) ページより最新の簡易パッケージファイル（zipファイル, 64ビット用/32ビット用いずれか）をダウンロードする。
+1. ダウンロードしたzipファイルをダブルクリックして開く。
+1. zlogwin という名前のフォルダを、任意のフォルダ(たとえば C:\\) にドラッグしてコピーする。
+1. コピーした zlogwin フォルダを開く。
+1. "zlog.exe" にカーソルを持ってきて、右ボタンをクリックし、「ショートカットの作成」をクリックする。
+1. フォルダ内に "zlog.exe - ショートカット" が生成される。ショートカットの名前は好きな名前に変更可能。
+1. 生成されたショートカットをデスクトップにコピーする、もしくは右ボタンをクリックし、「スタートメニューにピン留めする」をクリックして、スタートメニューにショートカットを表示させる。
+1. 生成したショートカットをダブルクリックすると、 zLog が起動する。
+
+-----------------
+※以下は2022年以前の手順ですが、必要なファイルのリストについては現在も同じです。インストール済みのフォルダに新しいバージョンの zlog.exe 等をコピーする場合は、つぎの2番,3番の手順により行ってください。
+1. 任意のフォルダを作成する（例：d:\zlog）。
+1. [Release](https://github.com/jr8ppg/zLog/releases)ページより最新のファイル（zipファイル）をダウンロードする。
+1. ダウンロードしたzipファイルを展開し、zlog.exeやほかのファイルをすべて、最初に作成したフォルダにコピーする。
+1. その他の必要ファイルが手元に無い場合は、[zLog portal](https://zlog.org/)より、[zlogw_pack.zip](https://zlog.org/zlogw_pack.zip)をダウンロードする。
+1. zlogw_pack.zipファイルを展開し、必要ファイル（後述）を最初に作成したフォルダへコピーする。
+1. ここまでできれば国内コンテストはＯＫです。
+1. DXコンテスト向けにはCTY.DATを入手して、最初に作成したフォルダへコピーする。
+
+## 必要ファイル(V2.8.6.0～)
+
+|番号|ファイル名|入手先|JA|DX|備考|
+| --- | --- | --- | --- | --- | --- |
+|1|zlog.exe|[Release](https://github.com/jr8ppg/zLog/releases)|○|○||
+|2|zlog_keyedit.exe|[Release](https://github.com/jr8ppg/zLog/releases)|○|○||
+|3|ZLOGHELP.TXT|[zlogw_pack.zip](https://zlog.org/zlogw_pack.zip)|○|○|自分で用意しても良い|
+|4|CTY.DAT|[Amateur Radio Country Files](https://www.country-files.com/contest/ct/)||○|CTWIN用|
+|5|ZLOG.SPC|自分で作成|○|○|無くても良い|
+|6|MASTER.SCP|[Super Check Partial](http://www.supercheckpartial.com/)||○|無くても良い|
+
+※ACAG.DAT,XPO.DAT,IOTA.DAT,ARDX.DAT,ARRL10.DATの5ファイルはzlog.exeにビルトインされました。  
+
+## 必要ファイル(～V2.8.6.0)
+
+|番号|ファイル名|入手先|JA|DX|備考|
+| --- | --- | --- | --- | --- | --- |
+|1|zlog.exe|[Release](https://github.com/jr8ppg/zLog/releases)|○|○||
+|2|zlog_keyedit.exe|[Release](https://github.com/jr8ppg/zLog/releases)|○|○||
+|3|ZLOGHELP.TXT|[zlogw_pack.zip](https://zlog.org/zlogw_pack.zip)|○|○|自分で用意しても良い|
+|4|ACAG.DAT|[zlogw_pack.zip](https://zlog.org/zlogw_pack.zip)|○||2021/4/15現在で最新|
+|5|XPO.DAT|[zlogw_pack.zip](https://zlog.org/zlogw_pack.zip)|○|||
+|6|IOTA.DAT|[zlogw_pack.zip](https://zlog.org/zlogw_pack.zip)||○||
+|7|ARDX.DAT|[zlogw_pack.zip](https://zlog.org/zlogw_pack.zip)||○||
+|8|ARRL10.DAT|[zlogw_pack.zip](https://zlog.org/zlogw_pack.zip)||○||
+|9|CTY.DAT|[Amateur Radio Country Files](https://www.country-files.com/contest/ct/)||○|CTWIN用|
+|10|ZLOG.SPC|自分で作成|○|○|無くても良い|
+|11|MASTER.SCP|[Super Check Partial](http://www.supercheckpartial.com/)||○|無くても良い|
+
+## 推奨動作環境
+* OS:Windows10, CPU:Core i3以上程度, Memory:8G以上（4Gでも良いけど他のことができなくなる）, モニター:FHD(1920×1080）以上推奨
+
+### 制作者のテスト環境
+* OS:Windows11(64bit), CPU:Core i5, Memory:16Gのデスクトップ
+* OS:Windows10(64bit), CPU:Core i5, Memory:8GのノートＰＣ
+* <s>OS:Windows7(64bit), CPU:Core2 Duo, Memory:8Gのデスクトップ</s>
+* <s>OS:WindowsXP(32bit), CPU:Pentium4, Memory:1Gのデスクトップ（zLog単独なら支障はありません）</s>
