@@ -17,14 +17,14 @@ jobs:
   Prepare:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - run: |
         mkdir -p _data
         gh api $RELEASES --paginate > _data/releases.json
         curl -o _data/market.json https://pkg.zlog.org/market.json
-    - uses: actions/configure-pages@v2
+    - uses: actions/configure-pages@v5
     - uses: actions/jekyll-build-pages@v1
-    - uses: actions/upload-pages-artifact@v1
+    - uses: actions/upload-pages-artifact@v3
   Publish:
     needs: Prepare
     runs-on: ubuntu-latest
@@ -32,7 +32,7 @@ jobs:
       name: github-pages
       url: ${{steps.deployment.outputs.page_url}}
     steps:
-    - uses: actions/deploy-pages@v1
+    - uses: actions/deploy-pages@v4
   Sustain:
     runs-on: ubuntu-latest
     steps:
