@@ -69,6 +69,7 @@ zlistwでZLOファイルの編集・更新を行うと日時がUTCになって�
     1. [ZyLO拡張機能(Plugin Manager)](ZyLO%E6%8B%A1%E5%BC%B5%E6%A9%9F%E8%83%BD)
     1. [ユーザー補助](%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E8%A3%9C%E5%8A%A9)
     2. [操作モード](%E6%93%8D%E4%BD%9C%E3%83%A2%E3%83%BC%E3%83%89) (V2.9.3.x～)
+    3. エンティティ情報 (V2.9.3.3～)
 1. Z-Server
     1. [Z-Serverの設定方法, Z-Server使用時のzLogの設定方法](server_setup.md)
     1. [Zlink(Z-Serverに接続したzLog)の機能](zlink_howto.md)
@@ -80,3 +81,5 @@ zlistwでZLOファイルの編集・更新を行うと日時がUTCになって�
 1. サポート・相談
     1. [メイリングリスト](%E3%83%A1%E3%82%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%AA%E3%82%B9%E3%83%88)
     1. [Xアカウント](x_account.md)
+1. Contest tips
+    1. 0(ゼロ) の省略形は T ではないですか？
