@@ -168,7 +168,7 @@ sendnr	$VM; (年齢符号)	CONVCG 用
 |3|NOCTYMULTI||use citylist for these countries|なし||
 |4|MODE|ON/OFF|同一バンドでモードが違うQSOを受け入れる（ON or OFF)|OFF||
 |5|UNDEFMULTI|ON/OFF|不明マルチを受け入れる（ON or OFF）|OFF||
-|6|POWER|-HHHHHHMM----|1.9 MHz ... 10.1GHz&upの順でパワーコードを指定。現在はHMLPは未使用。-のみ使用|||
+|6|POWER|-HHHHHHMM----|1.9 MHz ... 10.1GHz&upの順でパワーコードを指定。現在はHMLPは未使用。-のみ使用、WARC除く|||
 |7|UNLISTEDMULTI|ON/OFF|allows unlisted multi to be logged but not counted as a multi|OFF||
 |8|NOMULTI|ON/OFF|ONでマルチを使わない|OFF||
 |9|PXMULTI|OFF|プリフィックスマルチ|OFF||
@@ -183,6 +183,7 @@ sendnr	$VM; (年齢符号)	CONVCG 用
 |18|USEPERIOD|ON/OFF|ONでコンテスト期間を使用する|OFF|2.8.6.0|
 |19|STARTTIME|0-23,-1|コンテスト開始時,-1で設定無し|-1|2.8.5.0|
 |20|PERIOD|24,48|開催時間(H)|24|2.8.5.0|
+|21|ALLPHONE|ON/OFF|ON:SSB,FM,AMを同一視する<BR>OFF:SSB,FM,AMを同一視しない|ON|2.9.3.6|
 
 ## Windows版で読み込み専用となった物
 
