@@ -145,6 +145,8 @@ CWのみの場合は、WinKeyerでも可能ですが、Phoneも含めたSO2Rの�
 
 ## SO2R運用をサポートする機器
 
+---
+
 ### リグ切り替え信号
 
 現在選択中の送信RIG／受信RIGを表す信号をCOMポートに出力できます。  
@@ -168,15 +170,23 @@ CWのみの場合は、WinKeyerでも可能ですが、Phoneも含めたSO2Rの�
 |RIG-C|RIG-Aが1,3|OFF|ON|
 ||RIG-Aが2,4|ON|ON|
 
+---
+
 ### SO2R Neo
 
 JH5GHM OMが頒布するSO2R用インターフェースBOXです。  
 リグ／MIC,Headphone／CWの切り替えの他、送信時にどのRIGの受信音をHeadphoneに流すかなどを制御できます。  
 
+---
+
 ### OTRSP対応機器(V2.9.3.0～)
 
 OTRSPは[Open Two Radio Switching Protocol](https://www.k1xm.org/OTRSP/)の略で、SO2R切替BOXの標準インターフェース仕様です。  
 PCとはCOMポートで接続します。zLogではTX,RX,AUXの３コマンドをサポートします。  
+
+#### OTRSP動作確認機器
+
+* JI1FLB OMが制作されている[JI1FLB-SO2R-Controller](https://github.com/JI1FLB/JI1FLB-SO2R-Controller)で動作したとのレポートがありました。(2025/05/04)
 
 
 
