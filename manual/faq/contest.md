@@ -15,7 +15,7 @@ title: コンテスト毎のFAQ
 ### 答え
 
 はい、京都府内の町村マルチの計算ができませんが、対応しています。  
-
-京都府内局：kyotoi.cfg
-京都府外局：kyotoo.cfg
+  
+京都府内局：kyotoi.cfg  
+京都府外局：kyotoo.cfg  
 
