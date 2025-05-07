@@ -88,4 +88,4 @@ zlistwでZLOファイルの編集・更新を行うと日時がUTCになって�
     1. [zLogの使い方に関するFAQ](faq/zlog)
     2. [リグコントロールに関するFAQ](faq/rigcontrol)
     3. [CWキーイングに関するFAQ](faq/cwkeying)
-    4. [コンテストに関するFAQ](faq/contest)
+    4. [各コンテストに関するFAQ](faq/contest)
