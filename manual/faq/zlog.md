@@ -1,5 +1,5 @@
 ---
-title: zLog本体に関するFAQ
+title: zLogの使い方に関するFAQ
 ---
 
 # 目次
