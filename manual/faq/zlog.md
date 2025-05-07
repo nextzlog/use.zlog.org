@@ -121,8 +121,6 @@ JARL型式やCabrillo型式、あるいは他の型式で出力(エクスポー�
   
 [https://www.jarl.org/Japanese/1_Tanoshimo/1-1_Contest/checklog.html](https://www.jarl.org/Japanese/1_Tanoshimo/1-1_Contest/checklog.html)
 
-注）2025/05現在で行頭に"X"を記載してチェックログとする方法はEメール提出，Webアップロード共に未対応と思われます。(JARLに確認中)  
-
 ## FAQ-8 CWで送信するナンバーの省略形の変更
 
 ### 質問
