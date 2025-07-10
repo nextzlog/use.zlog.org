@@ -184,6 +184,7 @@ sendnr	$VM; (年齢符号)	CONVCG 用
 |19|STARTTIME|0-23,-1|コンテスト開始時,-1で設定無し|-1|2.8.5.0|
 |20|PERIOD|24,48|開催時間(H)|24|2.8.5.0|
 |21|ALLPHONE|ON/OFF|ON:SSB,FM,AMを同一視する<BR>OFF:SSB,FM,AMを同一視しない|ON|2.9.3.6|
+|22|ALLOWDXNONR|ON/OFF|ON:DX局はNR無し(XPO55th用)|OFF|2.9.5.0|
 
 ## Windows版で読み込み専用となった物
 
