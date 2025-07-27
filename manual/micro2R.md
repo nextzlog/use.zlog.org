@@ -20,19 +20,19 @@ V2.9.5.0で確認しました。
 6. 「Virtual Port」－「Create Port」メニューをクリックします。
 7. お好きな番号のPortを選択（チェックON）し、「OK」ボタンをクリックします。
 8. 次に「Ports」タブを開きます。
-9. タブ下段にある「WinKeyer2」のコンボボックスより6.で作成したPortを選択します。
+9. タブ下段にある「WinKeyer2」のコンボボックスより6.で作成したPortを選択します。  
   <img width="489" height="39" alt="image" src="https://github.com/user-attachments/assets/94832978-19b6-439f-9330-777950ca7ab1" />
   
 10. zLogを起動します。
 11. 「各種設定」－「ハードウェア設定」メニューをクリックします。
 12. 「ハードウェア1」タブを開きます。
-13. RIG-1のキーイングコンボボックスで6.で作成したPortを選択します。
+13. RIG-1のキーイングコンボボックスで6.で作成したPortを選択します。  
 <img width="437" height="82" alt="image" src="https://github.com/user-attachments/assets/88d79532-1e72-4485-b17b-5cf8be5ef460" />
 
 14. その下にある「設定」ボタンをクリックします。
 15. RTS「常時ON」，DTR「常時ON」に変更し、「OK」ボタンをクリックします。
 16. 次に「ハードウェア3」タブを開きます。
-17. WinKeyerオプションの「WinKeyer使う」チェックボックスをONにします。
+17. WinKeyerオプションの「WinKeyer使う」チェックボックスをONにします。  
 <img width="428" height="71" alt="image" src="https://github.com/user-attachments/assets/ea8c9182-6f24-40bc-a28d-79aaee843668" />
 
 18. 「OK」ボタンをクリックします。
@@ -60,7 +60,7 @@ V2.9.5.0で確認しました。
 
 うまく動かない（キーイングしない）時はmicroHAM USB Device Router 9.3.5のモニター機能で状況を把握できます。  
 
-1. Portsタブの下段WinKeyer2欄にある「MON」ボタンをクリックします。
+1. Portsタブの下段WinKeyer2欄にある「MON」ボタンをクリックします。  
 <img width="501" height="44" alt="image" src="https://github.com/user-attachments/assets/73c1b342-fc71-468b-b2a2-8ceb0052b236" />
 
 2. モニターウインドウが表示されます。
