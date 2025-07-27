@@ -32,7 +32,7 @@ title: マニュアル
         1. [Elecraft K3のリグコントロール/CWキーイング設定](elecraft)
     1. [CWキーイングの設定](CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0) (2025/1/24)
         1. [K3NG Arduino CW Keyerを利用する場合のHow to](K3NG_keyer)
-        2. [microHAM micro2R(u2R)を利用する場合のHow to](micro2r)
+        2. [microHAM micro2R(u2R)を利用する場合のHow to](micro2R) (2025/7/27)
 1. ロギング
     1. [ロギングを始める前に(Sentについて)](Sent%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
     1. [ログの入力・修正・削除](%E3%83%AD%E3%82%B0%E3%81%AE%E5%85%A5%E5%8A%9B)
