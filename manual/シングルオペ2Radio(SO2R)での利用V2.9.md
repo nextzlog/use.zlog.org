@@ -188,6 +188,13 @@ PCとはCOMポートで接続します。zLogではTX,RX,AUXの３コマンド�
 
 * JI1FLB OMが制作されている[JI1FLB-SO2R-Controller](https://github.com/JI1FLB/JI1FLB-SO2R-Controller)で動作したとのレポートがありました。(2025/05/04)
 
+---
+
+#### microHAM micro2R(u2R)(V2.9.5.1～)
+
+バージョン2.9.5.1で、microHAM社のMK2Rプロトコルに対応しました。  
+MK2Rおよびmicro2R(u2R)で利用できます。  
+
 
 
 
