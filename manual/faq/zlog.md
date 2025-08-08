@@ -2,6 +2,17 @@
 title: zLogの使い方に関するFAQ
 ---
 
+<table border>
+<tr>
+<td>
+このFAQは、開発に合わせて随時更新されます。また、<BR>
+・<a href="https://use.zlog.org/manual/faq/rigconnection">リグとの接続に関するFAQ</a> : PCからのCATコントロールやCWキーイングに関すること<BR> 
+・<a href="https://use.zlog.org/manual/faq/contest">各コンテストに関するFAQ</a> : 個別のコンテストの対応や問題に関すること<BR>
+もご覧下さい。
+</td>
+</tr>
+</table>
+
 # 目次
 
 * [FAQ-1 いつのまにか「DUPEを許可」のチェックボックスが無くなったのですがどうしてですか？](#faq-1-いつのまにかdupeを許可のチェックボックスが無くなったのですがどうしてですか)
