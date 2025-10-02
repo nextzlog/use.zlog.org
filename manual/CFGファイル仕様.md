@@ -148,6 +148,7 @@ sendnr	$VM; (年齢符号)	CONVCG 用
 |6|ALPHAPT||アルファベット別得点 A1B2C3の様に|||
 |7|ALPHAPT2||アルファベット別得点 A10B02C03の様に||2.8.4.5|
 |8|COUNTHIGH|ON/OFF|同一バンドで違うモードの場合高い得点を採用する|OFF||
+|9|SPCALLMATCH|FULL/PARTIAL|スペシャルコールの比較方法 FULL:一致 PARTIAL:部分一致|FULL|2.9.6.0|
 
 ## コンテストナンバー
 
