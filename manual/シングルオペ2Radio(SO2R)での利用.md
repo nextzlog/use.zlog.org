@@ -80,6 +80,7 @@ CWのみの場合は、WinKeyerでも可能ですが、Phoneも含めたSO2Rの�
 バージョン2.8より現在選択中のRIGを表す信号をCOMポートに出力できます。  
 
 TX/RX共通  
+
 |選択RIG|DTR|RTS|
 | --- | --- | --- |
 |なし|OFF|OFF|
