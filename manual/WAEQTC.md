@@ -58,12 +58,6 @@ QTC: 21350 CW 2025-12-05 1401 F1GG          2/2        JR8PPG        1203 DL1CCC
 END-OF-LOG:  
 ```
 
-<pre>
-QSO: 21350 CW 2025-12-05 1202 JR8PPG        599 001    F2AAA         599 11     0  
-QSO: 21350 CW 2025-12-05 1202 JR8PPG        599 002    G1BBB         599 22     0  
-QSO: 21350 CW 2025-12-05 1203 JR8PPG        599 003    DL1CCC        599 3      0     
-</pre>
-
 
 
 
