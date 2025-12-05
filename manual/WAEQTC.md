@@ -45,16 +45,16 @@ zLogはQTCを受信して記録する機能はありません。
 
 zLogはV3.0.0.0より、CabrilloにQTCを出力できるようになりました。  
 出力例  
-```QSO: 21350 CW 2025-12-05 1202 JR8PPG        599 001    F2AAA         599 11     0<br>
-QSO: 21350 CW 2025-12-05 1202 JR8PPG        599 002    G1BBB         599 22     0<br>
-QSO: 21350 CW 2025-12-05 1203 JR8PPG        599 003    DL1CCC        599 3      0<br>
-QSO: 21350 CW 2025-12-05 1203 JR8PPG        599 004    OH1DDD        599 44     0<br>
-QSO: 21350 CW 2025-12-05 1225 JR8PPG        599 005    G2EEE         599 55     0<br>
-QSO: 21350 CW 2025-12-05 1229 JR8PPG        599 006    F1GG          599 66     0<br>
-QTC: 21350 CW 2025-12-05 1208 OH1DDD        1/1        JR8PPG        1202 F2AAA         11  <br>
-QTC: 21350 CW 2025-12-05 1400 F1GG          2/2        JR8PPG        1202 G1BBB         22  <br>
-QTC: 21350 CW 2025-12-05 1401 F1GG          2/2        JR8PPG        1203 DL1CCC        3   <br>
-END-OF-LOG:<br>
+```QSO: 21350 CW 2025-12-05 1202 JR8PPG        599 001    F2AAA         599 11     0  
+QSO: 21350 CW 2025-12-05 1202 JR8PPG        599 002    G1BBB         599 22     0  
+QSO: 21350 CW 2025-12-05 1203 JR8PPG        599 003    DL1CCC        599 3      0  
+QSO: 21350 CW 2025-12-05 1203 JR8PPG        599 004    OH1DDD        599 44     0  
+QSO: 21350 CW 2025-12-05 1225 JR8PPG        599 005    G2EEE         599 55     0  
+QSO: 21350 CW 2025-12-05 1229 JR8PPG        599 006    F1GG          599 66     0  
+QTC: 21350 CW 2025-12-05 1208 OH1DDD        1/1        JR8PPG        1202 F2AAA         11  
+QTC: 21350 CW 2025-12-05 1400 F1GG          2/2        JR8PPG        1202 G1BBB         22  
+QTC: 21350 CW 2025-12-05 1401 F1GG          2/2        JR8PPG        1203 DL1CCC        3  
+END-OF-LOG:  
 ```
 
 
