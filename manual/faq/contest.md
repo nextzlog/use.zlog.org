@@ -56,7 +56,7 @@ JARL主催の「QSOパーティ」やJARD主催の「HAMtte交信パーティー
 
 はい、DXpedition mode を使ってログを入力することができます。ただし、受信マルチ欄には半角英数字のみ入力可能ですので、QSOパーティで交換するオペレーターネームはここにローマ字("Suzuki", "Sato" など)で入力するか、ALT+M でMEMO欄にフォーカスし全角文字で入力して対応してください。  
 また、ログの提出は紙ログやJARDが指定する電子ログ型式(xlsx や csv)が求められますので、[zLogの使い方に関するFAQ](https://use.zlog.org/manual/faq/zlog)の [FAQ-4](https://use.zlog.org/manual/faq/zlog#faq-4-%E7%B4%99%E3%83%AD%E3%82%B0%E3%81%A7%E6%8F%90%E5%87%BA%E3%81%97%E3%81%9F%E3%81%84%E3%81%AE%E3%81%A7%E3%81%99%E3%81%8C%E3%81%A9%E3%81%86%E3%81%97%E3%81%9F%E3%82%89%E3%81%84%E3%81%84%E3%81%A7%E3%81%99%E3%81%8B) も参考にしてください。  
-QSOパーティ用に、ご自身で定義(CFG)ファイルを作製することもできます。 [FAQ-11](https://use.zlog.org/manual/faq/zlog#faq-11-zlog%E3%82%92%E7%A7%BB%E5%8B%95%E9%81%8B%E7%94%A8%E6%99%82%E3%82%84%E9%80%9A%E5%B8%B8%E4%BA%A4%E4%BF%A1%E3%81%A7%E3%82%82%E4%BD%BF%E3%81%86%E3%81%AB%E3%81%AF) を参考にしてください。  
+QSOパーティ用に、ご自身で定義(CFG)ファイルを作製することもできます。 [FAQ-11](https://use.zlog.org/manual/faq/zlog#faq-11-zlog%E3%82%92%E7%A7%BB%E5%8B%95%E9%81%8B%E7%94%A8%E6%99%82%E3%82%84%E9%80%9A%E5%B8%B8%E4%BA%A4%E4%BF%A1%E3%81%A7%E3%82%82%E4%BD%BF%E3%81%86%E3%81%AB%E3%81%AF) を参考にしてください。なお、WARCバンドを含む場合は、CFGファイルに "WARC ON;" の記述を追記する必要があります。
 
 ## FAQ-4-4 高校コンテストには対応していますか？
 
