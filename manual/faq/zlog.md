@@ -186,7 +186,7 @@ zLogを移動運用時などコンテスト以外の通常交信のログに使�
 
 はい、使えます。簡単に使うには、コンテスト選択ダイアログで DXpedition モードを選択すれば、他のコンテストと同様の感覚でログができると思います。CWキーイングなど、zLogの便利な機能も基本的にはすべてそのまま使えます。 
 
-少し高度な使い方としては、通常交信用の定義ファイル(CFG)を作ってしまう方法があります。[坂東入香氏の記事](https://docs.google.com/document/d/e/2PACX-1vRTcA7H1bLzlOvHJQ-lY6-U9j25z60gDVoG9uOnM5LEkoxNKfQ5JpADC2B3H-D1pl5ijgpO2s1MNccJ/pub)にその方法が詳しく紹介されています。
+少し高度な使い方としては、通常交信用の定義ファイル(CFG)を作ってしまう方法があります。[坂東入香氏の記事](https://docs.google.com/document/d/e/2PACX-1vRTcA7H1bLzlOvHJQ-lY6-U9j25z60gDVoG9uOnM5LEkoxNKfQ5JpADC2B3H-D1pl5ijgpO2s1MNccJ/pub)にその方法が詳しく紹介されています。注意点として、WARCバンドをロギングしたい場合は、CFGファイルの記述に "WARC ON;" が必要です。
 
 なお [FAQ-2](#faq-2-dxpedition-%E3%83%A2%E3%83%BC%E3%83%89%E3%81%A7%E9%80%81%E4%BF%A1rst%E3%82%92%E5%A4%89%E6%9B%B4%E3%81%97%E3%81%9F%E3%81%84%E3%81%AE%E3%81%A7%E3%81%99%E3%81%8B%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99%E3%81%8B) にあるように、2025年5月までのバージョン(Ver.2.9.4.0 以前)では、送信時のRS(T)レポートを59(9)以外に変更できない、という問題がありました。Ver.2.9.4.1 以後、DX pedition モードでは送信RS(T)のカラムおよび入力枠が自動的に表示されます。また、ユーザー定義コンテストでは、定義(CFG)ファイルに "usesentrst ON;" のキーワードを追記することで DXpedition モードと同様に表示されます。
 
