@@ -264,7 +264,9 @@ sendnr	$VM; (年齢符号)	CONVCG 用
 |20|PERIOD|24,48|開催時間(H)|24|2.8.5.0|
 |21|ALLPHONE|ON/OFF|ON:SSB,FM,AMを同一視する<BR>OFF:SSB,FM,AMを同一視しない|ON|2.9.3.6|
 |22|ALLOWDXNONR|ON/OFF|ON:DX局はNR無し(XPO55th用)|OFF|2.9.5.0|
-|23|SINGLE10G|ON/OFF|ON:10.1Gと10.4Gを１つのバンドとする|ON|3.0.0.0|
+|23|SINGLE10G|ON/OFF|ON:10.1Gと10.4Gを１つのバンドとする（JARL主催コンテスト）|ON|3.0.0.0|
+|24|SAMEEXCHANGE|ON/OFF|ON:他バンドのNRを自動入力する（シリアルNOコンテストではOFFにする）|ON|3.0.0.0|
+|25|NRNUMCOMPARE|ON/OFF|ON:NRを数値として比較する（主にKCJのZONE用）|OFF|3.0.0.0|
 
 ## Windows版で読み込み専用となった物
 
