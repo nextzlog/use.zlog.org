@@ -1,7 +1,12 @@
 ---
 title: マニュアル
 ---
-   
+
+項目検索：<script async src="https://cse.google.com/cse.js?cx=e233209fa1d8c42f5">
+</script>
+<div class="gcse-search"></div>
+<br>
+
 <table border>
 <tr>
 <td>(2025/7/18)<br>
