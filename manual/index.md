@@ -49,7 +49,7 @@ title: マニュアル
     1. 交信方法（SSB編)
         1. [CQマシーンの利用](CQ%E3%83%9E%E3%82%B7%E3%83%BC%E3%83%B3%E3%81%AE%E5%88%A9%E7%94%A8)
     1. [交信方法（CW編）](%E4%BA%A4%E4%BF%A1%E6%96%B9%E6%B3%95%EF%BC%88%EF%BC%A3%EF%BC%B7%EF%BC%89) (2023/6/28)
-    2. 交信方法（RTTY編）
+    2. [交信方法（RTTY編）](%E4%BA%A4%E4%BF%A1%E6%96%B9%E6%B3%95%EF%BC%88%EF%BC%B2%EF%BC%B4%EF%BC%B4%EF%BC%B9%EF%BC%89) (執筆中)
     1. [Quick Memo](Quick-Memo)
     2. [WAEコンテストでのQTCの送り方](WAEQTC) (2025/12/05)
 1. コンテスト後
