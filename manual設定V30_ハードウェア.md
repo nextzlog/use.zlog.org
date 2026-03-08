@@ -1,0 +1,62 @@
+---
+title: ハードウェア設定の説明
+---
+
+「ハードウェア設定」時はリグコントロールおよびCWキーイングは停止します。  
+
+## 目次
+
+V3.0.x.xでの画面例です。(Windows11)  
+括弧内は英語版での表記です。  
+
+[運用スタイル(Operate style)](%E8%A8%AD%E5%AE%9AV30_%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2#%E9%81%8B%E7%94%A8%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB-%E3%82%BF%E3%83%96) |
+[ハードウェア1(Hardware1)](%E8%A8%AD%E5%AE%9AV30_%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2#%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A21-%E3%82%BF%E3%83%96) |
+[ハードウェア2(Hardware2)](%E8%A8%AD%E5%AE%9AV30_%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2#%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A22-%E3%82%BF%E3%83%96) |
+[ハードウェア3(Hardware3)](%E8%A8%AD%E5%AE%9AV30_%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2#%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A23-%E3%82%BF%E3%83%96) |
+[ハードウェア4(Hardware4)](%E8%A8%AD%E5%AE%9AV30_%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2%23%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A24-%E3%82%BF%E3%83%96) |
+[リグ制御(Rig control)](%E8%A8%AD%E5%AE%9AV30_%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2#%E3%83%AA%E3%82%B0%E5%88%B6%E5%BE%A1-%E3%82%BF%E3%83%96) |
+[ネットワーク(Network)](%E8%A8%AD%E5%AE%9AV30_%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2#%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF-%E3%82%BF%E3%83%96) |
+[各種フォルダ(Path)](%E8%A8%AD%E5%AE%9AV30_%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2#%E5%90%84%E7%A8%AE%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80-%E3%82%BF%E3%83%96) |
+[各種フォント(Font)](%E8%A8%AD%E5%AE%9AV30_%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2#%E5%90%84%E7%A8%AE%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88-%E3%82%BF%E3%83%96)
+
+***
+
+## 運用スタイル タブ
+
+![OperateStyle](https://raw.githubusercontent.com/nextzlog/use.zlog.org/master/images/v30_operate_style.png)
+
+## ハードウェア1 タブ
+
+![Hardware1](https://raw.githubusercontent.com/nextzlog/use.zlog.org/master/images/v30_hardware1.png)
+
+## ハードウェア2 タブ
+
+![Hardware2](https://raw.githubusercontent.com/nextzlog/use.zlog.org/master/images/v30_hardware2.png)
+
+## ハードウェア3 タブ
+
+![Hardware3](https://raw.githubusercontent.com/nextzlog/use.zlog.org/master/images/v30_hardware3.png)
+
+## ハードウェア4 タブ
+
+![Hardware4](https://raw.githubusercontent.com/nextzlog/use.zlog.org/master/images/v30_hardware4.png)
+
+## リグ制御 タブ
+
+![Rig control](https://raw.githubusercontent.com/nextzlog/use.zlog.org/master/images/v30_rigcontrol.png)
+
+* Rig Controlの詳細については[こちら](%E3%83%AA%E3%82%B0%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%AB)も参照下さい。
+* Magical Calling機能については[こちら](Magical-Calling%E6%A9%9F%E8%83%BD)も参照下さい。
+
+## ネットワーク タブ
+
+![Network](https://raw.githubusercontent.com/nextzlog/use.zlog.org/master/images/v30_network.png)
+
+## 各種フォルダ タブ
+
+![Path](https://raw.githubusercontent.com/nextzlog/use.zlog.org/master/images/v30_path.png)
+
+## 各種フォント タブ
+「Consolas」が斜線入りのゼロで表示され見やすいようです。Windowsのバージョンによっては無いこともあります。  
+![Font](https://raw.githubusercontent.com/nextzlog/use.zlog.org/master/images/v30_font.png)
+
