@@ -20,9 +20,37 @@ if (body) {
 		div.append(t);
 	});
 
+	body.querySelectorAll('h1, h2, h3').forEach((h) => {
+		if (h.textContent.trim() !== '目次') return;
+		const parts = [];
+		for (let n = h.nextElementSibling; n; n = n.nextElementSibling) {
+			if (n.tagName === 'HR' || /^H[1-6]$/.test(n.tagName)) break;
+			parts.push(n);
+		}
+		const list = parts.find((n) => n.tagName === 'UL' || n.tagName === 'OL');
+		const ul = list ? list.cloneNode(true) : document.createElement('ul');
+		if (!list) parts.forEach((n) => n.querySelectorAll('a[href]').forEach((a) => {
+			const li = document.createElement('li');
+			li.append(a.cloneNode(true));
+			ul.append(li);
+		}));
+		if (!ul.querySelector('a')) return;
+		const card = document.createElement('nav');
+		card.className = ul.querySelector('li ul, li ol') ? 'entry pagetoc' : 'entry pagetoc split';
+		card.setAttribute('aria-label', '目次');
+		const title = document.createElement('h2');
+		title.textContent = '目次';
+		card.append(title, ul);
+		parts.filter((n) => n.querySelector('a[href]') || n === list).forEach((n) => n.remove());
+		h.replaceWith(card);
+		parts.filter((n) => n.isConnected).forEach((n) => card.before(n));
+		const hr = card.nextElementSibling;
+		if (hr && hr.tagName === 'HR') hr.remove();
+	});
+
 	const heads = [...body.querySelectorAll('h2[id]')];
 	const contents = document.querySelector('.contents');
-	if (heads.length >= 3 && contents && here.startsWith('/manual/')) {
+	if (heads.length >= 3 && contents && here.startsWith('/manual/') && !body.querySelector('.pagetoc')) {
 		const list = contents.querySelector('ol');
 		heads.forEach((h) => {
 			const li = document.createElement('li');

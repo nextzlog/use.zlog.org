@@ -476,6 +476,23 @@ dialog.zoom img {
 	margin: 0 0 8px;
 }
 
+.pagetoc {
+	margin: 24px 0 32px;
+}
+
+.pagetoc h2 {
+	margin-bottom: 8px;
+}
+
+.pagetoc.split > ul {
+	columns: 2 16em;
+	column-gap: 32px;
+}
+
+.pagetoc li {
+	break-inside: avoid;
+}
+
 .sections:not(.short) .entry:last-child {
 	grid-column: 1 / -1;
 	border-left-color: var(--line);
