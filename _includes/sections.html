@@ -1,4 +1,5 @@
-{% assign parts = include.html | split: '<h2' %}
+{% assign html = include.html | replace: 'href="', 'href="/manual/' | replace: 'href="/manual/http', 'href="http' | replace: 'href="/manual//', 'href="/' | replace: 'href="/manual/#', 'href="#' %}
+{% assign parts = html | split: '<h2' %}
 <div class='sections{% if include.limit %} short{% endif %}'>
 {% for part in parts offset: 1 %}
 	{% assign head = part | split: '</h2>' %}
