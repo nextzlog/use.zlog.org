@@ -1,23 +1,14 @@
 ---
 title: プラグイン
-layout: default
 ---
-
+<p>zLog は ZyLO 拡張機能でプラグインを追加できます。導入方法は <a href='/manual/ZyLO拡張機能'>ZyLO拡張機能</a> をご覧ください。</p>
 {% for item in site.data.market.pkg %}
-	{% assign pkg = item[1] %}
-	<div class='card my-1 my-md-3'>
-		<div class='card-body'>
-			<span class='badge bg-success'>{{pkg.exp}}</span>
-			<span class='badge bg-primary'>{{item[0]}}</span>
-			<h3 class='card-title'>{{pkg.tag}}</h3>
-			<p class='card-text'>
-				{{pkg.msg}}
-				<details>
-					<summary>Details</summary>
-					{{pkg.doc | markdownify}}
-				</details>
-			</p>
-			<a class='card-link' href='{{pkg.web}}'>{{pkg.web}}</a>
-		</div>
-	</div>
+{% assign pkg = item[1] %}
+<section class='plugin'>
+	<h2>{{pkg.tag}}</h2>
+	<p class='meta'>名前：{{item[0]}}{% if pkg.exp %}　対応：{{pkg.exp}}{% endif %}</p>
+	<p>{{pkg.msg}}</p>
+	{% if pkg.doc %}<details><summary>くわしい説明</summary><div>{{pkg.doc | markdownify}}</div></details>{% endif %}
+	{% if pkg.web %}<p><a href='{{pkg.web}}'>配布ページ（外部サイト）</a></p>{% endif %}
+</section>
 {% endfor %}

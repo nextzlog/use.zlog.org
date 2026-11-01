@@ -1,0 +1,44 @@
+---
+title: サイト内検索
+---
+<div class='search-page'>
+	<form action='/search.html'>
+		<input type='search' name='q' aria-label='探したい言葉' placeholder='例：E-LOG、IC-7300、CW'>
+		<button type='submit'>検索</button>
+	</form>
+	<p class='status'></p>
+	<ol class='hits'></ol>
+</div>
+<script>
+const norm = (s) => s.normalize('NFKC').toLowerCase().replace(/[ァ-ヶ]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x60));
+const q = new URLSearchParams(location.search).get('q') || '';
+const status = document.querySelector('.status');
+document.querySelector('.search-page input').value = q;
+const words = norm(q).split(/\s+/).filter((w) => w);
+if (words.length) {
+	status.textContent = '探しています…';
+	fetch('/search.json').then((r) => r.json()).then((pages) => {
+		const hits = pages.map((p) => {
+			const title = norm(p.title);
+			const text = norm(p.text);
+			if (!words.every((w) => title.includes(w) || text.includes(w))) return null;
+			const score = words.filter((w) => title.includes(w)).length;
+			const at = text.indexOf(words[0]);
+			const snippet = at < 0 ? p.text.slice(0, 80) : p.text.slice(Math.max(0, at - 30), at + 60);
+			return { ...p, score, snippet };
+		}).filter((p) => p).sort((a, b) => b.score - a.score);
+		status.textContent = hits.length ? `「${q}」を含むページが ${hits.length} 件あります。` : `「${q}」を含むページは見つかりませんでした。別の言葉でお試しください。`;
+		const list = document.querySelector('.hits');
+		hits.forEach((p) => {
+			const li = document.createElement('li');
+			const a = document.createElement('a');
+			a.href = p.url;
+			a.textContent = p.title;
+			const s = document.createElement('p');
+			s.textContent = `…${p.snippet}…`;
+			li.append(a, s);
+			list.append(li);
+		});
+	});
+}
+</script>

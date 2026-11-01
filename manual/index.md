@@ -1,11 +1,7 @@
 ---
-title: マニュアル
+title: マニュアル目次
 ---
 
-項目検索：<script async src="https://cse.google.com/cse.js?cx=e233209fa1d8c42f5">
-</script>
-<div class="gcse-search"></div>
-<br>
 
 <table border>
 <tr>
@@ -54,7 +50,7 @@ title: マニュアル
     2. [WAEコンテストでのQTCの送り方](WAEQTC) (2025/12/05)
 1. コンテスト後
     1. [送信NRの訂正](%E9%80%81%E4%BF%A1%EF%BC%AE%EF%BC%B2%E3%81%AE%E8%A8%82%E6%AD%A3)
-    2. [JARL E-LOGの作成を提出](JARL-E-LOG%E3%81%AE%E4%BD%9C%E6%88%90%E3%81%A8%E6%8F%90%E5%87%BA) (2026/3/7)
+    2. [JARL E-LOGの作成と提出](JARL-E-LOG%E3%81%AE%E4%BD%9C%E6%88%90%E3%81%A8%E6%8F%90%E5%87%BA) (2026/3/7)
     2. [Cabrilloの作成と提出](Cabrillo) (2023/11/18)
     1. [分析](%E5%88%86%E6%9E%90)
     1. [エクスポート](%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%88)（ADIF,TurboHAMLOGなどはこちら）(2026/3/7)

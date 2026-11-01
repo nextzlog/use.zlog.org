@@ -1,46 +1,36 @@
-remote_theme: autodyne/pafe
 url: https://use.zlog.org
-name: zLog令和版
-icon: /images/zlog.png
-head: /images/zlog.png
-lead: &desc Windowsで動作するコンテスト用ロギングソフトzLog令和版の機能を紹介しています。
-desc: *desc
-items:
-- name: マニュアル
-  href: /manual
-  icon: fas fa-book
-- name: プラグイン
-  href: /plugins.html
-  icon: fas fa-shopping-cart
+title: zLog令和版
+description: Windowsで動作するコンテスト用ロギングソフトzLog令和版の使い方を説明しています。
+latest: V3.0
+timezone: Asia/Tokyo
+menu:
+- name: マニュアル目次
+  href: /manual/
 - name: ダウンロード
   href: /downloads.html
-  icon: fas fa-download
+- name: プラグイン
+  href: /plugins.html
+- name: よくある質問
+  href: /manual/faq
 links:
-- name:
-  href: https://github.com/nextzlog/use.zlog.org
-  icon: fas fa-edit
-- name: CFG/DAT
-  href: http://ja6ycu.in.coocan.jp/ZLOG
-- name: ZyLO
-  href: https://nextzlog.github.io/zylo
 - name: zLog Max
   href: https://max.zlog.org
+- name: ZyLO
+  href: https://nextzlog.github.io/zylo
 - name: zLog.org
   href: https://zlog.org
-- name: JR8PPG
+- name: JR8PPG ブログ
   href: http://599010103.blog84.fc2.com
+- name: CFG/DAT 配布
+  href: http://ja6ycu.in.coocan.jp/ZLOG
+- name: zLog令和版の開発サイト
+  href: https://github.com/jr8ppg/zLog
 - name: 無線部開発班
   href: https://nextzlog.dev
-jumps:
-- name: マニュアル
-  href: /manual
-  icon: fas fa-book
-- name: ダウンロード
-  href: /downloads
-  icon: fas fa-download
-- name: アンケート
-  href: /survey
-  icon: fas fa-poll
-nomath: true
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: default
 plugins:
 - jekyll-sitemap

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang='ja'>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+{% assign heading = page.title | default: page.name | remove: '.md' | remove: '.html' %}
+<title>{% if page.top %}{{site.title}} ユーザーズガイド{% else %}{{heading}} | {{site.title}}{% endif %}</title>
+<meta name='description' content='{{site.description}}'>
+<link rel='icon' href='/images/zlog.png'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css'>
+<link rel='stylesheet' href='/assets/site.css'>
+<script defer src='/assets/site.js'></script>
+</head>
+<body>
+<a class='skip' href='#main'>本文へ移動</a>
+<header class='site'>
+	<div class='bar'>
+		<a class='brand' href='/'><img src='/images/zlog.png' alt=''>{{site.title}} ユーザーズガイド</a>
+		<nav class='menu' aria-label='サイト内の主な項目'>
+			{% for item in site.menu %}
+			<a href='{{item.href}}'>{{item.name}}</a>
+			{% endfor %}
+		</nav>
+		<form class='find' action='/search.html' role='search'>
+			<input type='search' name='q' placeholder='ページを探す' aria-label='サイト内を探す'>
+			<button type='submit'>検索</button>
+		</form>
+	</div>
+</header>
+<main id='main'{% if page.top %} class='top'{% endif %}>
+{% if page.top %}
+{{content}}
+{% else %}
+	<nav class='crumbs' aria-label='現在地'>
+		<a href='/'>トップ</a>
+		{% if page.url contains '/manual/' and page.url != '/manual/' %}
+		<span>›</span><a href='/manual/'>マニュアル目次</a><span class='section' hidden></span>
+		{% endif %}
+		<span>›</span><span>{{heading}}</span>
+	</nav>
+	<div class='page'>
+		<article class='body'>
+			<h1>{{heading}}</h1>
+			{% if page.version %}
+			<p class='version'><span>対象：{{page.version}}</span>
+			{% if page.version != site.latest %}このページは旧版向けです。最新版の説明は<a href='/manual/'>マニュアル目次</a>をご覧ください。{% endif %}
+			</p>
+			{% endif %}
+			{% if page.url == '/manual/' %}
+			<div class='search-page'>
+				<form action='/search.html'>
+					<input type='search' name='q' aria-label='マニュアルの中を探す' placeholder='マニュアルの中を探す（例：E-LOG、IC-7300、CW）'>
+					<button type='submit'>検索</button>
+				</form>
+			</div>
+			{% endif %}
+			{{content}}
+			<nav class='pager' aria-label='前後のページ' hidden></nav>
+			<p class='back'><a href='#'>▲ ページの先頭へ</a>{% if page.url contains '/manual/' %}<a href='/manual/'>マニュアル目次へ戻る</a>{% endif %}</p>
+		</article>
+		<aside class='contents' hidden>
+			<h2>このページの内容</h2>
+			<ol></ol>
+		</aside>
+	</div>
+{% endif %}
+</main>
+<footer class='site'>
+	<div>
+		<h2>関連サイト（外部サイト）</h2>
+		<p class='links'>
+			{% for item in site.links %}<a href='{{item.href}}'>{{item.name}}</a>{% endfor %}
+		</p>
+		<p><a href='https://github.com/nextzlog/use.zlog.org/edit/master/{{page.path}}'>このページを GitHub で編集する（編集者向け）</a></p>
+	</div>
+</footer>
+<dialog class='zoom'>
+	<form method='dialog'><button>閉じる</button></form>
+	<img alt=''>
+</dialog>
+</body>
+</html>

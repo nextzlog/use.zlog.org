@@ -1,38 +1,55 @@
 ---
 title: ダウンロード
-layout: default
 ---
-
-{% assign counter = 0 %}
-{% for rel in site.data.releases %}
-	{% unless rel.draft or rel.prerelease %}
-		{% assign counter = counter | plus: 1 %}
-		<div class='card my-1 my-md-3'>
-			<div class='card-body'>
-				<span class='badge bg-success'>{{rel.tag_name}}</span>
-				{% for asset in rel.assets %}
-					<span class='badge bg-primary'>
-						<i class='fas fa-download'></i>
-						{{asset.download_count}}
-					</span>
-				{% endfor %}
-				<h3 class='card-title'>
-					<a class='card-link' href='{{rel.html_url}}'>{{rel.name}}</a>
-				</h3>
-				<h5 class='card-subtitle'>{{rel.published_at}}</h5>
-				<p class='card-text'>
-					<details {% if counter <= 3 %} open {% endif %}>
-						<summary>Details</summary>
-						{{rel.body | markdownify}}
-					</details>
-				</p>
-				{% for asset in rel.assets %}
-					<a class='btn btn-lg btn-outline-primary' href='{{asset.browser_download_url}}'>
-						<i class='fas fa-download'></i>
-						{{asset.name | split: '_' | slice: 2}}
-					</a>
-				{% endfor %}
-			</div>
+{% assign rels = site.data.releases | where: 'draft', false | where: 'prerelease', false %}
+{% for rel in rels %}
+{% assign date = rel.published_at | date: '%Y年%-m月%-d日' %}
+{% if forloop.first %}
+<section class='release'>
+	<div class='head'>
+		<span class='badge'>最新版</span>
+		<h2>{{rel.name}}</h2>
+		<span class='date'>{{date}}公開</span>
+	</div>
+	<div class='grid'>
+		<div>
+			{% for asset in rel.assets %}{% if asset.name contains '.exe' %}
+			<a class='button' href='{{asset.browser_download_url}}'><i class='fas fa-download'></i> インストーラーをダウンロード（{{asset.size | divided_by: 1048576}} MB）</a>
+			{% endif %}{% endfor %}
+			<h3>ダウンロードしたら</h3>
+			<ol>
+				<li>ダウンロードした「zLogSetup.exe」をダブルクリックします。</li>
+				<li>画面の指示に従って進めます。</li>
+				<li>デスクトップの zLog のアイコンから起動します。</li>
+			</ol>
+			<p>くわしい手順は <a href='/manual/インストール(zLogSetup)'>インストール（zLogSetup）</a> をご覧ください。</p>
 		</div>
-	{% endunless %}
+		<div>
+			<h3>インストーラーを使わない方（上級者向け）</h3>
+			<ul>
+				{% for asset in rel.assets %}{% if asset.name contains '.zip' %}
+				<li><a href='{{asset.browser_download_url}}'>zip ファイル {% if asset.name contains 'x64' %}64ビット版{% elsif asset.name contains 'x86' %}32ビット版{% else %}{{asset.name}}{% endif %}（{{asset.size | divided_by: 1048576}} MB）</a></li>
+				{% endif %}{% endfor %}
+			</ul>
+			<p>使い方は <a href='/manual/インストール'>インストール（zip ファイル）</a> をご覧ください。</p>
+			<details>
+				<summary>この版の変更点</summary>
+				<div>{{rel.body | markdownify}}</div>
+			</details>
+		</div>
+	</div>
+</section>
+<h2>以前の版</h2>
+{% else %}
+<details>
+	<summary>{{rel.name}}<span class='date'>{{date}}</span></summary>
+	<div>
+		<ul>
+			{% for asset in rel.assets %}<li><a href='{{asset.browser_download_url}}'>{{asset.name}}</a>（{{asset.size | divided_by: 1048576}} MB）</li>{% endfor %}
+		</ul>
+		{{rel.body | markdownify}}
+	</div>
+</details>
+{% endif %}
 {% endfor %}
+<p>テスト中の版（ベータ版）は <a href='https://github.com/jr8ppg/zLog/releases'>開発サイト（GitHub、外部サイト）</a> で公開しています。</p>

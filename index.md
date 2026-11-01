@@ -1,4 +1,0 @@
----
-title: zLog
-subtitle: ユーザーズガイド
----

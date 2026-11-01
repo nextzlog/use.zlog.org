@@ -1,0 +1,7 @@
+---
+layout: null
+sitemap: false
+---
+[{% assign first = true %}{% for p in site.pages %}{% if p.path contains 'manual/' or p.path contains 'survey/' %}{% unless first %},{% endunless %}{% assign first = false %}
+{"title": {{p.title | default: p.name | remove: '.md' | jsonify}}, "url": {{p.url | jsonify}}, "text": {{p.content | markdownify | strip_html | normalize_whitespace | jsonify}}}{% endif %}{% endfor %}
+]
