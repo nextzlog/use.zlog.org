@@ -1,0 +1,14 @@
+{% assign parts = include.html | split: '<h2' %}
+<div class='sections{% if include.limit %} short{% endif %}'>
+{% for part in parts offset: 1 %}
+	{% assign head = part | split: '</h2>' %}
+	{% assign name = head[0] | split: '>' | last %}
+	{% assign id = head[0] | split: 'id="' | last | split: '"' | first %}
+	{% if include.limit and name == 'このマニュアルについて' %}{% continue %}{% endif %}
+	<section class='entry' id='{{id}}'>
+		<h2>{{name}}</h2>
+		{{head[1]}}
+		{% if include.limit %}<p class='more'><a href='/manual/#{{id}}'>「{{name}}」のページをすべて見る</a></p>{% endif %}
+	</section>
+{% endfor %}
+</div>

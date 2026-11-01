@@ -56,13 +56,13 @@ if (pager && here.startsWith('/manual/')) {
 		.then((r) => r.text())
 		.then((html) => {
 			const doc = new DOMParser().parseFromString(html, 'text/html');
-			const links = [...doc.querySelectorAll('.body ol a[href]')]
+			const links = [...doc.querySelectorAll('.sections li a[href]')]
 				.map((a) => ({ a, path: decode(new URL(a.getAttribute('href'), `${location.origin}/manual/`).href) }))
 				.filter((x) => x.path.startsWith('/manual/'));
 			const i = links.findIndex((x) => x.path === here);
 			if (i < 0) return;
-			const item = links[i].a.closest('li').parentElement.closest('li');
-			const section = item && [...item.childNodes].filter((n) => !['OL', 'UL'].includes(n.nodeName)).map((n) => n.textContent).join('').trim();
+			const head = links[i].a.closest('section').querySelector('h2');
+			const section = head && head.textContent.trim();
 			if (section) document.querySelector('.crumbs .section').outerHTML = `<span>›</span><span>${section}</span>`;
 			const link = (x, cls, label) => {
 				if (!x) return;

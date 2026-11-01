@@ -53,10 +53,12 @@
 					<button type='submit'>検索</button>
 				</form>
 			</div>
-			{% endif %}
+			{% include sections.html html=content %}
+			{% else %}
 			{{content}}
+			{% endif %}
 			<nav class='pager' aria-label='前後のページ' hidden></nav>
-			<p class='back'><a href='#'>▲ ページの先頭へ</a>{% if page.url contains '/manual/' %}<a href='/manual/'>マニュアル目次へ戻る</a>{% endif %}</p>
+			<p class='back'><a href='#'>▲ ページの先頭へ</a>{% if page.url contains '/manual/' and page.url != '/manual/' %}<a href='/manual/'>マニュアル目次へ戻る</a>{% endif %}</p>
 		</article>
 		<aside class='contents' hidden>
 			<h2>このページの内容</h2>

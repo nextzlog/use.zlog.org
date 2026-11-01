@@ -433,10 +433,11 @@ dialog.zoom img {
 	margin: 40px 0 16px;
 }
 
-.entries {
+.sections {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 	gap: 20px;
+	margin-top: 24px;
 }
 
 .entry {
@@ -446,16 +447,38 @@ dialog.zoom img {
 	border-radius: 10px;
 }
 
-.entry h3 {
+.body .entry h2,
+.entry h2 {
 	font-size: 23px;
 	color: var(--navy);
 	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.entry ul ul {
+	list-style: '– ';
+}
+
+.short .entry > ul > li:nth-child(n+4),
+.short .entry li > ul {
+	display: none;
+}
+
+.entry .more {
+	margin: 8px 0 0;
+	font-size: 16px;
 }
 
 .entry p {
 	color: var(--sub);
 	font-size: 16px;
 	margin: 0 0 8px;
+}
+
+.sections:not(.short) .entry:last-child {
+	grid-column: 1 / -1;
+	border-left-color: var(--line);
 }
 
 .entry ul {

@@ -13,60 +13,6 @@ top: true
 	{% if rel %}<p class='latest'>最新版：{{rel.name}}（{{rel.published_at | date: '%Y年%-m月%-d日'}}公開）</p>{% endif %}
 </section>
 <h2>目的から探す</h2>
-<div class='entries'>
-	<section class='entry'>
-		<h3>はじめての方へ</h3>
-		<p>インストールと起動</p>
-		<ul>
-			<li><a href='/manual/%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%28zLogSetup%29'>インストール（zLogSetup）</a></li>
-			<li><a href='/manual/%E8%B5%B7%E5%8B%95%E3%81%A8%E7%B5%82%E4%BA%86'>起動と終了</a></li>
-			<li><a href='/manual/%E5%9F%BA%E6%9C%AC%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9'>基本的な使い方</a></li>
-		</ul>
-	</section>
-	<section class='entry'>
-		<h3>コンテストの前に</h3>
-		<p>コンテストと無線機の準備</p>
-		<ul>
-			<li><a href='/manual/%E5%AE%9A%E7%BE%A9%E6%B8%88%E3%81%BF%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%86%E3%82%B9%E3%83%88'>定義済みのコンテスト</a></li>
-			<li><a href='/manual/%E3%83%AA%E3%82%B0%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%AB'>リグコントロールの設定</a></li>
-			<li><a href='/manual/CW%E3%82%AD%E3%83%BC%E3%82%A4%E3%83%B3%E3%82%B0'>CWキーイングの設定</a></li>
-		</ul>
-	</section>
-	<section class='entry'>
-		<h3>コンテスト中</h3>
-		<p>交信の記録</p>
-		<ul>
-			<li><a href='/manual/%E3%83%AD%E3%82%B0%E3%81%AE%E5%85%A5%E5%8A%9B'>ログの入力・修正・削除</a></li>
-			<li><a href='/manual/%E4%BA%A4%E4%BF%A1%E6%96%B9%E6%B3%95%EF%BC%88%EF%BC%A3%EF%BC%B7%EF%BC%89'>交信方法（CW）</a></li>
-			<li><a href='/manual/%E3%83%90%E3%83%B3%E3%83%89%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%97'>バンドスコープ</a></li>
-		</ul>
-	</section>
-	<section class='entry'>
-		<h3>コンテストの後</h3>
-		<p>ログの提出</p>
-		<ul>
-			<li><a href='/manual/JARL-E-LOG%E3%81%AE%E4%BD%9C%E6%88%90%E3%81%A8%E6%8F%90%E5%87%BA'>JARL E-LOG の作成と提出</a></li>
-			<li><a href='/manual/Cabrillo'>Cabrillo の作成と提出</a></li>
-			<li><a href='/manual/%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%88'>エクスポート（ADIF・HAMLOG）</a></li>
-		</ul>
-	</section>
-	<section class='entry'>
-		<h3>困ったとき</h3>
-		<p>よくある質問と相談先</p>
-		<ul>
-			<li><a href='/manual/faq/zlog'>zLog の使い方の FAQ</a></li>
-			<li><a href='/manual/faq/rigconnection'>リグとの接続の FAQ</a></li>
-			<li><a href='/manual/%E3%83%A1%E3%82%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%AA%E3%82%B9%E3%83%88'>メーリングリスト</a></li>
-		</ul>
-	</section>
-	<section class='entry'>
-		<h3>機能と設定の一覧</h3>
-		<p>画面ごとの詳しい説明</p>
-		<ul>
-			<li><a href='/manual/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC'>メインメニュー</a></li>
-			<li><a href='/manual/%E8%A8%AD%E5%AE%9AV30_%E9%81%8B%E7%94%A8%E8%A8%AD%E5%AE%9A'>運用設定（V3.0）</a></li>
-			<li><a href='/manual/%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%E3%81%AE%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA'>キーボードのカスタマイズ</a></li>
-		</ul>
-	</section>
-</div>
-<p>このほかのページは <a href='/manual/'>マニュアル目次</a> からご覧ください。</p>
+{% assign toc = site.pages | where: 'url', '/manual/' | first %}
+{% assign toc_html = toc.content | markdownify %}
+{% include sections.html html=toc_html limit=true %}
