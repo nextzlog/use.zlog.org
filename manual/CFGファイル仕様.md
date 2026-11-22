@@ -203,7 +203,7 @@ sendnr	$VM; (年齢符号)	CONVCG 用
 |2|LOCALCTY||ローカルとして扱うCOUNTRY||
 |3|LOCALCONT||ローカルとして扱うCONTINENT||
 |4|LOCAL||ローカルとして扱うコンテストナンバー文字列をカンマ区切りで32個まで||
-|5|LOCMIN||ローカルとして扱うコンテストナンバーの最小長さ（これ以上）||
+|5|LOCMIN||ローカルとして扱うコンテストナンバーの最小長さ（これ以上）<br>0の場合、localで指定したＮＲと一致した場合local(管内)とする。<br>1以上の場合、localで指定した文字列で始まり、長さがlocmin以上の場合にlocal(管内)とする。||
 |6|LCUT||ローカルのコンテストナンバーの右側を指定文字数カット||
 |7|LTAIL||ローカルのコンテストナンバーの右側を指定文字数使う||
 
@@ -247,7 +247,7 @@ sendnr	$VM; (年齢符号)	CONVCG 用
 |3|NOCTYMULTI||use citylist for these countries|なし||
 |4|MODE|ON/OFF|同一バンドでモードが違うQSOを受け入れる（ON or OFF)|OFF||
 |5|UNDEFMULTI|ON/OFF|不明マルチを受け入れる（ON or OFF）|OFF||
-|6|POWER|-HHHHHHMM----|1.9 MHz ... 10.1GHz&upの順でパワーコードを指定。現在はHMLPは未使用。-のみ使用、WARC除く|||
+|6|POWER|-HHHHHHMM----------|1.9M,3.5M,7M,14M,21M,28M,50M,144M,430M,1200M,<br>2400M,5600M,10.1G,10.4G,24G,47G,77G,135G,248Gの順でパワーコードを指定。現在はHMLPは未使用。-のみ使用、WARC除く|||
 |7|UNLISTEDMULTI|ON/OFF|allows unlisted multi to be logged but not counted as a multi|OFF||
 |8|NOMULTI|ON/OFF|ONでマルチを使わない|OFF||
 |9|PXMULTI|OFF|プリフィックスマルチ|OFF||
